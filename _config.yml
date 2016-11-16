@@ -1,0 +1,8 @@
+title: BBC News Accessibility
+description:
+
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
