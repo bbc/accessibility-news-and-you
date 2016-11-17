@@ -54,5 +54,4 @@ Accessibility should be considered from the start of development and throughout 
 - [Product Owner](accessibility-news-and-product-owners)
 - [Designer](accessibility-news-and-designers)
 - [Business Analyst](accessibility-news-and-business-analysts)
-- [Developer](accessibility-news-and-developers)
 - [Tester](accessibility-news-and-testers)
