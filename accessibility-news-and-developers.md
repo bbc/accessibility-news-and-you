@@ -14,7 +14,7 @@ Accessibility should be considered from the start of development and throughout 
 
 ## Checklist - Throughout development
 
-0. Use a **linting tool with accessibility rules** added to catch errors as you develop, for example if using React, [eslint plugin jsx-ally](https://github.com/bbc/morph-with-grandstand/blob/master/README.md#jsx-a11y) should be installed in your module if it isn't already.
+0. Use a **linting tool with accessibility rules** added to catch errors as you develop, for example if using React, [the jsx-a11y ESLint plugin](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) should be installed in your module if it isn't already.
 
 0. **Check the accessibility of the rendered DOM**. Use a tool such as the [Axe browser extension](https://www.deque.com/products/axe/#aXeExtensions).
 
@@ -31,9 +31,9 @@ Accessibility should be considered from the start of development and throughout 
 
 0. Do you need to use any [**ARIA**](https://www.w3.org/WAI/intro/aria.php)? For example, ARIA can be used simply to add landmarks/regions to a page or more advanced usage can help with dynamic content and advanced user interface controls such as tabs. For examples see [ARIA Authoring Practices](http://w3c.github.io/aria-practices/). Note ARIA should be used sparingly.
 
-0. Use [**VoiceOver**](Testing-with-a-Screen-reader) (screen reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete.
+0. Use [**VoiceOver**](testing-with-a-screen-reader) (screen reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete.
 
-0. Use [**VoiceOver**](Testing-with-a-Screen-reader) (screen reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete.
+0. Use [**VoiceOver**](testing-with-a-screen-reader) (screen reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete.
 
 ## Checklist - Before code merge
 
@@ -43,7 +43,7 @@ Accessibility should be considered from the start of development and throughout 
 
 0. Specifically check your code for errors against **BBC Accessibility Standards**, either by using [bbc-a11y](https://github.com/bbc/bbc-a11y) in the terminal or by using the bbc-a11y Pa11y Dashboard (Dashboard to be released early 2017).
 
-0. Test with [Assistive Technology](Accessibility-and-Supported-Assistive-Technology) that we support
+0. Test with [Assistive Technology](accessibility-and-supported-assistive-technology) that we support
 
 0. Automated testing with SHIVE (HIVE for Screen Readers) - Have **cucumber tests** been written against the accessibility acceptance criteria? Note, SHIVE is not yet in production, however the tests should still be written so we are ready to go when it is.
 

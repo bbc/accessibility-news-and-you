@@ -6,7 +6,7 @@ Based on the results from the [2016 GOV.UK Assistive Technology Survey](https://
 
 Test on an actual device if possible. Is the feature useable, does it make sense?
 
-See the [AT Set Up Guide](Testing-with-a-Screen-reader) for usage instructions.
+See the [AT Set Up Guide](testing-with-a-screen-reader) for usage instructions.
 
 # Priority 1 (P1)
 

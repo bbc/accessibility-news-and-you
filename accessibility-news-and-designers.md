@@ -6,7 +6,7 @@ Design with accessibility in mind from the start.
 
 Some simple quick checks are outlined here, please refer to the [BBC Accessibility Standards and Guidelines](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/) for in depth information.
 
-Do you have an understanding of what [Assistive Technology we support](Accessibility-and-Supported-Assistive-Technology), such as screen readers? And how to use this?
+Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers? And how to use this?
 
 For an introduction on accessible thinking see the [How to Design for Accessibility](http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility) guide. It is also recommended to attend the Accessible UX course and complete the [Accessibility for Web Developers](http://www.bbc.co.uk/academy/beta/course/COU-12887) online course. The [Introduction to Screen Readers](http://www.bbc.co.uk/academy/beta/course/COU-50344015) course would also be very useful.
 
@@ -38,12 +38,12 @@ For designs created using Sketch or Photoshop etc.
 
 ### Checklist - When on test or live
 
-0. Test your design with assistive technology, such as a screen reader, [VoiceOver](Testing-with-a-Screen-reader) on iOS is recommended, does it make sense?
+0. Test your design with assistive technology, such as a screen reader, [VoiceOver](testing-with-a-screen-reader) on iOS is recommended, does it make sense?
 0. You can use the bbc-a11y Pa11y Dashboard to check for code errors against the BBC Accessibility Standards. Note passing the standards does not mean a product is useable. This dashboard to be released early 2017.
 
 ### Checklists for other roles in the team
 
-- [Product Owner](Accessibility,-News-and-Product-Owners)
-- [Business Analyst](Accessibility,-News-and-Business-Analysts)
-- [Developer](Accessibility,-News-and-Developers)
-- [Tester](Accessibility,-News-and-Testers)
+- [Product Owner](accessibility-news-and-product-owners)
+- [Business Analyst](accessibility-news-and-business-analysts)
+- [Developer](accessibility-news-and-developers)
+- [Tester](accessibility-news-and-testers)
