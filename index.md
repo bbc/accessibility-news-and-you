@@ -6,8 +6,8 @@ We want to be the most accessible news website in the world. You can help us ach
 
 What is your role?
 
-- <a href="accessibility-news-and-product-owners">Product Owner</a>
-- <a href="accessibility-news-and-designers">Designer</a>
-- <a href="accessibility-news-and-business-analysts">Business Analyst</a>
-- <a href="accessibility-news-and-developers">Developer</a>
-- <a href="accessibility-news-and-testers">Tester</a>
+- [Product Owner](accessibility-news-and-product-owners)
+- [Designer](accessibility-news-and-designers)
+- [Business Analyst](accessibility-news-and-business-analysts)
+- [Developer](accessibility-news-and-developers)
+- [Tester](accessibility-news-and-testers)
