@@ -22,7 +22,7 @@ For designs created using Sketch or Photoshop etc.
 
 0. Does your design work for colour blindness? Drop a jpg/gif of your design into Chrome and use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view your design with different vision issues.
 
-0. Does your design pass the [Dos and Don'ts of Designing for Accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility)?
+0. Does your design pass the [Dos and Don'ts of Designing for Accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)?
 
 0. Have you considered the page without javascript? It should degrade gracefully.
 
