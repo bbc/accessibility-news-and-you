@@ -58,7 +58,7 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 
 ### Translating the statistics
 
-#### 30% of respondents used a screen magnifier
+#### **30% of respondents used a screen magnifier**
 
 38% of the magnifiers have screen reader capabilities.
 
@@ -68,7 +68,7 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 0. Other 17.1% (5.1% of total)
 0. Don't know 14% (4.2% of total)
 
-#### 29% of respondents used a screen reader
+#### **29% of respondents used a screen reader**
 
 0. **Jaws** 38.5% (**11.2% of total**)
 0. **VoiceOver** 21.2 (6.1% of total)<br>
@@ -85,13 +85,13 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 0. Other 7.7% (2.2% of total)
 0. Don't know 7.2% (2.1% of total)
 
-#### 18% of respondents used speech recognition
+#### **18% of respondents used speech recognition**
 
 0. **Dragon Naturallyspeaking** 84.3% - Versions 11, 12 & 13 (**15.2% of total**)
 0. Other 7.4% (1.3% of total)
 0. Don't know 5.5% (0.9% of total)
 
-#### 15% of respondents used a reading solution
+#### **15% of respondents used a reading solution**
 
 Reading solutions are aimed at users who have dyslexia.
 
@@ -100,7 +100,7 @@ Reading solutions are aimed at users who have dyslexia.
 
 The survey says that a number of Read and Write users also have Dragon Naturallyspeaking running in tandem.
 
-#### Highest total usage (from all categories)
+#### **Highest total usage (from all categories)**
 
 0. ZoomText 16.3%
 0. Dragon 15.2%
