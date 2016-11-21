@@ -20,7 +20,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 If you would like to get more in depth knowledge please refer to the [Tester checklists and tools](accessibility-news-and-testers).
 
-### Checklists for other roles in the team
+## Checklists for other roles in the team
 
 - [Product Owner](accessibility-news-and-product-owners)
 - [Designer](accessibility-news-and-designers)

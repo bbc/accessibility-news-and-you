@@ -41,7 +41,7 @@ For designs created using Sketch or Photoshop etc.
 0. Test your design with assistive technology, such as a screen reader, VoiceOver on iOS is recommended, does the feature make sense? If using VoiceOver for the 1st time, see the [Assistive Technology Setup Guide](assistive-technology-set-up-guide).
 0. You can use the bbc-a11y Pa11y Dashboard to check for code errors against the BBC Accessibility Standards. Note passing the standards does not mean a product is useable. This dashboard is to be released early 2017.
 
-### Checklists for other roles in the team
+## Checklists for other roles in the team
 
 - [Product Owner](accessibility-news-and-product-owners)
 - [Business Analyst](accessibility-news-and-business-analysts)

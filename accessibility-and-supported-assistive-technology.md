@@ -8,7 +8,7 @@ Test on an actual device if possible. Is the feature useable, does it make sense
 
 See the [Assistive Technology Setup Guide](assistive-technology-set-up-guide) for usage instructions.
 
-# Priority 1 (P1)
+## Priority 1 (P1)
 
 To meet the **Definition of Done** the following should be used for testing.
 
@@ -32,7 +32,7 @@ With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 With Safari (Latest Version) on iOS (Latest Version)<br>
 (Screen Reader)
 
-# Priority 2 (P2)
+## Priority 2 (P2)
 
 If time allows the following should also be used for testing.
 
@@ -40,7 +40,7 @@ If time allows the following should also be used for testing.
 With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 (Screen Reader)
 
-# Priority 3 (P3)
+## Priority 3 (P3)
 
 If time further allows the following should also be used for testing.
 
@@ -52,13 +52,13 @@ With Safari (Latest Version) on Mac OS (Latest Version)<br>
 With Chrome (Latest Version) on Android (Latest Version)<br>
 (Screen Reader)
 
-# Why do we base our testing on the GOV.UK survey #
+## Why do we base our testing on the GOV.UK survey
 
 The GOV.UK Assistive Technology Survey is the only survey of it's type carried out in the UK and therefore we base our testing matrix on this and combine this with other knowledge about our audience, such as we know that we have a large mobile audience and therefore put VoiceOver on iOS into the P1 category.
 
-## Translating the statistics
+### Translating the statistics
 
-### 30% of respondents used a screen magnifier
+#### 30% of respondents used a screen magnifier
 
 38% of the magnifiers have screen reader capabilities.
 
@@ -68,7 +68,7 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 0. Other 17.1% (5.1% of total)
 0. Don't know 14% (4.2% of total)
 
-### 29% of respondents used a screen reader
+#### 29% of respondents used a screen reader
 
 0. **Jaws** 38.5% (**11.2% of total**)
 0. **VoiceOver** 21.2 (6.1% of total)<br>
@@ -85,13 +85,13 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 0. Other 7.7% (2.2% of total)
 0. Don't know 7.2% (2.1% of total)
 
-### 18% of respondents used speech recognition
+#### 18% of respondents used speech recognition
 
 0. **Dragon Naturallyspeaking** 84.3% - Versions 11, 12 & 13 (**15.2% of total**)
 0. Other 7.4% (1.3% of total)
 0. Don't know 5.5% (0.9% of total)
 
-### 15% of respondents used a reading solution
+#### 15% of respondents used a reading solution
 
 Reading solutions are aimed at users who have dyslexia.
 
@@ -100,7 +100,7 @@ Reading solutions are aimed at users who have dyslexia.
 
 The survey says that a number of Read and Write users also have Dragon Naturallyspeaking running in tandem.
 
-### Highest total usage (from all categories)
+#### Highest total usage (from all categories)
 
 0. ZoomText 16.3%
 0. Dragon 15.2%

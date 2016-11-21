@@ -50,7 +50,7 @@ The accessibility acceptance criteria can be used for manual testing steps on de
 0. Is the feature useable?
 0. Does the feature make sense?
 
-### Checklists for other roles in the team
+## Checklists for other roles in the team
 
 - [Product Owner](accessibility-news-and-product-owners)
 - [Designer](accessibility-news-and-designers)

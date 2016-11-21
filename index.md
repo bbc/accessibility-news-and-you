@@ -6,7 +6,7 @@ We want to be the most accessible news website in the world. You can help us ach
 
 If you have any questions ask one of the Accessiblity Champions around the department.
 
-### What is your role?
+## What is your role?
 
 - [Product Owner](accessibility-news-and-product-owners)
 - [Designer](accessibility-news-and-designers)
@@ -14,7 +14,7 @@ If you have any questions ask one of the Accessiblity Champions around the depar
 - [Developer](accessibility-news-and-developers)
 - [Tester](accessibility-news-and-testers)
 
-### Other pages
+## Other pages
 
 - [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
 - [Assistive Technology Setup Guide](assistive-technology-set-up-guide)

@@ -53,7 +53,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Have **End to End Tests** been written to cover accessibility? A tool such as [Axe](https://www.deque.com/products/axe/), can be integrated, for example if using React, via [React Axe](https://github.com/dylanb/react-axe) or the [bbc-a11y](https://github.com/bbc/bbc-a11y) CLI could be used.
 
-### Checklists for other roles in the team
+## Checklists for other roles in the team
 
 - [Product Owner](accessibility-news-and-product-owners)
 - [Designer](accessibility-news-and-designers)
