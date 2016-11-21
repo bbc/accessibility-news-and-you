@@ -52,7 +52,7 @@ With Safari (Latest Version) on Mac OS (Latest Version)<br>
 With Chrome (Latest Version) on Android (Latest Version)<br>
 (Screen Reader)
 
-# Why do we base our testing on the GOV.UK survey
+# Why do we base our testing on the GOV.UK survey #
 
 The GOV.UK Assistive Technology Survey is the only survey of it's type carried out in the UK and therefore we base our testing matrix on this and combine this with other knowledge about our audience, such as we know that we have a large mobile audience and therefore put VoiceOver on iOS into the P1 category.
 
