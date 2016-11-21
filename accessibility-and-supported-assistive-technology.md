@@ -6,7 +6,7 @@ Based on the results from the [2016 GOV.UK Assistive Technology Survey](https://
 
 Test on an actual device if possible. Is the feature useable, does it make sense?
 
-See the [AT Set Up Guide](testing-with-a-screen-reader) for usage instructions.
+See the [Assistive Technology Setup Guide](assistive-technology-set-up-guide) for usage instructions.
 
 # Priority 1 (P1)
 
@@ -48,7 +48,7 @@ If time further allows the following should also be used for testing.
 With Safari (Latest Version) on Mac OS (Latest Version)<br>
 (Screen Reader)
 
-0. **Talkback** (Latest Version)</br>
+0. **Talkback** (Latest Version)<br>
 With Chrome (Latest Version) on Android (Latest Version)<br>
 (Screen Reader)
 
@@ -72,8 +72,8 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 
 0. **Jaws** 38.5% (**11.2% of total**)
 0. **VoiceOver** 21.2 (6.1% of total)<br>
-  0. (72% of this on **iOS**, **4.4% of total**)
-  0. (28% of this on macOS, 1.7% of total)
+    0. (72% of this on **iOS**, **4.4% of total**)
+    0. (28% of this on Mac OS, 1.7% of total)
 0. **NVDA** 12% (**3.5% of total**)
 0. Supernova 3.8% (1.1% of total)
 0. WindowEyes 2.9% (0.8% of total)

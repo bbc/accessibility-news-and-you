@@ -4,6 +4,8 @@ title: Accessibility, News and You
 ---
 We want to be the most accessible news website in the world. You can help us achieve this by following a few simple steps.
 
+If you have any questions ask one of the Accessiblity Champions around the department.
+
 ### What is your role?
 
 - [Product Owner](accessibility-news-and-product-owners)
@@ -14,5 +16,5 @@ We want to be the most accessible news website in the world. You can help us ach
 
 ### Other pages
 
-- [Testing with a screen reader](testing-with-a-screen-reader)
 - [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
+- [Assistive Technology Setup Guide](assistive-technology-set-up-guide)
