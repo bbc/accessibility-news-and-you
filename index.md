@@ -4,7 +4,7 @@ title: Accessibility, News and You
 ---
 We want to be the most accessible news website in the world. You can help us achieve this by following a few simple steps.
 
-If you have any questions ask one of the Accessiblity Champions around the department.
+If you have any questions ask one of the Accessibility Champions around the department.
 
 ## What is your role?
 
