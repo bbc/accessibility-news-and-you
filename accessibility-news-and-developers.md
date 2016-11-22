@@ -12,7 +12,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklist - Before development starts
 
-0. Question/Check the **design** you are working from. Are elements styled correctly? e.g. Do links use the standard link colour and have the standard associated hover and focus styles? Do all elements meet [colour contrast](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile/design/colour-contrast) levels? Use a tool such as [contrast checker](http://webaim.org/resources/contrastchecker/) to check. All colours should meet a level of 4.5:1 or higher.
+0. Has there been an **Accessibility Review** for the product feature? (Part of the design checklist). Question/Check the **design** you are working from. Are elements styled correctly? e.g. Do links use the standard link colour and have the standard associated hover and focus styles? Do all elements meet [colour contrast](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile/design/colour-contrast) levels? Use a tool such as [contrast checker](http://webaim.org/resources/contrastchecker/) to check. All colours should meet a level of 4.5:1 or higher.
 
 0. Does the design use **icons**? Meaning should not just be conveyed with icons/images, do the icons need some off-screen (visually hidden) text so users of assistive technology don't miss out? If so, what would this text be?
 
