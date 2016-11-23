@@ -7,7 +7,7 @@ We want to be the most accessible news website in the world. You can help us ach
 If you have any questions ask one of the Accessibility Champions around the department.
 
 ## What is A11y?
-Accessiblity is often referred to as 'A11y' for short. Not really sure what accessibility is or why we should consider it? 
+Accessibility is often referred to as 'A11y' for short. Not really sure what accessibility is or why we should consider it? 
 
 "**The most powerful technology in the world is technology that everyone, including people with disabilities, can use. To work, create, communicate, stay in shape, and be entertained. So we don’t design products for some people or even most people. We design them for every single person.**" (Apple)
 
