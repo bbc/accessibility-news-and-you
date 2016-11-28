@@ -10,7 +10,7 @@ See the [Assistive Technology Setup Guide](assistive-technology-set-up-guide) fo
 
 ## Priority 1 (P1)
 
-To meet the **Definition of Done** the following should be used for testing.
+To meet the **Definition of Done** the following MUST be used for testing, in order to be considered acceptable for a live release.
 
 0. **ZoomText Magnifier/Reader** Latest Version<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
@@ -34,7 +34,7 @@ With Safari (Latest Version) on iOS (Latest Version)<br>
 
 ## Priority 2 (P2)
 
-If time allows the following should also be used for testing.
+If the component/feature is used on a wide range of pages and services, to meet the **Definition of Done** the following **SHOULD** be used for testing, in order to be considered acceptable for a live release.
 
 0. **NVDA** (Latest Version)<br>
 With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
@@ -42,7 +42,7 @@ With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 
 ## Priority 3 (P3)
 
-If time further allows the following should also be used for testing.
+To further our audience support, the following **COULD** be used for testing.
 
 0. **VoiceOver** (Latest Version)<br>
 With Safari (Latest Version) on Mac OS (Latest Version)<br>
