@@ -10,7 +10,7 @@ See the [Assistive Technology Setup Guide](assistive-technology-set-up-guide) fo
 
 ## Priority 1 (P1)
 
-To meet the **Definition of Done** the following MUST be used for testing, in order to be considered acceptable for a live release.
+To meet the **Definition of Done** the following **MUST** be used for testing, in order to be considered acceptable for a live release.
 
 0. **ZoomText Magnifier/Reader** Latest Version<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
