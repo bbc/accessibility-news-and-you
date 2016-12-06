@@ -3,8 +3,6 @@ layout: page
 title: Accessibility and Testing with Talkback
 ---
 
-# Talkback
-
 Page coming soon...
 
 ## Test using other supported assistive technology
@@ -15,3 +13,7 @@ Page coming soon...
 - [Read and Write](assistive-technology-testing-steps-read-and-write)
 - [VoiceOver OS](assistive-technology-testing-steps-voiceover-os)
 - [VoiceOver iOS](assistive-technology-testing-steps-voiceover-ios)
+
+## Other pages
+
+- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
