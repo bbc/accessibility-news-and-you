@@ -16,19 +16,19 @@ To meet the **Definition of Done** the following **MUST** be used for testing, i
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Screen Magnifier with Screen Reader capabilities)
 
-0. **[Dragon Naturallyspeaking](assistive-technology-testing-with-dragon)** Version 13<br>
+0. **[Dragon Naturallyspeaking](assistive-technology-and-testing-with-dragon)** Version 13<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Speech Recognition)
 
-0. **[JAWS](assistive-technology-testing-with-jaws)** Version 17<br>
+0. **[JAWS](assistive-technology-and-testing-with-jaws)** Version 17<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Screen Reader)
 
-0. **[Read and Write](assistive-technology-testing-with-read-and-write)** Latest Version<br>
+0. **[Read and Write](assistive-technology-and-testing-with-read-and-write)** Latest Version<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Reading Solution)
 
-0. **[VoiceOver iOS](assistive-technology-testing-with-voiceover-ios)** Latest Version<br>
+0. **[VoiceOver iOS](assistive-technology-and-testing-with-voiceover-ios)** Latest Version<br>
 With Safari (Latest Version) on iOS (Latest Version)<br>
 (Screen Reader)
 
@@ -36,7 +36,7 @@ With Safari (Latest Version) on iOS (Latest Version)<br>
 
 If the component/feature is used on a wide range of pages and services, to meet the **Definition of Done** the following **SHOULD** be used for testing, in order to be considered acceptable for a live release.
 
-0. **[NVDA](assistive-technology-testing-with-nvda)** (Latest Version)<br>
+0. **[NVDA](assistive-technology-and-testing-with-nvda)** (Latest Version)<br>
 With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 (Screen Reader)
 
@@ -44,11 +44,11 @@ With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 
 To further our audience support, the following **COULD** be used for testing.
 
-0. **[VoiceOver OS](assistive-technology-testing-with-voiceover-os)** (Latest Version)<br>
+0. **[VoiceOver OS](assistive-technology-and-testing-with-voiceover-os)** (Latest Version)<br>
 With Safari (Latest Version) on Mac OS (Latest Version)<br>
 (Screen Reader)
 
-0. **[Talkback](assistive-technology-testing-with-talkback)** (Latest Version)<br>
+0. **[Talkback](assistive-technology-and-testing-with-talkback)** (Latest Version)<br>
 With Chrome (Latest Version) on Android (Latest Version)<br>
 (Screen Reader)
 
