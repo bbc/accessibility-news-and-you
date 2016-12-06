@@ -4,8 +4,6 @@ title: Accessibility and Supported Assistive Technology
 ---
 Based on the results from the [2016 GOV.UK Assistive Technology Survey](https://accessibility.blog.gov.uk/2016/11/01/results-of-the-2016-gov-uk-assistive-technology-survey/).
 
-Test on an actual device if possible. Is the feature useable, does it make sense?
-
 See [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology) for usage instructions and testing steps.
 
 ## Priority 1 (P1)
