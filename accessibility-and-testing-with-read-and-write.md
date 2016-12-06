@@ -7,12 +7,13 @@ Page coming soon...
 
 ## Test using other supported assistive technology
 
-- [Dragon Naturallyspeaking](assistive-technology-testing-steps-dragon)
-- [JAWS](assistive-technology-testing-steps-jaws)
-- [NVDA](assistive-technology-testing-steps-nvda)
-- [Talkback](assistive-technology-testing-steps-talkback)
-- [VoiceOver OS](assistive-technology-testing-steps-voiceover-os)
-- [VoiceOver iOS](assistive-technology-testing-steps-voiceover-ios)
+- [Dragon Naturallyspeaking](accessibility-and-testing-with-dragon)
+- [JAWS](accessibility-and-testing-with-jaws)
+- [NVDA](accessibility-and-testing-with-nvda)
+- [Talkback](accessibility-and-testing-with-talkback)
+- [VoiceOver OS](accessibility-and-testing-with-voiceover-os)
+- [VoiceOver iOS](accessibility-and-testing-with-voiceover-ios)
+- [ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)
 
 ## Other pages
 
