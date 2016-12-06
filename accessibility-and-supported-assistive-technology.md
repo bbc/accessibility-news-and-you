@@ -6,7 +6,7 @@ Based on the results from the [2016 GOV.UK Assistive Technology Survey](https://
 
 Test on an actual device if possible. Is the feature useable, does it make sense?
 
-See the [Assistive Technology Setup Guide](assistive-technology-set-up-guide) for usage instructions.
+See [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology) for usage instructions and testing steps.
 
 ## Priority 1 (P1)
 

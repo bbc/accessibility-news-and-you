@@ -37,7 +37,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Do you need to use any [**ARIA**](https://www.w3.org/WAI/intro/aria.php)? For example, ARIA can be used simply to add landmarks/regions to a page or more advanced usage can help with dynamic content and advanced user interface controls such as tabs. For examples see [ARIA Authoring Practices](http://w3c.github.io/aria-practices/). Note ARIA should be used sparingly.
 
-0. Use **VoiceOver** (Screen Reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete. If using VoiceOver for the 1st time, see the [Assistive Technology Setup Guide](assistive-technology-set-up-guide).
+0. Use **VoiceOver** (Screen Reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete. If using VoiceOver for the 1st time, see [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology).
 
 ## Checklist - Before code merge
 

@@ -29,4 +29,4 @@ Watch the following two short videos for a quick introduction on accessibility.
 ## Other pages
 
 - [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
-- [Assistive Technology Setup Guide](assistive-technology-set-up-guide)
+- [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology)
