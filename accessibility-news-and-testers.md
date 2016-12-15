@@ -12,7 +12,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklist - Automated
 
-0. Check code for errors against **BBC Accessibility Standards**, either by using [bbc-a11y](https://github.com/bbc/bbc-a11y) in the terminal or by using the bbc-a11y Pa11y Dashboard (Dashboard to be released in early 2017).
+0. [ ] Check code for errors against **BBC Accessibility Standards**, either by using [bbc-a11y](https://github.com/bbc/bbc-a11y) in the terminal or by using the bbc-a11y Pa11y Dashboard (Dashboard to be released in early 2017).
 
 0. Automated testing with SHIVE (HIVE for Screen Readers) - Have **cucumber tests** been written against the accessibility acceptance criteria? Do they pass? Note, SHIVE is not yet in production, however the tests should still be written so we are ready to go when it is.
 
