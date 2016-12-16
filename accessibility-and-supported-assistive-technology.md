@@ -22,7 +22,7 @@ With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Screen Reader)
 
-0. **[Read and Write](accessibility-and-testing-with-read-and-write)** Latest Version<br>
+0. **[Read&Write](accessibility-and-testing-with-read-and-write)** Latest Version<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Reading Solution)
 
