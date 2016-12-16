@@ -12,7 +12,7 @@ Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold
 ## What should I test?
 
 0. Test the feature by reading highlighted text elements
-1. Test the feature by reading text elements that are hovered over by the mouse
+1. Test the feature by reading elements that are hovered over by the mouse
 
 ## Testing steps
 
