@@ -3,7 +3,28 @@ layout: page
 title: Accessibility and Testing with Read and Write
 ---
 
-Page coming soon...
+Read&Write literacy software makes the web more accessible for users with dyslexia, reading other learning difficulties, or anyone whose first language isn't English.
+
+Read&Write should be tested with Internet Explorer. Test using an actual device if possible.
+
+Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold for PC Reading Toolbar](https://www.youtube.com/watch?v=SUI6WX5-Mmo&t=46s ZoomText New User Introduction) from 4 munites 6 seconds to 5 minutes 30 seconds.
+
+##What should I test?
+
+0. Test the feature by reading highlighted text elements
+1. Test the feature by reading text elements that are hovered over by the mouse
+
+##Testing steps
+
+The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the Business Analyst and part of their checklist. 
+
+0. Open Read&Write
+1. In the toolbar, under the 'TextHelp' dropdown menu, under 'Current Toolbar' select 'Reading Features'
+2. In the toolbar, under the 'Play' dropdown menu check only 'Read by sentence' is checked
+3. Use the mouse to highlight the 1st text element in the feature, then use the 'Play' button in the toolbar, to read the text out. Do this for all the text elements in the feature one by one. 
+4. Highlighting maybe difficult if the feature uses 'faux block link'. This is because the 'faux block link' sits on top of the text which makes highlighting/selecting text difficult. In the toolbar, under the 'Play' dropdown menu, check 'Read the web', then use the mouse to hover over the different text elements one by one in the feature, the text should be read out. 
+5. If the feature uses 'faux block link', you may still have difficulty reading many of the text elements. Try using the 'Forward' and 'Rewind' buttons in the toolbar, to get to difficult text elements. 
+6. If the feature uses 'faux block link', amd still having difficulty reading many of the text elements. Try checking 'Automatically read next block of text' in the 'Play' dropdown menu, then use your mouse to hover over the 1st text element in the feature and let it read until the end of the feature, is everything now read out? If not hover over the the last item in the feature before the feature that is being tested.
 
 ## Test using other supported assistive technology
 
