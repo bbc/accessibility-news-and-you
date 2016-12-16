@@ -22,9 +22,12 @@ The accessibility acceptance criteria can be used for additional manual testing 
 1. In the toolbar, under the 'TextHelp' dropdown menu, under 'Current Toolbar' select 'Reading Features'
 2. In the toolbar, under the 'Play' dropdown menu, make sure only 'Read by sentence' is checked
 3. Use the mouse to highlight the 1st text element in the feature, then use the 'Play' button in the toolbar, to read the text out. Do this for all the text elements in the feature one by one. 
-4. Highlighting maybe difficult if the feature uses 'faux block link'. This is because the 'faux block link' sits on top of the text which makes highlighting/selecting text difficult. In the toolbar, under the 'Play' dropdown menu, check 'Read the web', then use the mouse to hover over the different text elements one by one in the feature, the text should be read out. 
-5. If the feature uses 'faux block link', you may still have difficulty reading many of the text elements. Try using the 'Forward' and 'Rewind' buttons in the toolbar, to get to difficult text elements. 
-6. If the feature uses 'faux block link', amd still having difficulty reading many of the text elements. Try checking 'Automatically read next block of text' in the 'Play' dropdown menu, then use your mouse to hover over the 1st text element in the feature and let it read until the end of the feature, is everything now read out? If not hover over the the last item in the feature before the feature that is being tested. 
+
+Note highlighting maybe difficult if the feature uses 'faux block link'. This is because the 'faux block link' sits on top of the text which makes highlighting/selecting text difficult.
+
+0. In the toolbar, under the 'Play' dropdown menu, check 'Read the web', then use the mouse to hover over the different text elements one by one in the feature, the text should be read out. 
+2. If the feature uses 'faux block link', you may still have difficulty reading many of the text elements. Try hovering over a text elemtent you can read out, after reading this out, try using the 'Forward' and 'Rewind' buttons in the toolbar, to get to difficult text elements. 
+3. If the feature uses 'faux block link', and you are still having difficulty reading many of the text elements. Try checking 'Automatically read next block of text' in the 'Play' dropdown menu, then use your mouse to hover over the 1st text element in the feature and let it read until the end of the feature, is everything now read out? If not hover over an item which you can read by hovering, in the feature before the feature which is being tested, then let it read to through the feature which is being tested.
 
 Note when 'Automatically read next block of text' is checked, you may experience code in script tags being read out aswell as text that is hidden with CSS, these are bugs with Read&Write which have been reported to them.
 
