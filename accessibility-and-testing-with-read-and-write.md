@@ -26,7 +26,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 5. If the feature uses 'faux block link', you may still have **difficulty** reading many of the text elements. Try hovering over a text elemtent you can read out, after reading this out, try using the 'Forward' and 'Rewind' buttons in the toolbar, to get to difficult text elements. 
 6. If the feature uses 'faux block link', and you are still having difficulty reading many of the text elements. Try checking '**Automatically read next block of text**' in the 'Play' dropdown menu, then use your mouse to hover over the 1st text element in the feature and let it read until the end of the feature, is everything now read out? If not in the feature before the feature which is being tested, hover over an item which you can read by hovering, then let it read from this element and through the feature which is being tested.
 
-Note you may experience **code in script tags** being read out aswell as **text that is hidden** with CSS, this maybe more noticable when 'Automatically read next block of text' is checked, these are bugs with Read&Write which have been reported to them. 
+Note if using Read&Write 11, you may experience **code in script tags** being read out aswell as **text that is hidden** with CSS, this maybe more noticable when 'Automatically read next block of text' is checked, these are bugs with Read&Write which have been reported to them. 
 
 ## Test using other supported assistive technology
 
