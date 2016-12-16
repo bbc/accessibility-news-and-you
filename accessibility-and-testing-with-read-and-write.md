@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility and Testing with Read and Write
+title: Accessibility and Testing with Read&Write
 ---
 
 Read&Write literacy software makes the web more accessible for users with dyslexia, reading other learning difficulties, or anyone whose first language isn't English.

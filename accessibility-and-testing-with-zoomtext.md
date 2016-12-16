@@ -56,7 +56,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - [Dragon Naturallyspeaking](accessibility-and-testing-with-dragon)
 - [JAWS](accessibility-and-testing-with-jaws)
 - [NVDA](accessibility-and-testing-with-nvda)
-- [Read and Write](accessibility-and-testing-with-read-and-write)
+- [Read&Write](accessibility-and-testing-with-read-and-write)
 - [Talkback](accessibility-and-testing-with-talkback)
 - [VoiceOver OS](accessibility-and-testing-with-voiceover-os)
 - [VoiceOver iOS](accessibility-and-testing-with-voiceover-ios)
