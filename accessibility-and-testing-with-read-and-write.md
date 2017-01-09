@@ -5,7 +5,7 @@ title: Accessibility and Testing with Read&Write
 
 Read&Write literacy software makes the web more accessible for users with dyslexia, reading and other learning difficulties, or anyone whose first language isn't English.
 
-Read&Write should be tested with **Internet Explorer 11**, and if time permits also with **Chrome**. Rendering engines differ greatly between browsers, which may effect how they are read. Test using an actual device if possible.
+Read&Write **MUST** be tested with **Internet Explorer 11**. If the component/feature is used on a wide range of pages and services, to meet the Definition of Done **Chrome** (as rendering engines differ greatly between browsers, which may effect how they are read) **SHOULD** also be used for testing, in order to be considered acceptable for a live release. Test using an actual device if possible.
 
 Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold for PC Reading Toolbar](https://www.youtube.com/watch?v=SUI6WX5-Mmo&t=46s ZoomText New User Introduction) from 4 munites 6 seconds to 5 minutes 30 seconds.
 
