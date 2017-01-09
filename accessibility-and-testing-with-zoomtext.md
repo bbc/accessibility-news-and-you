@@ -3,7 +3,7 @@ layout: page
 title: Accessibility and Testing with ZoomText
 ---
 
-ZoomText is a screen magnifier which also has screen reader capabilities. ZoomText should be tested with **Internet Explorer**. Test using an actual device if possible. 
+ZoomText is a screen magnifier which also has screen reader capabilities. ZoomText should be tested with **Internet Explorer 11**. Test using an actual device if possible. 
 
 Not sure how to use ZoomText? Watch [ZoomText New User Introduction](https://www.youtube.com/watch?v=jqLo_OmpFmU)
 
