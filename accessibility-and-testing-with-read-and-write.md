@@ -16,7 +16,7 @@ Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold
 
 ## Testing steps
 
-The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the Business Analyst and part of their checklist. 
+The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the [Business Analyst](accessibility-news-and-business-analysts) and part of their checklist.
 
 0. Open Read&Write
 1. In the toolbar, under the 'TextHelp' dropdown menu, under 'Current Toolbar' select '**Reading Features**'
