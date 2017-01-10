@@ -3,8 +3,6 @@ layout: page
 title: Accessibility and Testing with Dragon Naturallyspeaking
 ---
 
-# Dragon NaturallySpeaking
-
 Dragon NaturallySpeaking is a form of speech-recognition software, and is an invaluable tool for people who find typing difficult or painful. 
 
 By taking away the mechanical aspects of typing, Dragon provides a more efficient way to control a computer that is less physically and cognitively taxing for those with impairments that may make typing painful or impossible. Individuals such as those with arthritis, carpal tunnel, RSI, and/or learning disabilities, face unique challenges when it comes to using a computer. The keyboard and mouse become barriers to productivity, not to mention a cause of pain and frustration.
@@ -13,12 +11,12 @@ Dragon should be tested with **Internet Explorer 11**. Test using an actual devi
 
 Not sure how to use Dragon? Complete the 'Interactive Tutorial', open Dragon and select 'Interactive Tutorial' under the 'Help' menu in the 'DragonBar'.
 
-## What should I test?
+# What should I test?
 
 0. Test the feature by navigating to it with speech
 1. Test the feature by activating all the links/buttons/interactive elements as you move through the feature
 
-## Testing steps
+# Testing steps
 
 The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the Business Analyst and part of their checklist. 
 
@@ -37,14 +35,14 @@ The accessibility acceptance criteria can be used for additional manual testing 
 1. Activate each of the links in turn, by saying: 'click' followed by the text of the link/button. To activate a specific link or button without already being focused on it, such as a story headline, say: 'Click PM pledges to improve mental health care'. If there is more than one link with a specific name such as 'UK', say 'click UK', you will then see numbers on each of the links with the text 'UK', say 'choose 2' to choose the 2nd link with the text 'UK'. After activating a link, say 'click back' to go back to the testing url. Note, if Dragon becomes unresponsive, try restarting IE and/or Dragon.
 2. If there are any other interactive elements, such a button, input field, checkbox or radio button etc. with speech test you can interact with them.
 
-## General usage
+# General usage
 
 0. By default the 'DragonBar' is minimised, hover over this to expand it.
 1. In the 'DragonBar', click the microphone icon to switch between on or off. If the microphone icon is red then it is turned off, if the microphone icon is green then the microphone is turned on. Note you can only control the microphone by voice when turning it off e.g. say: 'Microphone off'.
 2. When you 1st start Dragon you will see the 'Learning Centre' window, here you can see commands and tips.
 3. Useful commands [cheat sheet](http://www.nuance.co.uk/ucmprod/groups/corporate/@web-enus/documents/collateral/dns13commandcheatsheet.pdf) 
 
-### Dictation
+## Dictation
 
 0. Keep a consistent distance from the microphone.
 1. Click where you want your dictation to go.
