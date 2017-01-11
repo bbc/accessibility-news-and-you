@@ -7,7 +7,7 @@ TalkBack is the defualt screen reader on Android devices.
 
 It's recommended to use the **latest and fastest Android device** you have access to, such as a Nexus 7. Test with **Chrome**.
 
-Not sure how to use TalkBack? Complete the on device tutorial, go to 'Settings', then 'Accessibility', then 'TalkBack'. Under TalkBack 'Settings' select 'Launch TalkBack tutorial'. 
+**Not sure how to use TalkBack**? Complete the on device tutorial, go to 'Settings', then 'Accessibility', then 'TalkBack'. Under TalkBack 'Settings' select 'Launch TalkBack tutorial'. 
 
 ## What should I test?
 0. Test the feature by swiping through every element.
@@ -22,8 +22,8 @@ The accessibility acceptance criteria can be used for additional manual testing 
 0. Open **Chrome**.
 1. Go to the **testing url**.
 0. **Turn TalkBack on**, either by activating the 'Accessibility shortcut' (see notes in General usage below) or go to 'Settings', then 'Accessibility', here you can turn 'TalkBack' on. 
-1. **Navigate back to Chrome** by swiping up or down with two/three finger swipe and 'touch and hold' to select menu items, then double tab to activate. 
-2. Select '**Default*' from the '**Local TalkBack**' menu, by swiping up or down, or bring up this menu on the screen by moving a single finger up then right, then navigate  by swiping left to '**Default*', then double tab to select this option.
+1. **Navigate back to Chrome** - 'touch and hold' to select menu items, then double tab to activate. If you need to scroll, swipe up or down with a two/three finger swipe.
+2. Select '**Default**' from the '**Local TalkBack**' menu, by swiping up or down, or bring up this menu on the screen by moving a single finger up then right, then navigate  by swiping left to '**Default*', then double tab to select this option. Note if this is not working, then you do not have focus on the browser window, touch and hold in the browser window then try again.
 2. Navigate to the end of the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then swipe from left to right **through each element** in the feature (if you need to go back, swipe right to left). 
 - Is the all the content read out and make sense? 
 - Is the content read out in a logical order following the visual order? 
