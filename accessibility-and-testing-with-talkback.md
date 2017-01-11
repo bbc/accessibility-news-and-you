@@ -21,21 +21,21 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 0. Open **Chrome**.
 1. Go to the **testing url**.
-0. **Turn TalkBack on**, either by activating the 'Accessibility shortcut' (see notes in General usage below) or go to 'Settings', then 'Accessibility', here you can turn 'TalkBack' on. 
+0. **Turn TalkBack on**, either by activating the 'Accessibility shortcut' (see notes in 'General usage' below) or go to 'Settings', then 'Accessibility', here you can turn 'TalkBack' on. 
 1. **Navigate back to Chrome** - 'touch and hold' to select menu items, then double tab to activate. If you need to scroll, swipe up or down with a two/three finger swipe.
-2. Select '**Default**' from the '**Local TalkBack**' menu, by swiping up or down, or bring up this menu on the screen by moving a single finger up then right, then navigate  by swiping left to '**Default*', then double tab to select this option. Note if this is not working, then you do not have focus on the browser window, touch and hold in the browser window then try again.
+2. Select '**Default**' from the '**Local TalkBack**' menu, by swiping up or down, or bring up this menu on the screen by moving a single finger up then right, then navigate  by swiping left to '**Default**', then double tab to select this option. Note if this is not working, then you do not have focus on the browser window, touch and hold in the browser window then try again.
 2. Navigate to the end of the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then swipe from left to right **through each element** in the feature (if you need to go back, swipe right to left). 
 - Is the all the content read out and make sense? 
 - Is the content read out in a logical order following the visual order? 
 - Is any content read out more than once?
-- Do icons have off-screen text?
+- Do icons have visually hidden/off screen text?
 - Do images have alt text?
-- Are there any empty swipes?
+- Are there any empty swipes? If so, this maybe a bug.
 3. Navigate to the beginning of the page, then Select '**Headings and Landmarks**' from the 'Local TalkBack' menu, then swipe from left to right.
-- Are all landmarks read out? Not sure what landmarks the feature should read out? Load the feature in a browser and use Paul J Adam's [Landmarks bookmarklet](http://pauljadam.com/bookmarklets/landmarks.html) to see if the feature uses any Landmarks.
-- Are all headings read out and in a logical order? Not sure what headings the feature should read out? You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
+- Are all landmarks read out? Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
+- Are all headings read out and in a logical order? Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
 4. Navigate to the end of the feature before the feature to be tested, then select '**Links**' from the 'Local TalkBack' menu by swiping down, then swipe from left to right. Are all links read out?
-5. If the feature uses dynmaic content such as page updates, dvanced user interface controls such as tabs, or more complex elements such as forms, the page may use **ARIA**. Load the feature in a browser and use Paul J Adam's [ARIA bookmarklet](http://pauljadam.com/bookmarklets/aria.html) to see if the feature uses any ARIA, then check it's being acknowledge/read out correctly by swiping from left to right to move through the feature. Not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
+5. If the feature uses dynmaic content such as page updates, advanced user interface controls such as tabs, or more complex elements such as forms, the page may use **ARIA**. Select 'Default' from the 'Local TalkBack' then swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## General usage
 
