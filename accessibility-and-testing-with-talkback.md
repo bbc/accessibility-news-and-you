@@ -21,7 +21,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 0. Open **Chrome**.
 1. Go to the **testing url**.
-0. **Turn TalkBack on**, either by activating the 'Accessibility shortcut' (see notes in 'General usage' below) or go to 'Settings', then 'Accessibility', here you can turn 'TalkBack' on. 
+0. **Turn TalkBack on**, either by activating the '[Accessibility shortcut](#accessibility-shortcut)' or go to 'Settings', then 'Accessibility', here you can turn 'TalkBack' on. 
 1. **Navigate back to Chrome** - 'touch and hold' to select menu items, then double tab to activate. If you need to scroll, swipe up or down with a two/three finger swipe.
 2. Select '**Default**' from the '**Local TalkBack**' menu, by swiping up or down, or bring up this menu on the screen by moving a single finger up then right, then navigate  by swiping left to '**Default**', then double tab to select this option. Note if this is not working, then you do not have focus on the browser window, touch and hold in the browser window then try again.
 2. Navigate to the end of the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then swipe from left to right **through each element** in the feature (if you need to go back, swipe right to left). 
@@ -40,7 +40,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 ## General usage
 
 0. If you are not an advanced user, it is recommended to deactive the **passcode** (if the device has one setup) while using TalkBack.
-1. To quickly access TalkBack, enable the '**Accessibility shortcut**' by going to 'Settings', then 'Accessibility', and scroll down to 'Accessibility shortcut', turn this on. You can now turn on TalkBack with 2 simple steps:
+1. To quickly access TalkBack, enable the '**<a name="accessibility-shortcut"></a>Accessibility shortcut**' by going to 'Settings', then 'Accessibility', and scroll down to 'Accessibility shortcut', turn this on. You can now turn on TalkBack with 2 simple steps:
 - Press and hold the power button until you hear a sound or feel a vibration.
 - Touch and hold two fingers until you hear audio confirmation.
 Note, this functionality is buggy, and may not work on your device.
