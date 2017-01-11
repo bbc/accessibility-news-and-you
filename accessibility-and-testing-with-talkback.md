@@ -28,28 +28,27 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - Is the all the content read out and make sense? 
 - Is the content read out in a logical order following the visual order? 
 - Is any content read out more than once?
-- Do icons have visually hidden/off screen text?
+- Is any visually hidden/off screen text read out, such as for icons?
 - Do images have alt text?
 - Are there any empty swipes? If so, this maybe a bug.
 3. Navigate to the beginning of the page, then Select '**Headings and Landmarks**' from the 'Local TalkBack' menu, then swipe from left to right.
 - Are all landmarks read out? Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
 - Are all headings read out and in a logical order? Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
 4. Navigate to the end of the feature before the feature to be tested, then select '**Links**' from the 'Local TalkBack' menu by swiping down, then swipe from left to right. Are all links read out? Is any content that is not a link read out?
-5. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Select 'Default' from the 'Local TalkBack' menu, then swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
+5. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Select '**Default**' from the 'Local TalkBack' menu, then swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## General usage
 
-0. If you are not an advanced user, it is recommended to deactive the **passcode** (if the device has one setup) while using TalkBack. It's also recommended to increase the device display 'Sleep' time to minutes rather than seconds, this can be changed under 'Settings', then 'Display', under 'Sleep'.
-1. To quickly access TalkBack, enable the '**<a name="accessibility-shortcut"></a>Accessibility shortcut**' by going to 'Settings', then 'Accessibility', and scroll down to 'Accessibility shortcut', turn this on. You can now turn on TalkBack with 2 simple steps:
+0. If you are not an advanced user, it is recommended to deactive the **passcode** (if the device has one setup) while using TalkBack. It's also recommended to increase the device **display 'Sleep'** time to minutes rather than seconds, this can be changed under 'Settings', then 'Display'.
+1. To quickly access TalkBack, enable the '**<a name="accessibility-shortcut"></a>Accessibility shortcut**' by going to 'Settings', then 'Accessibility', and scroll down to 'Accessibility shortcut', turn this on. You can now turn on TalkBack with 2 simple steps (Note, this functionality is buggy, and may not work on your device):
 - Press and hold the power button until you hear a sound or feel a vibration.
 - Touch and hold two fingers until you hear audio confirmation.
-Note, this functionality is buggy, and may not work on your device.
-2. To **unlock** the screen: Swipe two fingers up over the lock screen.
+2. To **unlock the screen**: Swipe two fingers up.
 
 ### TalkBack menus
 
-0. Active the '**Global TalkBack**' menu, on the screen move a single finger down then left.
-1. Active the '**Local TalkBack**' menu, on the screen move a single finger up then right.
+0. Active the '**Global TalkBack**' menu, swipe down then left.
+1. Active the '**Local TalkBack**' menu, swipe up then right.
 
 ### Text navigation rate
 
@@ -57,7 +56,10 @@ TalkBack lets you control whether text is read to you by **paragraph, a line, a 
 
 ### Edit boxes and typing
 
-To activate an **edit box**, double tab it, the **keyboard** then becomes available at the bottom of the screen. Explore the keyboard by touching, release you finger when you hear the character you want. You can dismiss the keyboard by tapping the back button. You can move the cursor by using the volume buttons on the device, up moves the cursor to the beginning, down moved the cursor to the end. You can also use the 'Local TalkBack' menu, with the 'Cursor control' option you can move the cursor, select, copy or paste text.
+0. To activate an **edit box**, double tab it, the **keyboard** then becomes available at the bottom of the screen. 1. Explore the keyboard by touching, release you finger when you hear the character you want.
+2. Dismiss the keyboard by double tapping the back button.
+3. Move the cursor by using the volume buttons on the device, up moves the cursor to the beginning, down moves the cursor to the end. 
+4. The 'Local TalkBack' menu (swipe up then right), will also give you the option to move the cursor under 'Cursor control', you can also select, copy or paste text here.
 
 ## Test using other supported assistive technology
 
