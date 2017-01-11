@@ -11,16 +11,16 @@ Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold
 
 ## What should I test?
 
-0. Test the feature by reading highlighted text elements
-1. Test the feature by reading elements that are hovered over by the mouse
+0. Test the feature by reading highlighted text elements.
+1. Test the feature by reading elements that are hovered over by the mouse.
 
 ## Testing steps
 
 The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the [Business Analyst](accessibility-news-and-business-analysts) and part of their checklist.
 
-0. Open Read&Write
-1. In the toolbar, under the 'TextHelp' dropdown menu, under 'Current Toolbar' select '**Reading Features**'
-2. In the toolbar, under the 'Play' dropdown menu, make sure only '**Read by sentence**' is checked
+0. Open Read&Write.
+1. In the toolbar, under the 'TextHelp' dropdown menu, under 'Current Toolbar' select '**Reading Features**'.
+2. In the toolbar, under the 'Play' dropdown menu, make sure **only 'Read by sentence'** is checked. (Ensure 'Automatically read next block of text' and 'Read the web' are not checked).
 3. **Use the mouse to highlight** the 1st text element in the feature, then use the 'Play' button in the toolbar, to read the text out. Do this for all the text elements in the feature one by one. Note highlighting maybe difficult if the feature uses '**faux block link**'. This is because the 'faux block link' sits on top of the text which makes highlighting/selecting text difficult.
 4. In the toolbar, under the 'Play' dropdown menu, check '**Read the web**', then use the mouse to hover over the different text elements one by one in the feature, the text should be read out. 
 5. If the feature uses 'faux block link', you may still have **difficulty** reading many of the text elements. Try hovering over a text elements you can read out, after reading this out, try using the 'Forward' and 'Rewind' buttons in the toolbar, to get to difficult text elements. 
