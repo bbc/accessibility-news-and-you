@@ -59,8 +59,8 @@ TalkBack lets you control whether text is read to you by **paragraph, a line, a 
 0. To activate an **edit box**, double tab it, the **keyboard** then becomes available at the bottom of the screen.
 1. Explore the keyboard by touching, release you finger when you hear the character you want.
 2. Dismiss the keyboard by double tapping the back button.
-3. Move the cursor by using the volume buttons on the device, up moves the cursor to the beginning, down moves the cursor to the end.
-4. The 'Local TalkBack' menu (swipe up then right), will also give you the option to move the cursor under 'Cursor control', you can also select, copy or paste text here.
+3. **Move the cursor** by using the volume buttons on the device, up moves the cursor to the beginning, down moves the cursor to the end.
+4. The 'Local TalkBack' menu (swipe up then right), will also give you the option to move the cursor under 'Cursor control', you can also **select, copy or paste text** here.
 
 ## Test using other supported assistive technology
 
