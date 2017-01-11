@@ -39,7 +39,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 ## General usage
 
-0. If you are not an advanced user, it is recommended to deactive the **passcode** (if the device has one setup) while using TalkBack.
+0. If you are not an advanced user, it is recommended to deactive the **passcode** (if the device has one setup) while using TalkBack. It's also recommended to increase the device display 'Sleep' time to minutes rather than seconds, this can be changed under 'Settings', then 'Display', under 'Sleep'.
 1. To quickly access TalkBack, enable the '**<a name="accessibility-shortcut"></a>Accessibility shortcut**' by going to 'Settings', then 'Accessibility', and scroll down to 'Accessibility shortcut', turn this on. You can now turn on TalkBack with 2 simple steps:
 - Press and hold the power button until you hear a sound or feel a vibration.
 - Touch and hold two fingers until you hear audio confirmation.
