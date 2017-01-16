@@ -35,7 +35,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
     0. When using '**Trace tab path**', the path should go from left to right as you work your way down the page (there will be some exceptions to this order, such as when the 'Breaking news' banner is on the page). Use the [ChromeLens](http://chromelens.xyz/) dev tool extension to trace the tab path.
 
-0. Do you need to use any [**ARIA**](https://www.w3.org/WAI/intro/aria.php)? For example, ARIA can be used simply to add landmarks/regions to a page or more advanced usage can help with dynamic content and advanced user interface controls such as tabs. For examples see [ARIA Authoring Practices](http://w3c.github.io/aria-practices/). Note ARIA should be used sparingly.
+0. Do you need to use any [**ARIA**](https://www.w3.org/WAI/intro/aria.php)? For example, ARIA can be used simply to add [landmarks/regions](https://w3c.github.io/aria-practices/examples/landmarks/index.html) to a page or more advanced usage can help with dynamic content and advanced user interface controls such as tabs. For examples see [ARIA Authoring Practices](http://w3c.github.io/aria-practices/). Note ARIA should be used sparingly.
 
 0. Use **VoiceOver** (Screen Reader) on iOS during development. It's a lot more effort to fix bugs after you are code complete. If using VoiceOver for the 1st time, see [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology).
 
