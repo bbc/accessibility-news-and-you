@@ -3,7 +3,7 @@ layout: page
 title: Accessibility and Testing with Read&Write
 ---
 
-Read&Write literacy software makes the web more accessible for users with dyslexia, reading and other learning difficulties, or anyone whose first language isn't English.
+Read&Write is text to speech literacy software which makes the web more accessible for users with dyslexia, reading and other learning difficulties, or anyone whose first language isn't English.
 
 Read&Write **MUST** be tested with **Internet Explorer 11**. If the component/feature is used on a wide range of pages and services, to meet the Definition of Done **Chrome** **SHOULD** also be used for testing (as rendering engines differ greatly between browsers, which may effect how content is read), in order to be considered acceptable for a live release. Test using an actual device if possible.
 
