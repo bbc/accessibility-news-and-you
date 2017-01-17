@@ -48,7 +48,7 @@ You will need to use the **VO (VoiceOver) modifier** key ('CTRL + OPTION/ALT') i
 4. Navigate **forwards through links**: 'TAB' (When doing this if you do not cycle through all links on the page, go to Safari Preference, then go to 'Advanced' then select 'Press Tab to highlight each item on a webpage')
 5. Navigate **backwards through links**: 'TAB + SHIFT'
 6. To **activate a link/button**: 'CTRL + OPTION/ALT + Space bar'
-7. Bring up the **Rotor menu**: 'CTRL + OPTION/ALT + U'. When the menu is displayed use 'Right/Left arrow key' to cycle through the different options and select them. To navigate the page by the option you have selected in the Rotor menu, such as 'Landmarks', use keys 'CTRL + OPTION/ALT + Up/Down arrow key'. The most used/useful options are Landmarks, Headings and Links.
+7. Bring up the **Rotor**: 'CTRL + OPTION/ALT + U'. When the menu is displayed use 'Right/Left arrow' to cycle through the different lists, to cycle through items in a list, use the 'Up/Down arrow'. Press 'Return/Enter' or the Space bar to select an item from a list and close the Rotor menu.
 8. To **stop VoiceOver talking**: 'CTRL'
 9. To tell VoiceOver that you want to **interact with an element** such as a table, or the web page rather than the browser User Interface: 'CTRL + OPTION/ALT + SHIFT + Down arrow'. To stop interacting with the element: 'CTRL + OPTION/ALT + SHIFT + Up arrow'.
 10. Decrease/Increase **speaking rate**: 'CTRL + OPTION/ALT + CMD + Up/Down arrow'
