@@ -45,8 +45,8 @@ You will need to use the **VO (VoiceOver) modifier** key ('CTRL + OPTION/ALT') i
 2. **Move backwards through every page element**: 'CTRL + OPTION/ALT + Left arrow'
 3. Navigate by **forwards through headings**: 'CTRL + OPTION/ALT + CMD + H'
 3. Navigate by **backwards through headings**: 'CTRL + OPTION/ALT + CMD + H + SHIFT'
-4. Navigate **forwards through links**: 'CTRL + OPTION/ALT + TAB'
-5. Navigate **backwards through links**: 'CTRL + OPTION/ALT + TAB + SHIFT'
+4. Navigate **forwards through links**: 'TAB'
+5. Navigate **backwards through links**: 'TAB + SHIFT'
 6. To **activate a link/button**: 'CTRL + OPTION/ALT + Space bar'
 7. Bring up the **Rotor menu**: 'CTRL + OPTION/ALT + U'. When the menu is displayed use 'Right/Left arrow key' to cycle through the different options and select them. To navigate the page by the option you have selected in the Rotor menu, such as 'Landmarks', use keys 'CTRL + OPTION/ALT + Up/Down arrow key'. The most used/useful options are Landmarks, Headings and Links.
 8. To **stop VoiceOver talking**: 'CTRL'
