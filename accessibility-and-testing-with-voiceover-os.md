@@ -43,7 +43,8 @@ You will need to use the **VO (VoiceOver) modifier** key ('CTRL + OPTION/ALT') i
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
 1. **Move forwards through every page element**: 'CTRL + OPTION/ALT + Right arrow'
 2. **Move backwards through every page element**: 'CTRL + OPTION/ALT + Left arrow'
-3. Navigate by **headings**: 'CTRL + OPTION/ALT + CMD + H'
+3. Navigate by **forwards through headings**: 'CTRL + OPTION/ALT + CMD + H'
+3. Navigate by **backwards through headings**: 'CTRL + OPTION/ALT + CMD + H + SHIFT'
 4. Navigate **forwards through links**: 'CTRL + OPTION/ALT + TAB'
 5. Navigate **backwards through links**: 'CTRL + OPTION/ALT + TAB + SHIFT'
 6. To **activate a link/button**: 'CTRL + OPTION/ALT + Space bar'
