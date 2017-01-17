@@ -41,7 +41,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 You will need to use the VO (VoiceOver) modifier key ('CTRL + OPTION/ALT') in combination with other keys for keyboard shortcuts.
 
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
-1. Rotor menu: 'CTRL + ALT + U'. Here you can select different options by using the 'Right/Left arrow key'. You can then navigate the page by the option you have selected such as 'Landmarks' by using the keys 'CTRL + ALT + Up/Down arrow key'. The most useful options are Landmarks, Headings and Links.
+1. **Rotor menu**: 'CTRL + OPTION/ALT + U'. Here you can select different options by using the 'Right/Left arrow key'. You can then navigate the page by the option you have selected such as 'Landmarks' by using the keys 'CTRL + OPTION/ALT + Up/Down arrow key'. The most useful options are Landmarks, Headings and Links.
 2. To move forwards through every page element: 'CTRL + OPTION/ALT + Right arrow'
 3. To move backwards through every page element: 'CTRL + OPTION/ALT + Left arrow'
 4. Navigate by headings: 'CTRL + OPTION/ALT + CMD + H'
@@ -49,7 +49,7 @@ You will need to use the VO (VoiceOver) modifier key ('CTRL + OPTION/ALT') in co
 6. Navigate backwards through links: 'CTRL + OPTION/ALT + TAB + SHIFT'
 7. To activate a link/button: 'CTRL + OPTION/ALT + Space bar'
 8. To stop VoiceOver talking: 'CTRL'
-9. To tell VoiceOver that you want to interact with an element such as a table, or the web page rather than the browser User Interface: 'CTRL + ALT + SHIFT + Down arrow'. To stop interacting with the element: 'CTRL + ALT + SHIFT + Up arrow'.
+9. To tell VoiceOver that you want to interact with an element such as a table, or the web page rather than the browser User Interface: 'CTRL + OPTION/ALT + SHIFT + Down arrow'. To stop interacting with the element: 'CTRL + OPTION/ALT + SHIFT + Up arrow'.
 10. Decrease/Increase speaking rate: 'CTRL + OPTION/ALT + CMD + Up/Down arrow'
 
 Sometimes VoiceOVer will not scoll the screen, 'CTRL + OPTION/ALT + Right arrow', should scroll the page down to the element you are focused on.
