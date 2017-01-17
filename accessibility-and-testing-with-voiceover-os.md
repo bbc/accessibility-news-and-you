@@ -38,21 +38,21 @@ The accessibility acceptance criteria can be used for additional manual testing 
 5. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Select '**Default**' from the 'Local TalkBack' menu, then swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## Shortcut keys
-You will need to use the **VO (VoiceOver) modifier** key ('CTRL + OPTION/ALT') in combination with other keys for keyboard shortcuts.
+You will need to use the **VoiceOver modifier (VO) key ** 'CTRL + OPTION/ALT' in combination with other keys for keyboard shortcuts.
 
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
-1. **Move forwards through every page element**: 'CTRL + OPTION/ALT + Right arrow'
-2. **Move backwards through every page element**: 'CTRL + OPTION/ALT + Left arrow'
-3. Navigate by **forwards through headings**: 'CTRL + OPTION/ALT + CMD + H'
-3. Navigate by **backwards through headings**: 'CTRL + OPTION/ALT + CMD + H + SHIFT'
+1. **Move forwards through every page element**: 'VO + Right arrow'
+2. **Move backwards through every page element**: 'VO + Left arrow'
+3. Navigate by **forwards through headings**: 'VO + CMD + H'
+3. Navigate by **backwards through headings**: 'VO + CMD + H + SHIFT'
 4. Navigate **forwards through links**: 'TAB' (When doing this if you do not cycle through all links on the page, go to Safari Preference, then go to 'Advanced' then select 'Press Tab to highlight each item on a webpage')
 5. Navigate **backwards through links**: 'TAB + SHIFT'
-6. To **activate a link/button**: 'CTRL + OPTION/ALT + Space bar'
-7. Bring up the **Rotor**: 'CTRL + OPTION/ALT + U'. When the menu is displayed use 'Right/Left arrow' to cycle through the different lists, to cycle through items in a list, use the 'Up/Down arrow'. Press 'Return/Enter' or the Space bar to select an item from a list and close the Rotor menu.
+6. To **activate a link/button**: 'VO + Space bar'
+7. Bring up the **Rotor**: 'VO + U'. When the menu is displayed use 'Right/Left arrow' to cycle through the different lists, to cycle through items in a list, use the 'Up/Down arrow'. Press 'Return/Enter' or the Space bar to select an item from a list and close the Rotor menu.
 8. To **pause/restart VoiceOver talking**: 'CTRL'
-9. Decrease/Increase **speaking rate**: 'CTRL + OPTION/ALT + CMD + Up/Down arrow'
+9. Decrease/Increase **speaking rate**: 'VO + CMD + Up/Down arrow'
 
-Note, sometimes VoiceOver will not scoll the screen when navigating, 'CTRL + OPTION/ALT + Right arrow', should scroll the page down to the element you are focused on.
+Note, sometimes VoiceOver will not scroll the screen when navigating, by moving forward to the next element with 'VO + Right arrow', the page should scroll down to bring this element in view.
 
 ## Test using other supported assistive technology
 
