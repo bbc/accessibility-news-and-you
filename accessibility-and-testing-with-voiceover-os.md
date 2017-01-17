@@ -50,10 +50,9 @@ You will need to use the **VO (VoiceOver) modifier** key ('CTRL + OPTION/ALT') i
 6. To **activate a link/button**: 'CTRL + OPTION/ALT + Space bar'
 7. Bring up the **Rotor**: 'CTRL + OPTION/ALT + U'. When the menu is displayed use 'Right/Left arrow' to cycle through the different lists, to cycle through items in a list, use the 'Up/Down arrow'. Press 'Return/Enter' or the Space bar to select an item from a list and close the Rotor menu.
 8. To **pause/restart VoiceOver talking**: 'CTRL'
-9. To tell VoiceOver that you want to **interact with an element** such as a table, or the web page rather than the browser User Interface: 'CTRL + OPTION/ALT + SHIFT + Down arrow'. To stop interacting with the element: 'CTRL + OPTION/ALT + SHIFT + Up arrow'.
-10. Decrease/Increase **speaking rate**: 'CTRL + OPTION/ALT + CMD + Up/Down arrow'
+9. Decrease/Increase **speaking rate**: 'CTRL + OPTION/ALT + CMD + Up/Down arrow'
 
-Sometimes VoiceOVer will not scoll the screen, 'CTRL + OPTION/ALT + Right arrow', should scroll the page down to the element you are focused on.
+Note, sometimes VoiceOver will not scoll the screen when navigating, 'CTRL + OPTION/ALT + Right arrow', should scroll the page down to the element you are focused on.
 
 ## Test using other supported assistive technology
 
