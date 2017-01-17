@@ -38,10 +38,10 @@ The accessibility acceptance criteria can be used for additional manual testing 
 5. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Select '**Default**' from the 'Local TalkBack' menu, then swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## Shortcut keys
-You will need to use the VO (VoiceOver) modifier key ('CTRL + OPTION/ALT') in combination with other keys for keyboard shortcuts.
+You will need to use the **VO (VoiceOver) modifier** key ('CTRL + OPTION/ALT') in combination with other keys for keyboard shortcuts.
 
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
-1. **Rotor menu**: 'CTRL + OPTION/ALT + U'. Here you can select different options by using the 'Right/Left arrow key'. You can then navigate the page by the option you have selected such as 'Landmarks' by using the keys 'CTRL + OPTION/ALT + Up/Down arrow key'. The most useful options are Landmarks, Headings and Links.
+1. **Rotor menu**: 'CTRL + OPTION/ALT + U'. When the menu is displayed use 'Right/Left arrow key' to cycle through the different options and select them. To navigate the page by the option you have selected in the Rotor menu, such as 'Landmarks', use keys 'CTRL + OPTION/ALT + Up/Down arrow key'. The most used/useful options are Landmarks, Headings and Links.
 2. To move forwards through every page element: 'CTRL + OPTION/ALT + Right arrow'
 3. To move backwards through every page element: 'CTRL + OPTION/ALT + Left arrow'
 4. Navigate by headings: 'CTRL + OPTION/ALT + CMD + H'
