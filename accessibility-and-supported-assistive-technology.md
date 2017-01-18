@@ -26,7 +26,7 @@ With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 (Reading Solution)
 
-0. **[VoiceOver iOS](accessibility-and-testing-with-voiceover-ios)** Latest Version<br>
+0. **[VoiceOver iOS (iPhone/iPad)](accessibility-and-testing-with-voiceover-ios)** Latest Version<br>
 With Safari (Latest Version) on iOS (Latest Version)<br>
 (Screen Reader)
 
@@ -42,11 +42,11 @@ With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 
 To further our audience support, the following **COULD** be used for testing.
 
-0. **[VoiceOver OS](accessibility-and-testing-with-voiceover-os)** (Latest Version)<br>
+0. **[VoiceOver OS (Mac)](accessibility-and-testing-with-voiceover-os)** (Latest Version)<br>
 With Safari (Latest Version) on Mac OS (Latest Version)<br>
 (Screen Reader)
 
-0. **[Talkback](accessibility-and-testing-with-talkback)** (Latest Version)<br>
+0. **[TalkBack](accessibility-and-testing-with-talkback)** (Latest Version)<br>
 With Chrome (Latest Version) on Android (Latest Version)<br>
 (Screen Reader)
 
@@ -76,7 +76,7 @@ The GOV.UK Assistive Technology Survey is the only survey of it's type carried o
 0. Supernova 3.8% (1.1% of total)
 0. WindowEyes 2.9% (0.8% of total)
 0. Guide 2.4% (0.7% of total)
-0. Talkback 1.9% (0.6% of total)
+0. TalkBack 1.9% (0.6% of total)
 0. Narrator 1% (0.3% of total)
 0. ChromeVox 1% (0.3% of total)
 0. Orca 0.5% (0.1% of total)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility and Testing with VoiceOver Mac OS
+title: Accessibility and Testing with VoiceOver OS (Mac)
 ---
 
 VoiceOver is the defualt screen reader on **Mac** desktop devices. 
@@ -64,8 +64,8 @@ Note, sometimes VoiceOver will not scroll the screen when navigating, by moving 
 - [JAWS](accessibility-and-testing-with-jaws)
 - [NVDA](accessibility-and-testing-with-nvda)
 - [Read&Write](accessibility-and-testing-with-read-and-write)
-- [Talkback](accessibility-and-testing-with-talkback)
-- [VoiceOver iOS](accessibility-and-testing-with-voiceover-ios)
+- [TalkBack](accessibility-and-testing-with-talkback)
+- [VoiceOver iOS (iPhone/iPad)](accessibility-and-testing-with-voiceover-ios)
 - [ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)
 
 ## Other pages

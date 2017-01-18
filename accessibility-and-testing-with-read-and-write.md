@@ -34,9 +34,9 @@ Note if using Read&Write 11, you may experience **code in script tags** being re
 - [Dragon Naturallyspeaking](accessibility-and-testing-with-dragon)
 - [JAWS](accessibility-and-testing-with-jaws)
 - [NVDA](accessibility-and-testing-with-nvda)
-- [Talkback](accessibility-and-testing-with-talkback)
-- [VoiceOver OS](accessibility-and-testing-with-voiceover-os)
-- [VoiceOver iOS](accessibility-and-testing-with-voiceover-ios)
+- [TalkBack](accessibility-and-testing-with-talkback)
+- [VoiceOver OS (Mac)](accessibility-and-testing-with-voiceover-os)
+- [VoiceOver iOS (iPhone/iPad)](accessibility-and-testing-with-voiceover-ios)
 - [ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)
 
 ## Other pages

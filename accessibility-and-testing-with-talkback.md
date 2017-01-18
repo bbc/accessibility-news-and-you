@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility and Testing with Talkback
+title: Accessibility and Testing with TalkBack
 ---
 
 TalkBack is the defualt screen reader on Android devices. 
@@ -68,8 +68,8 @@ TalkBack lets you control whether text is read to you by **paragraph, a line, a 
 - [JAWS](accessibility-and-testing-with-jaws)
 - [NVDA](accessibility-and-testing-with-nvda)
 - [Read&Write](accessibility-and-testing-with-read-and-write)
-- [VoiceOver OS](accessibility-and-testing-with-voiceover-os)
-- [VoiceOver iOS](accessibility-and-testing-with-voiceover-ios)
+- [VoiceOver OS (Mac)](accessibility-and-testing-with-voiceover-os)
+- [VoiceOver iOS (iPhone/iPad)](accessibility-and-testing-with-voiceover-ios)
 - [ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)
 
 ## Other pages

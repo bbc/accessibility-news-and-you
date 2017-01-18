@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility and Testing with VoiceOver iOS
+title: Accessibility and Testing with VoiceOver iOS (iPhone/iPad)
 ---
 
 Page coming soon...
@@ -11,8 +11,8 @@ Page coming soon...
 - [JAWS](accessibility-and-testing-with-jaws)
 - [NVDA](accessibility-and-testing-with-nvda)
 - [Read&Write](accessibility-and-testing-with-read-and-write)
-- [Talkback](accessibility-and-testing-with-talkback)
-- [VoiceOver OS](accessibility-and-testing-with-voiceover-os)
+- [TalkBack](accessibility-and-testing-with-talkback)
+- [VoiceOver OS (Mac)](accessibility-and-testing-with-voiceover-os)
 - [ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)
 
 ## Other pages
