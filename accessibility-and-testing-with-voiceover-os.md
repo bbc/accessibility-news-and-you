@@ -31,7 +31,8 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - Do images have alt text?
 - Are there any empty key presses? e.g. You press the keys and you don't hear anything. If so, this maybe a bug.
 4. Open the 'Rotor' menu ('VO + U'), then use the 'Right/Left arrow' keys to navigate to the list of '**Headings**', then use the 'Down/Up arrow' keys to read through all the headers in the feature.
-- Are all headings read out and in a logical order? Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
+- Are all headings read out and in a logical order? 
+- Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
 5. Navigate to the end of the feature before the feature to be tested, then use the tab key to read out all '**Links**' in the feature. Are all links read out? Is any content that is not a link read out?
 6. Open the 'Rotor' menu ('VO + U'), then use the 'Right/Left arrow' keys to navigate to the list of '**Landmarks**', then use the 'Down/Up arrow' keys to read through all the landmarks in the feature.
 - Are all landmarks read out? Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
