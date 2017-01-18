@@ -46,14 +46,15 @@ You will need to use the **VoiceOver modifier (VO) key ** 'CTRL + OPTION/ALT' in
 1. **Move forwards through every page element**: 'VO + Right arrow'
 2. **Move backwards through every page element**: 'VO + Left arrow'
 3. Navigate by **forwards through headings**: 'VO + CMD + H'
-3. Navigate by **backwards through headings**: 'VO + CMD + H + SHIFT'
-4. Navigate **forwards through links**: 'TAB' (When doing this if you do not cycle through all links on the page, go to Safari Preference, then go to 'Advanced' then select 'Press Tab to highlight each item on a webpage')
-5. Navigate **backwards through links**: 'TAB + SHIFT'
-6. To **activate a link/button**: 'VO + Space bar'
-7. Bring up the **Rotor**: 'VO + U'. When the menu is displayed use 'Right/Left arrow' to cycle through the different lists, to cycle through items in a list, use the 'Up/Down arrow'. Press 'Return/Enter' or the Space bar to select an item from a list and close the Rotor menu. Close the Rotor without selecting an item by pressing 'ESC'.
-8. To **pause/restart VoiceOver talking**: 'CTRL'
-9. Decrease/Increase **speaking rate**: 'VO + CMD + Up/Down arrow'
-9. **Interact with an element**: 'VO + SHIFT + Down arrow'. To stop interacting with an element: 'VO + SHIFT + Up arrow'.
+4. Navigate by **backwards through headings**: 'VO + CMD + H + SHIFT'
+5. Navigate **forwards through links**: 'TAB' (When doing this if you do not cycle through all links on the page, go to Safari Preference, then go to 'Advanced' then select 'Press Tab to highlight each item on a webpage')
+6. Navigate **backwards through links**: 'TAB + SHIFT'
+7. To **activate a link/button**: 'VO + Space bar'
+8. Bring up the **Rotor**: 'VO + U'. When the menu is displayed use 'Right/Left arrow' to cycle through the different lists, to cycle through items in a list, use the 'Up/Down arrow'. Press 'Return/Enter' or the Space bar to select an item from a list and close the Rotor menu. Close the Rotor without selecting an item by pressing 'ESC'.
+9. Filter headings by level in the Rotor menu e.g. Show a list of all h2s: 'VO + U', use 'Right/Left arrow'  to select the 'Headings' list, then press '2'.
+10. To **pause/restart VoiceOver talking**: 'CTRL'
+11. Decrease/Increase **speaking rate**: 'VO + CMD + Up/Down arrow'
+12. **Interact with an element**: 'VO + SHIFT + Down arrow'. To stop interacting with an element: 'VO + SHIFT + Up arrow'.
 
 Note, sometimes VoiceOver will not scroll the screen when navigating, by moving forward to the next element with 'VO + Right arrow', the page should scroll down to bring this element in view.
 
