@@ -35,7 +35,8 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
 5. Navigate to the end of the feature before the feature to be tested, then use the tab key to read out all '**Links**' in the feature. Are all links read out? Is any content that is not a link read out?
 6. Open the 'Rotor' menu ('VO + U'), then use the 'Right/Left arrow' keys to navigate to the list of '**Landmarks**', then use the 'Down/Up arrow' keys to read through all the landmarks in the feature.
-- Are all landmarks read out? Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
+- Are all landmarks read out? 
+- Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
 7. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Use 'VO + Right arrow' to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## Shortcut keys
