@@ -30,7 +30,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - Is any content read out more than once?
 - Is any visually hidden/off screen text read out, such as for icons?
 - Do images have alt text?
-- Are there any empty swipes? If so, this maybe a bug.
+- Are there any empty swipes? e.g. You swipe left to right and you don't hear anything. If so, this maybe a bug.
 3. Navigate to the beginning of the page, then Select '**Headings and Landmarks**' from the 'Local TalkBack' menu, then swipe from left to right.
 - Are all landmarks read out? Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
 - Are all headings read out and in a logical order? Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
