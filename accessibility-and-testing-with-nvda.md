@@ -7,8 +7,6 @@ NVDA is a free screen reader for **PC** desktop devices.
 
 NVDA should be tested with the latest version of **Firefox**. Test using an actual device if possible.
 
-**Not sure how to use NVDA**? 
-
 ## What should I test?
 0. Test the feature by reading every element.
 1. Test the feature by reading headers.
@@ -53,7 +51,8 @@ You will need to use the **NVDA modifier key** in combination with other keys fo
 5. Navigate **backwards through heading levels**: '1 - 6 + SHIFT'
 6. Navigate **forwards through links**: 'TAB'
 7. Navigate **backwards through links**: 'TAB + SHIFT'
-8. To **activate a link/button**: 'Enter/Space bar'
+8. To **activate a link**: 'Enter'
+8. To **activate a button**: 'Enter or Space bar'
 9. Navigate **forwards through landmarks**: 'D'
 10. Navigate **backwards through landmarks**: 'D + SHIFT'
 11. **Stop NVDA talking**: 'CTRL'
@@ -63,7 +62,7 @@ For a full list of shortcut keys see [Deque](https://dequeuniversity.com/screenr
 
 ### Screen Layout mode 
 
-The default mode for reading content with NVDA is the 'Screen Layout' mode. This mode reads content in a similar way to how content displayed on screen. Turning Screen Layout mode off (NVDA + V), displays content in a linear fashion - putting element on its own line. For example an inline list in Screen Layout mode could be read out all in one go, if Screen Layout mode is off, then each list item will be placed on it's own line and read individually.
+The default mode for reading content with NVDA is the 'Screen Layout' mode. This mode reads content in a similar way to how content is displayed on screen. Turning Screen Layout mode off (NVDA + V), displays content in a linear fashion - putting each element on its own line. For example an inline list in Screen Layout mode could be read out all in one go, if Screen Layout mode is off, then each list item will be placed on it's own line and be read individually. Screen Layout mode can be useful for reading tables.
 
 ## Test using other supported assistive technology
 
