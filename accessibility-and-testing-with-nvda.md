@@ -33,7 +33,9 @@ The accessibility acceptance criteria can be used for additional manual testing 
 4. Navigate to the last element in the feature before the feature to be tested, then use 'H' to read **through each heading** in the feature (if you need to go back, 'H + SHIFT'). 
 - Are all headings read out and in a logical order? 
 - Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
-5. Navigate to the end of the feature before the feature to be tested, then use the 'TAB' key to read out all '**Links**' in the feature (if you need to go back, 'TAB + SHIFT'). Are all links read out? Is any content that is not a link read out?
+5. Navigate to the end of the feature before the feature to be tested, then use the 'TAB' key to read out all '**Links**' in the feature (if you need to go back, 'TAB + SHIFT').
+- Are all links read out? 
+- Is any content that is not a link read out?
 6. Navigate to the end of the feature before the feature to be tested, then use 'D' to read through all '**Landmarks**', in the feature (if you need to go back, 'D + SHIFT').
 - Are all landmarks read out? 
 - Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
@@ -41,27 +43,27 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 ## Shortcut keys
 
-You will need to use the **NVDA modifier key ** in combination with other keys for some keyboard shortcuts. The modifier key can be configured, if you are using a laptop it's most likey set to '**CAPS LOCK**'. 
+You will need to use the **NVDA modifier key** in combination with other keys for some keyboard shortcuts. The modifier key can be configured, if you are using a laptop it's most likey set to '**CAPS LOCK**'. 
 
 0. **Move forwards through every page element**: 'Down arrow'
 1. **Move backwards through every page element**: 'Up arrow'
-2. Navigate by **forwards through headings**: 'H'
-3. Navigate by **backwards through headings**: 'H + SHIFT'
-4. Navigate by **forwards through heading levels**: '1 - 6'
-5. Navigate by **backwards through heading levels**: '1 - 6 + SHIFT'
+2. Navigate **forwards through headings**: 'H'
+3. Navigate **backwards through headings**: 'H + SHIFT'
+4. Navigate **forwards through heading levels**: '1 - 6'
+5. Navigate **backwards through heading levels**: '1 - 6 + SHIFT'
 6. Navigate **forwards through links**: 'TAB'
 7. Navigate **backwards through links**: 'TAB + SHIFT'
 8. To **activate a link/button**: 'Enter/Space bar'
 9. Navigate **forwards through landmarks**: 'D'
 10. Navigate **backwards through landmarks**: 'D + SHIFT'
-11. To **stop NVDA talking**: 'CTRL'
+11. **Stop NVDA talking**: 'CTRL'
 12. Toggle **Screen Layout** mode on/off: 'NVDA + V'
 
 For a full list of shortcut keys see [Deque](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts) and [Webaim](http://webaim.org/resources/shortcuts/nvda).
 
 ### Screen Layout mode 
 
-The default mode for reading content in NVDA is the 'Screen Layout' mode. This mode reads content in a similar way to how it’s displayed on screen. Turning Screen Layout mode off (NVDA + V), displays content in a linear fashion - putting each link or control on its own line. For example an inline list in Screen Layout mode could be read out all in one go, if Screen Layout mode is off, then each list item will be placed on it's own line and read individually.
+The default mode for reading content with NVDA is the 'Screen Layout' mode. This mode reads content in a similar way to how content displayed on screen. Turning Screen Layout mode off (NVDA + V), displays content in a linear fashion - putting element on its own line. For example an inline list in Screen Layout mode could be read out all in one go, if Screen Layout mode is off, then each list item will be placed on it's own line and read individually.
 
 ## Test using other supported assistive technology
 
