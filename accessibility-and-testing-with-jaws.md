@@ -57,11 +57,11 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 For a full list of laptop shortcut keys see [Deque](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts) or [Freedom Scientific](http://doccenter.freedomscientific.com/doccenter/archives/training/JAWSKeystrokes.htm#laptop-keys).
 
-### Presentation mode 
+### Document presentation mode 
 
 JAWS has two modes for displaying webpages using the virtual cursor, Simple Layout and Screen Layout. Simple Layout is the default, which displays content in a linear fashion - putting each link or control on its own line. Screen Layout formats content in a similar way to how it’s displayed on screen. For example an inline list in Screen Layout mode could be read out all in one go. In Simple Layout mode, each list item will be placed on it's own line and be read individually. Screen Layout mode can be useful for reading tables.
 
-Switching between modes
+#### Switching between modes
 - In Internet Explorer: 'INSERT + V'.
 - Type: 'Document Presentation' to find the setting.
 - Change the mode in the 'Document Presentation Mode' dropdown menu.
