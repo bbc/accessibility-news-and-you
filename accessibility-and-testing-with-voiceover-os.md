@@ -40,7 +40,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 7. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Use 'VO + Right arrow' to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## Shortcut keys
-You will need to use the **VoiceOver modifier (VO) key ** 'CTRL + OPTION/ALT' in combination with other keys for keyboard shortcuts.
+You will need to use the **VoiceOver modifier (VO) key** 'CTRL + OPTION/ALT' in combination with other keys for keyboard shortcuts.
 
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
 1. **Move forwards through every page element**: 'VO + Right arrow'
