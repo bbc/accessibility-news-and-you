@@ -26,6 +26,8 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. **Colour blindness** - Use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view the code with different vision issues.
 
+0. View the feature with **High Contrast** mode on PC. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Personalization' settings in the Control Panel and view the feature with all the different High Contrast modes.
+
 0. Does the design use **icons**? Meaning should not just be conveyed with icons/images, do the icons have off-screen (visually hidden) text so users of assistive technology don't miss out? Check by inspecting the element in the web browser or with a screen reader.
 
 0. **Manually check the heading order**. Do the [heading](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/html/headings.shtml) and the heading order actually make sense? If working on a **foreign language site**, use Google Translate to check what the headers actually say. You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.)
