@@ -24,7 +24,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Do all elements meet [**colour contrast**](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile/design/colour-contrast) levels? Use a tool such as [contrast checker](http://webaim.org/resources/contrastchecker/) to check. All colours should meet a level of 4.5:1 or higher.
 
-0. **Colour blindness** - Use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view the code with different vision issues.
+0. **Colour blindness** - Use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view the code with different vision issues. Can all elements in the feature still be identified and used?
 
 0. View the feature with **High Contrast** mode on PC. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Personalization' settings in the Control Panel and view the feature with all the different High Contrast modes.
 
