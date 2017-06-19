@@ -39,7 +39,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 ## General usage
 
 0. To quickly access VoiceOver, enable the '**<a name="accessibility-shortcut"></a>Accessibility shortcut**' by going to 'Settings', then 'General', then 'Accessibility', and scroll down to 'Accessibility shortcut', then select 'VoiceOver'. You can now turn on VoiceOver by pressing the 'Home' button 3 times. When VoiceOver is on, pressing the 'Home' button 3 times will turn VoiceOver off.
-1. You can navigate by headings, links or landmark etc through the '**<a name="rotor-menu"></a>Rotor menu*'. Rotate two fingers on the screen as if you were turning a dial, to move through the options. Then swipe from top to bottom to read through the option you have selected, such as headings.
+1. You can navigate by headings, links or landmark etc through the '**<a name="rotor-menu"></a>Rotor menu**'. Rotate two fingers on the screen as if you were turning a dial, to move through the options. Then swipe from top to bottom to read through the option you have selected, such as headings.
 
 ### Speaking rate
 
