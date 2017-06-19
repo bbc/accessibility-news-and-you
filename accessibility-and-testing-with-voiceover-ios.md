@@ -23,7 +23,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 2. **Turn VoiceOver on**, using the '[Accessibility shortcut](#accessibility-shortcut)' or go to 'Settings', then 'General', then 'Accessibility', then 'VoiceOver', here you can turn 'VoiceOver' on.
 3. **Navigate back to Safari** - 'Tap' once to select to select items, then double tab to activate the selected item. If you need to scroll, swipe three fingers up or down.
 4. Navigate to the last element in the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then swipe from left to right **through each element** in the feature (if you need to go back, swipe right to left). 
-- Is the all the content read out and make sense? 
+- Is all the content read out and make sense? 
 - Is the content read out in a logical order following the visual order? 
 - Is any content read out more than once?
 - Is any visually hidden/off screen text read out, such as for icons?

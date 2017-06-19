@@ -22,7 +22,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 1. Go to the **testing url**.
 2. **Turn Jaws on**. 
 3. Navigate to the last element in the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then use 'Down arrow' to read **through each element** in the feature (if you need to go back, 'Up arrow'). 
-- Is the all the content read out and make sense? 
+- Is all the content read out and make sense? 
 - Is the content read out in a logical order following the visual order? 
 - Is any content read out more than once?
 - Is any visually hidden/off screen text read out, such as for icons?
