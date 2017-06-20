@@ -32,18 +32,18 @@ The accessibility acceptance criteria can be used for additional manual testing 
 5. Navigate to the end of the feature before the feature to be tested, then select '**Headings**' from the '[Rotor menu](#rotor-menu)', then swipe from top to bottom to read through the headings.
 - Are all headings read out and in a logical order? Not sure what headings the feature should read out? You can use a desktop browser tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.) 
 6. Navigate to the end of the feature before the feature to be tested, then select '**Links**' from the '[Rotor menu](#rotor-menu)', then swipe from top to bottom to read through the links. Are all links read out? Is any content that is not a link read out?
-7. Select '**Landmarks**' from the '[Rotor menu](#rotor-menu)', then swipe from top to bottom to read through the landmarks. Note, landmarks are not in the 'Rotor' menu by default, to add landmarks go to 'Settings', then 'General', then 'Accessibility', then 'VoiceOver', then 'Rotor'.
+7. Select '**Landmarks**' from the '[Rotor menu](#rotor-menu)' (Note, landmarks are not in the 'Rotor' menu by default, to add landmarks go to 'Settings', then 'General', then 'Accessibility', then 'VoiceOver', then 'Rotor'.), then swipe from top to bottom to read through the landmarks.
 - Are all landmarks read out? Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
 8. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ## General usage
 
 0. To quickly access VoiceOver, enable the '**<a name="accessibility-shortcut"></a>Accessibility shortcut**' by going to 'Settings', then 'General', then 'Accessibility', and scroll down to 'Accessibility shortcut', then select 'VoiceOver'. You can now turn on VoiceOver by pressing the 'Home' button 3 times. When VoiceOver is on, pressing the 'Home' button 3 times will turn VoiceOver off.
-1. You can navigate by headings, links or landmark etc through the '**<a name="rotor-menu"></a>Rotor menu**'. Rotate two fingers on the screen as if you were turning a dial, to move through the options. Then swipe from top to bottom to read through the option you have selected, such as headings.
+1. You can navigate by headings, links or landmark etc through the '**<a name="rotor-menu"></a>Rotor menu**'. Rotate two fingers on the screen as if you were turning a dial, to move through the options. Then swipe from top to bottom to read through the option you have selected, such as headings. Note, landmarks are not in the 'Rotor' menu by default, to add landmarks go to 'Settings', then 'General', then 'Accessibility', then 'VoiceOver', then 'Rotor'.
 
 ### Speaking rate
 
-If you are finding VoiceOver is talking too quick, you can reduce the speed by reducing the 'Speaking rate'. Go to 'Settings', then 'General', then 'Accessibility', then 'VoiceOver', here you can adjust the  'Speaking rate'.
+If VoiceOver is talking too quick, you can reduce the 'Speaking rate'. Go to 'Settings', then 'General', then 'Accessibility', then 'VoiceOver', here you can adjust the 'Speaking rate'.
 
 ## Test using other supported assistive technology
 
