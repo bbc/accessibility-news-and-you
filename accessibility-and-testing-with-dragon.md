@@ -30,7 +30,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 6. Say: '**Press enter**'.
 7. **Navigate to the feature** by saying commands such as 'page down', 'line down', 'go to bottom' etc. Note, if these **commands are not working**, you do not have the browser window focussed, click in the browser window with the mouse then try again.
 8. **Navigate through the feature** with the following methods:
-- Tab through the feature by saying, '**tab**'. You can say commands such as 'tab 4 times' etc. to move quickly to a link/button. You should know where you are at all times. Can you see the focus styling?
+- Tab through the feature by saying, '**tab**'. You can say commands such as 'tab 4 times' etc. to move quickly to a link/button, and 'press shift tab' to move backwards. You should know where you are at all times. Can you see the focus styling?
 - Activate each of the links in turn, by saying: '**click**' followed by the text of the link. To activate a specific link without already being focused on it, such as a story headline, say: 'Click PM pledges to improve mental health care'. If there is more than one link with a specific name such as 'UK', say 'click UK', you will then see numbers on each of the links, say 'Choose 2' to choose the 2nd link with the text 'UK'. After activating a link, say '**click back**' to go back to the testing url. Note, if Dragon becomes **unresponsive**, try restarting IE and/or Dragon.
 - If there are any **other interactive elements**, such a button, input field, checkbox or radio button etc. with speech, test you can interact with them.
 
