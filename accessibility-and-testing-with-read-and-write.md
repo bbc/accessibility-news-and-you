@@ -7,7 +7,7 @@ Read&Write is text to speech literacy software which makes the web more accessib
 
 Read&Write **MUST** be tested with **Internet Explorer 11**. If the component/feature is used on a wide range of pages and services, to meet the Definition of Done **Chrome** **SHOULD** also be used for testing (as rendering engines differ greatly between browsers, which may effect how content is read), in order to be considered acceptable for a live release. Test using an actual device if possible.
 
-Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold for PC Reading Toolbar](https://www.youtube.com/watch?v=SUI6WX5-Mmo&t=46s ZoomText New User Introduction) from 4 munites 6 seconds to 5 minutes 30 seconds.
+Not sure how to Read with Read&Write? Watch [Introduction to the Read&Write Gold for PC Reading Toolbar](https://www.youtube.com/watch?v=SUI6WX5-Mmo&t=46s ZoomText New User Introduction) from 4 minutes 6 seconds to 5 minutes 30 seconds.
 
 ## What should I test?
 
