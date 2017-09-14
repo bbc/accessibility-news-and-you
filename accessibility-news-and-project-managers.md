@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility, News and Product Managers
+title: Accessibility, News and Project Managers
 ---
 Accessibility should be considered from the start of the product life cycle and throughout.
 
