@@ -21,7 +21,7 @@ not just the role of the developer. To meet accessibility standards you need to 
 
 0. **Testing steps** - Does everyone in the team know how to use all the [assistive technology](accessibility-and-supported-assistive-technology)? Anyone, in any role, should be able to use any of the supported assistive technologies comfortably, by following the testing steps for assistive technology in this guide, such as [Accessibility and Testing with VoiceOver iOS](accessibility-and-testing-with-voiceover-ios).
 
-0. **Accessibility Swarms** - Is the team as a whole engaged with accessibility? Are 'Accessibility Swarms' being carried out? Before a ticket moves from Development to Test, is the team downing tools and getting together to run through the final accessibility checks and test with all the assistive technology that we support? All disciplines can join in - Ideally you want a mix of roles such as Business Analyst, Designer and Developer.
+0. **Accessibility Swarms** - Is the team as a whole engaged with accessibility? Are 'Accessibility Swarms' being carried out? Before a ticket (for front-end development - HTML, CSS and/or Javascript) moves from Development to Test, is the team downing tools and getting together to run through the final accessibility checks and test with all the assistive technology that we support? All disciplines can join in - Ideally you want a mix of roles such as Business Analyst, Designer and Developer.
 
 If you would like to get more in depth knowledge please refer to the [Tester](accessibility-news-and-testers) checklists and tools.
 
