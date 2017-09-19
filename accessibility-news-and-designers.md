@@ -20,7 +20,7 @@ For designs created using Sketch or Photoshop etc.
 
 0. Do all elements meet [colour contrast](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile/design/colour-contrast) levels? Use a tool such as [Stark](http://getstark.co/?ref=sketchhunt) a contrast checker for Sketch or online tool such as [Contrast Checker](http://webaim.org/resources/contrastchecker/) to check this. All colours should meet a level of 4.5:1 or higher.
 
-0. Does your design work for colour blindness? You can use [Stark](http://getstark.co/?ref=sketchhunt) a color-blind simulator for Sketch or alternatiely view code or drop a jpg/gif of your design into Chrome and use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view your design with different vision issues.
+0. Does your design work for colour blindness? You can use a tool such as [Stark](http://getstark.co/?ref=sketchhunt) a color-blind simulator for Sketch, or alternatiely view code or drop a jpg/gif of your design into Chrome and use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view your design with different vision issues.
 
 0. Does your design pass the [Dos and Don'ts of Designing for Accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)?
 
