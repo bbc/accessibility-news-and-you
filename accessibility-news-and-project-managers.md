@@ -2,7 +2,7 @@
 layout: page
 title: Accessibility, News and Project Managers
 ---
-Accessibility should be considered from the start of the product life cycle and throughout.
+Accessibility should be considered from the start of the project and into operational use.
 
 0. Are you aware of the [BBC Accessibility Standards and Guidelines](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/)?
 
@@ -10,7 +10,7 @@ Accessibility should be considered from the start of the product life cycle and 
 
 ## Checklist
 
-0. **Scope of the project** - Has accessibility been fully considered in the scope of the project?
+0. **Scope of the project** - Have you factored in contingency into the project timelines, to account for building an accessible product?
 
 0. **Engage all disciplines** - Everyone has a part to play. Accessibility is a cross discipline solution,
 not just the role of the developer. To meet accessibility standards you need to have engagement from everyone in the team. It's your role to help and encourage team members from all disiplines to engage with accessibiliy, for example are all team members aware of the disipline checklists on this guide?
