@@ -23,8 +23,8 @@ Watch the following two short videos for a quick introduction on accessibility.
 - [Business Analyst](accessibility-news-and-business-analysts)
 - [Designer](accessibility-news-and-designers)
 - [Developer](accessibility-news-and-developers)
-- [Product Manager](accessibility-news-and-product-managers)
 - [Product Owner](accessibility-news-and-product-owners)
+- [Project Manager](accessibility-news-and-project-managers)
 - [Tester](accessibility-news-and-testers)
 
 ## Other pages

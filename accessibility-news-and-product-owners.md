@@ -29,5 +29,5 @@ If you would like to get more in depth knowledge please refer to the [Tester](ac
 - [Business Analyst](accessibility-news-and-business-analysts)
 - [Designer](accessibility-news-and-designers)
 - [Developer](accessibility-news-and-developers)
-- [Product Manager](accessibility-news-and-product-managers)
+- [Project Manager](accessibility-news-and-project-managers)
 - [Tester](accessibility-news-and-testers)

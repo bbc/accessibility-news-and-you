@@ -45,7 +45,6 @@ For designs created using Sketch or Photoshop etc.
 
 - [Business Analyst](accessibility-news-and-business-analysts)
 - [Developer](accessibility-news-and-developers)
-- [Product Manager](accessibility-news-and-product-managers)
 - [Product Owner](accessibility-news-and-product-owners)
+- [Project Manager](accessibility-news-and-project-managers)
 - [Tester](accessibility-news-and-testers)
-
