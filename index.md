@@ -20,10 +20,11 @@ Watch the following two short videos for a quick introduction on accessibility.
 
 ## What is your role?
 
-- [Product Owner](accessibility-news-and-product-owners)
-- [Designer](accessibility-news-and-designers)
 - [Business Analyst](accessibility-news-and-business-analysts)
+- [Designer](accessibility-news-and-designers)
 - [Developer](accessibility-news-and-developers)
+- [Product Manager](accessibility-news-and-product-managers)
+- [Product Owner](accessibility-news-and-product-owners)
 - [Tester](accessibility-news-and-testers)
 
 ## Other pages
