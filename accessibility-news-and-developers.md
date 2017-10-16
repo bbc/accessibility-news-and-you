@@ -55,7 +55,8 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklists for other roles in the team
 
-- [Product Owner](accessibility-news-and-product-owners)
-- [Designer](accessibility-news-and-designers)
 - [Business Analyst](accessibility-news-and-business-analysts)
+- [Designer](accessibility-news-and-designers)
+- [Product Manager](accessibility-news-and-product-managers)
+- [Product Owner](accessibility-news-and-product-owners)
 - [Tester](accessibility-news-and-testers)

@@ -43,7 +43,9 @@ For designs created using Sketch or Photoshop etc.
 
 ## Checklists for other roles in the team
 
-- [Product Owner](accessibility-news-and-product-owners)
 - [Business Analyst](accessibility-news-and-business-analysts)
 - [Developer](accessibility-news-and-developers)
+- [Product Manager](accessibility-news-and-product-managers)
+- [Product Owner](accessibility-news-and-product-owners)
 - [Tester](accessibility-news-and-testers)
+

@@ -26,7 +26,8 @@ If you would like to get more in depth knowledge please refer to the [Tester](ac
 
 ## Checklists for other roles in the team
 
-- [Designer](accessibility-news-and-designers)
 - [Business Analyst](accessibility-news-and-business-analysts)
+- [Designer](accessibility-news-and-designers)
 - [Developer](accessibility-news-and-developers)
+- [Product Manager](accessibility-news-and-product-managers)
 - [Tester](accessibility-news-and-testers)

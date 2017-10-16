@@ -54,7 +54,8 @@ The accessibility acceptance criteria can be used for manual testing steps on de
 
 ## Checklists for other roles in the team
 
-- [Product Owner](accessibility-news-and-product-owners)
-- [Designer](accessibility-news-and-designers)
 - [Business Analyst](accessibility-news-and-business-analysts)
+- [Designer](accessibility-news-and-designers)
 - [Developer](accessibility-news-and-developers)
+- [Product Manager](accessibility-news-and-product-managers)
+- [Product Owner](accessibility-news-and-product-owners)
