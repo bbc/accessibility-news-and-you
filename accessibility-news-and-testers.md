@@ -35,7 +35,7 @@ To gain an understanding of accessibility features and what to look for it is re
 0. **Check the accessibility of the rendered DOM**. Use a tool such as the [Axe browser extension](https://www.deque.com/products/axe/#aXeExtensions).
 
 0. **Keyboard navigation**
-    0. Check the **tab order is correct** when using the keyboard and the tab key. Can you see where you are on the page at all times? **You are looking for styling in addition to the browser default styling (such as the blue outline), such as change of colour to text links combined with an underline. Focus styling is usually the same as the hover styles. e.g Has focus CSS been written?
+    0. Check the **tab order is correct** when using the keyboard and the tab key. Can you see where you are on the page at all times? **You are looking for styling in addition to the browser default styling** (such as the blue outline), such as change of colour to text links combined with an underline. Focus styling is usually the same as the hover styles. e.g Has focus CSS been written?
 
     0. Is the **keyboard focus** always in the correct place? e.g. After selecting a 'More' button with the return key you should be taken to the new content displayed with the next press of the tab key.
   
