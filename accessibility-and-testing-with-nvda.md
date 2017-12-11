@@ -18,6 +18,8 @@ NVDA should be tested with the latest version of **Firefox**. Test using an actu
 
 The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the [Business Analyst](accessibility-news-and-business-analysts) and part of their checklist.
 
+### General 
+
 0. Open **Firefox**.
 1. Go to the **testing url**.
 2. **Turn NVDA on**. 
@@ -38,6 +40,21 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - Are all landmarks read out? 
 - Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
 7. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Use 'Down arrow' to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
+
+### Tables
+
+0. Open **Firefox**.
+1. Go to the **testing url**.
+2. **Turn NVDA on**. 
+3. Navigate to the last visible element before the table to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the table. Then use all the [table keyboard shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts#id386_tables) to go **through each element** in the table.
+- Are table row and column headers read out for each table cell?
+- Is all the content read out and make sense? 
+- Is the content read out in a logical order following the visual order? 
+- Is any content read out more than once?
+- Is any visually hidden/off screen text read out, such as for icons?
+- Are there any empty key presses? e.g. You press the keys and you don't hear anything. If so, this maybe a bug.
+4. Read **through table headers** by pressing 'T' (if you need to go back, 'T + SHIFT').
+- Do all tables have a unique caption? Captions help users to find a table and understand what it’s about. e.g. When you navigate to a table using 'T' or 'T + SHIFT', is a heading announced for the table which helps users understand what the table is about?
 
 ## Shortcut keys
 

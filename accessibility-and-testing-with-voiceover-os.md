@@ -20,6 +20,8 @@ It's recommended to use the **latest OS** that you have access to. Test with **S
 
 The accessibility acceptance criteria can be used for additional manual testing steps on device, this is written by the [Business Analyst](accessibility-news-and-business-analysts) and part of their checklist.
 
+### General 
+
 0. Open **Safari**.
 1. Go to the **testing url**.
 2. **Turn VoiceOver on**, with shortcut keys 'CMD + F5'. 
@@ -39,9 +41,27 @@ The accessibility acceptance criteria can be used for additional manual testing 
 - Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
 7. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Use 'VO + Right arrow' to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
+### Tables
+
+When testing a table use all of the [table keyboard shortcuts](#table-keyboard-shortcuts). Note, if numbers are not reading out correctly, you may need to change the VoiceOver verbosity setting, go to 'System Preferences', then 'Accessibility', then 'VoiceOver', then 'Open VoiceOver Utility', then 'Verbosity', then 'Text', and toggle 'Read numbers as digits/words'.
+
+0. Open **Safari**.
+1. Go to the **testing url**.
+2. **Turn VoiceOver on**, with shortcut keys 'CMD + F5'. 
+3. Navigate to the last visible element before the table to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the table. Then **use all the [table keyboard shortcuts](#table-keyboard-shortcuts) to read through each element** in the table. 
+- Are table row and column headers read out for each table cell?
+- Is all the content read out and make sense? 
+- Is the content read out in a logical order following the visual order? 
+- Is any content read out more than once?
+- Is any visually hidden/off screen text read out, such as for icons?
+- Are there any empty key presses? e.g. You press the keys and you don't hear anything. If so, this maybe a bug.
+4. Open the 'Rotor' menu ('VO + U'), then use the 'Right/Left arrow' keys to navigate to the list of 'Tables', then use the 'Down/Up arrow' keys to read **through table headers**.
+- Do all tables have a unique caption? Captions help users to find a table and understand what it’s about. e.g. When you navigate to the table via the 'Rotor' menu or by using 'T' or 'T + SHIFT', is a heading announced for the table which helps users understand what the table is about?
+
 ## Shortcut keys
 You will need to use the **VoiceOver modifier (VO) key** 'CTRL + OPTION/ALT' in combination with other keys for keyboard shortcuts.
 
+### General
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
 1. **Move forwards through every page element**: 'VO + Right arrow'
 2. **Move backwards through every page element**: 'VO + Left arrow'
@@ -57,6 +77,18 @@ You will need to use the **VoiceOver modifier (VO) key** 'CTRL + OPTION/ALT' in 
 12. **Interact with an element**: 'VO + SHIFT + Down arrow'. To stop interacting with an element: 'VO + SHIFT + Up arrow'.
 
 Note, sometimes VoiceOver will not scroll the screen when navigating, by moving forward to the next element with 'VO + Right arrow', the page should scroll down to bring this element in view.
+
+### <a name="table-keyboard-shortcuts"></a>Tables
+0. Navigate **forwards through tables**: 'T'
+1. Navigate **backwards through tables**: 'T + SHIFT'
+2. **One cell forwards** (right): 'VO + Right arrow'
+3. **One cell backwards** (left): 'VO + Left arrow'
+4. **One cell down**: 'VO + Down arrow'
+5. **One cell up**: 'VO + Up arrow'
+6. Read **column header**: 'VO + C'
+7. Read **row header**: 'VO + R'
+8. Read **entire column**: 'VO + C, VO + C'
+9. Read **entire row**: 'VO + R, VO + R'
 
 ## Test using other supported assistive technology
 
