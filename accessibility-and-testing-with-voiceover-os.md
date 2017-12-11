@@ -43,7 +43,9 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 ### Tables
 
-When testing a table use all of the [table keyboard shortcuts](#table-keyboard-shortcuts). Note, if numbers are not reading out correctly, you may need to change the VoiceOver verbosity setting, go to 'System Preferences', then 'Accessibility', then 'VoiceOver', then 'Open VoiceOver Utility', then 'Verbosity', then 'Text', and toggle 'Read numbers as digits/words'.
+When testing a table use all of the [table keyboard shortcuts](#table-keyboard-shortcuts).
+
+Note, **if numbers are not reading out correctly**, you may need to change the VoiceOver verbosity setting, go to 'System Preferences', then 'Accessibility', then 'VoiceOver', then 'Open VoiceOver Utility', then 'Verbosity', then 'Text', and toggle 'Read numbers as digits/words'.
 
 0. Open **Safari**.
 1. Go to the **testing url**.
