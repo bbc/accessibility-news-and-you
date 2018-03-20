@@ -39,7 +39,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 0. By default the 'DragonBar' is minimised, hover over this to expand it.
 1. In the 'DragonBar', click the microphone icon to switch between on or off. If the microphone icon is red then it is turned off, if the microphone icon is green then the microphone is turned on. Note you can only control the microphone by voice when turning it off e.g. say: 'Microphone off'.
 2. When you 1st start Dragon you will see the 'Learning Centre' window, here you can see commands and tips.
-3. Useful commands [cheat sheet](http://www.nuance.co.uk/ucmprod/groups/corporate/@web-enus/documents/collateral/dns13commandcheatsheet.pdf) 
+3. Useful commands [cheat sheet](http://supportcontent.nuance.com/kbfiles/16477-dns13commandcheatsheet.pdf) 
 
 ### Dictation
 
