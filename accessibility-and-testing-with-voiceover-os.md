@@ -25,7 +25,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 0. Open **Safari**.
 1. Go to the **testing url**.
 2. **Turn VoiceOver on**, with shortcut keys 'CMD + F5'. 
-3. Navigate to the last element in the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then use 'VO + Right arrow' to read **through each element** in the feature (if you need to go back, 'VO + Left arrow'). 
+3. Navigate to the last element in the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then use '[VO](#vo) + Right arrow' to read **through each element** in the feature (if you need to go back, 'VO + Left arrow'). 
 - Is all the content read out and make sense? 
 - Is the content read out in a logical order following the visual order? 
 - Is any content read out more than once?
@@ -61,7 +61,7 @@ Note, **if numbers are not reading out correctly**, you may need to change the V
 - Do all tables have a unique caption? Captions help users to find a table and understand what it’s about. e.g. When you navigate to the table via the 'Rotor' menu or by using 'T' or 'T + SHIFT', is a heading announced for the table which helps users understand what the table is about?
 
 ## Shortcut keys
-You will need to use the **VoiceOver modifier (VO) key** 'CTRL + OPTION/ALT' in combination with other keys for keyboard shortcuts.
+You will need to use the **<a name="vo"></a>VoiceOver modifier (VO) key** 'CTRL + OPTION/ALT' in combination with other keys for keyboard shortcuts.
 
 ### General
 0. **Turn VoiceOver on/off**, either with the shortcut keys 'CMD + F5' or go to 'System Preferences', then 'Accessibility', then 'VoiceOver', here you can 'Enable VoiceOver'. 
