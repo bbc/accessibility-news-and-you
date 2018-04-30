@@ -28,7 +28,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 * ALT + INSERT: Activate ZoomText/Display User Interface (ZoomText needs to be on to do this)
 * ALT + DEL: Disable ZoomText
 
-### Maginifier
+### Magnifier
 
 #### Increase/Decrease maginification level
 * ALT + INSERT: Enable ZoomText/Bring up the user interface 
