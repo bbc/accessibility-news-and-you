@@ -27,7 +27,9 @@ The accessibility acceptance criteria can be used for additional manual testing 
 6. If the feature uses 'faux block link', and you are still having difficulty reading many of the text elements. Try checking '**Automatically read next block of text**' in the 'Play' dropdown menu, then use your mouse to hover over the 1st text element in the feature and let it read until the end of the feature, is everything now read out? If not, in the feature before the feature which is being tested, hover over an item which you can read by hovering, then let it read from this element and through the feature which is being tested.
 7. Hover over each of the images in the feature, the **alt text** should be read out. Note if the feature uses 'faux block link' you may have difficulty.
 
-Note if using Read&Write 11, you may experience **code in script tags** being read out aswell as **text that is hidden** with CSS, this maybe more noticable when 'Automatically read next block of text' is checked. If these bugs are not present when testing with other assistive technology there is no need to fix them, they are bugs with Read&Write itself (which have been reported to Read&Write).
+## Known bugs
+
+When testing with **IE**, you may experience **text that is hidden** being read out as well as **code in script tags**, this maybe more noticable when 'Read the web' and 'Automatically read next block of text' are selected. If so, verify if the same bugs you experienced with IE are also present in Chrome on PC (ensure Chrome has the [Read&Write support for Google Chrome extension](http://www.texthelp.com/rw11ChromeExtension/index.html) installed - you do not need to do anything with the extension itself, this enables Read&Write to work). If the bugs do not exist in Chrome then these are bugs with IE and can be ignored.
 
 ## Test using other supported assistive technology
 
