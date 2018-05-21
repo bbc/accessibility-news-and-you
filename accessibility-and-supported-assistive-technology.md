@@ -6,7 +6,7 @@ Based on the results from the [2016 GOV.UK Assistive Technology Survey](https://
 
 See [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology) for usage instructions and testing steps.
 
-## Priority 1 (P1)
+## Category 1
 
 To meet the **Definition of Done** the following **MUST** be used for testing, in order to be considered acceptable for a live release.
 
@@ -30,7 +30,7 @@ With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
 With Safari (Latest Version) on iOS (Latest Version)<br>
 (Screen Reader)
 
-## Priority 2 (P2)
+## Category 2
 
 If the component/feature is used on a wide range of pages and services, to meet the **Definition of Done** the following **SHOULD** be used for testing, in order to be considered acceptable for a live release.
 
@@ -38,7 +38,7 @@ If the component/feature is used on a wide range of pages and services, to meet 
 With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 (Screen Reader)
 
-## Priority 3 (P3)
+## Category 3
 
 To further our audience support, the following **COULD** be used for testing.
 
@@ -52,7 +52,7 @@ With Chrome (Latest Version) on Android (Latest Version)<br>
 
 ## Why do we base our testing on the GOV.UK survey
 
-The GOV.UK Assistive Technology Survey is the only survey of it's type carried out in the UK and therefore we base our testing matrix on this and combine this with other knowledge about our audience, such as we know that we have a large mobile audience and therefore put VoiceOver on iOS into the P1 category.
+The GOV.UK Assistive Technology Survey is the only survey of it's type carried out in the UK and therefore we base our testing matrix on this and combine this with other knowledge about our audience, such as we know that we have a large mobile audience and therefore put VoiceOver on iOS into Category 1.
 
 ### Translating the statistics
 
