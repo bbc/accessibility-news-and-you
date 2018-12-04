@@ -32,6 +32,8 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. View the feature with **text resized to 200%**. Can all elements in the feature still be seen? Go to the browser preferences and set the font size to the largest default setting.
 
+0. View the feature with the **page zoomed to 200%**. Can all elements in the feature still be seen? To zoom the page on Mac, press 'CMD and +'.
+
 0. Does the design use **icons**? Meaning should not just be conveyed with icons/images, do the icons have off-screen (visually hidden) text so users of assistive technology don't miss out? Check by inspecting the element in the web browser or with a screen reader.
 
 0. **Manually check the heading order**. Do the [heading](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/html/headings.shtml) and the heading order actually make sense? If working on a **foreign language site**, use Google Translate to check what the headers actually say. You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.)
