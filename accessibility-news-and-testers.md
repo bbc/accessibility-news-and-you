@@ -28,6 +28,10 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. View the feature with **High Contrast** mode on PC. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Personalization' settings in the Control Panel and view the feature with all the different High Contrast modes.
 
+0. View the feature with the **colour preferences** changed in FireFox. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Preferences' under the 'Firefox' menu, then under 'Language and Appearance', select 'Colours' and change the colours for text, background, unvisited and visited links.
+
+0. View the feature with **text resized to 200%**. Can all elements in the feature still be seen? Go to the browser preferences and set the font size to the largest default setting.
+
 0. Does the design use **icons**? Meaning should not just be conveyed with icons/images, do the icons have off-screen (visually hidden) text so users of assistive technology don't miss out? Check by inspecting the element in the web browser or with a screen reader.
 
 0. **Manually check the heading order**. Do the [heading](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/html/headings.shtml) and the heading order actually make sense? If working on a **foreign language site**, use Google Translate to check what the headers actually say. You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.)
@@ -36,6 +40,8 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. **Keyboard navigation**
     0. Check the **tab order is correct** when using the keyboard and the tab key. Can you see where you are on the page at all times? **You are looking for styling in addition to the browser default styling** (such as the blue outline), such as change of colour to text links combined with an underline. Focus styling is usually the same as the hover styles. e.g Has focus CSS been written?
+
+    0. Check **interactions** can be controlled when using only a keyboard.
 
     0. Is the **keyboard focus** always in the correct place? e.g. After selecting a 'More' button with the return key you should be taken to the new content displayed with the next press of the tab key.
   
