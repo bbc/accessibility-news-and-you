@@ -28,7 +28,6 @@ Carry out a **developer swarm**.
 The level of Accessibility Swarm (team or developer swarm) should be defined up front. So that planning sessions can include Accessibility Swarm effort. 
 
 ## Who can take part
-
 - You don’t need to have worked on the ticket
 - All disciplines can join in. The **[testing steps](accessibility-and-testing-with-assistive-technology)** enable anyone, in any role, to use any of the assistive technology for the first time.
 - Ideally you want a mix of roles such as Business Analyst, Designer and Developer
