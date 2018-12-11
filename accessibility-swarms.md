@@ -2,35 +2,33 @@
 layout: page
 title: Accessibility Swarms
 ---
-Accessibility Swarms are a practice that we carry out in BBC News.
+Accessibility Swarms are a practice that we carry out in BBC News. We do this because **accessibility is a team responsibility**.
 
 Swarms take place on **all new front-end code**, this means any changes to HTML, CSS or JavaScript code.
 
-We do this because **accessibility is a team responsibility**.
-
 ## When should you carry out a swarm?
 - Before a ticket moves from Development to Test
-- When HTML, CSS & JS is code complete
+- When HTML, CSS & JS is code complete (including code review)
 - Some developer testing with some assistive technology should already have taken place
 
-## How many people do you need?
+## Who takes part?
 ### If it’s a new component or feature
 Carry out a **team swarm**, with 4 to 6 people.
+
+- You don’t need to have worked on the ticket
+- All disciplines can join in. The **[testing steps](accessibility-and-testing-with-assistive-technology)** enable anyone, in any role, to use any of the assistive technology for the first time.
+- Ideally you want a mix of roles such as Business Analyst, Designer and Developer
+- If you don't have a large team, why not invite people from another team to take part. And you can return the favour for them sometime.
 
 ### If it’s a small change
 Carry out a **developer swarm**.
 
 - You don’t need 4 to 6 people
-- The developers pairing on the ticket can work through the **[checklist](accessibility-news-and-testers)** alone
+- 2 developers can work through the **[checklist](accessibility-news-and-testers)** alone
 - You only need to check what’s relevant. For example, if you have only changed a colour, then you only need to check what’s relevant to this. Such as, colour contrast and colour blindness.
 
 ## Planning for swarms
 The level of Accessibility Swarm (team or developer swarm) should be defined up front. So that planning sessions can include Accessibility Swarm effort. 
-
-## Who can take part
-- You don’t need to have worked on the ticket
-- All disciplines can join in. The **[testing steps](accessibility-and-testing-with-assistive-technology)** enable anyone, in any role, to use any of the assistive technology for the first time.
-- Ideally you want a mix of roles such as Business Analyst, Designer and Developer
 
 ## How to carry out a swarm
 - Get the equipment you need:
@@ -47,6 +45,8 @@ The level of Accessibility Swarm (team or developer swarm) should be defined up 
 - Make notes of any issues
 - Prioritise bugs
 
+Afterwards, create tickets to fix all the issues. Include information on how to replicate the issue and the priority level.
+
 ## How long will the swarm take?
 - Some swarms will be shorter, some longer
 - Allow 2 hours
@@ -61,7 +61,7 @@ The level of Accessibility Swarm (team or developer swarm) should be defined up 
 
 ## Be proactive
 - Any role can start a swarm – Business Analyst, Designer, Developer etc.
-- Product Owners, Project Managers & Testers – Should be asking if a swarm has taken place on a ticket
+- Product Owners, Project Managers & Testers should be asking if a swarm has taken place on a ticket
 
 ## Top tips
 - Work at component level rather than page level
