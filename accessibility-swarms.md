@@ -13,7 +13,7 @@ Swarms take place on **all new front-end code**, this means any changes to HTML,
 
 ## Who takes part?
 ### If it’s a new component or feature
-Carry out a **team swarm**, with 4 to 6 people.
+Carry out a **Team Accessibility Swarm**, with 4 to 6 people.
 
 - You don’t need to have worked on the ticket
 - All disciplines can join in. The **[testing steps](accessibility-and-testing-with-assistive-technology)** enable anyone, in any role, to use any of the assistive technology for the first time.
@@ -21,7 +21,7 @@ Carry out a **team swarm**, with 4 to 6 people.
 - If you don't have a large team, why not invite people from another team to take part. And you can return the favour for them sometime.
 
 ### If it’s a small change
-Carry out a **developer swarm**.
+Carry out a **Developer Accessibility Swarm**.
 
 - You don’t need 4 to 6 people
 - 2 developers can work through the **[checklist](accessibility-news-and-testers)** alone
