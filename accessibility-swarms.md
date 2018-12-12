@@ -54,7 +54,7 @@ Afterwards, create tickets to fix all the issues. Include information on how to 
 
 ## When a ticket moves to Test
 - Confirm if an Accessibility Swarm has taken place and what was tested during the swarm 
-- If the checklist was not completed, fill in the gaps to ensure you have complete testing coverage
+- If the **[checklist](accessibility-news-and-testers)** was not completed, fill in the gaps to ensure you have complete testing coverage
 - If the code hasn’t changed since the swarm, you **do not** need to repeat what was carried out in the swarm
 - Test against Accessibility Acceptance Criteria
 - If time, test with assistive technology  using more devices and operating system versions
