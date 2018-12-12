@@ -45,7 +45,7 @@ The level of Accessibility Swarm (team or developer swarm) should be defined up 
 - Make notes of any issues
 - Prioritise bugs
 
-Afterwards, create tickets to fix all the issues. Include information on how to replicate the issue and the priority level.
+After the swarm, create tickets to fix the issues you aren't going to address in your current pull request. Include information on how to replicate the issue and the priority level.
 
 ## How long will the swarm take?
 - Some swarms will be shorter, some longer
