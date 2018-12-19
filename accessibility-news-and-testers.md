@@ -28,7 +28,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. View the feature with **High Contrast** mode on PC. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Personalization' settings in the Control Panel and view the feature with all the different High Contrast modes.
 
-0. View the feature with the **colour preferences** changed in FireFox. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Preferences' under the 'Firefox' menu, then under 'Language and Appearance', select 'Colours' and change the colours for text, background, unvisited and visited links.
+0. View the feature with the **colour preferences** changed in FireFox. Can all elements in the feature still be seen? Can you identify links etc.? Go to the 'Preferences' under the 'Firefox' menu, then under 'Language and Appearance', select 'Colours' and change the colours for text, background, unvisited and visited links, then select 'Always' for 'Override the colours specified by the page with your selections above'. After testing, you will need to [restore the default colors](https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use). 
 
 0. View the feature with **text resized to 200%**. Can all elements in the feature still be seen? Go to the browser preferences and set the font size to the largest default setting.
 
