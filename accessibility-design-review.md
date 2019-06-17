@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accessibility Design Review
+title: Accessibility design review
 ---
 All the digital products we produce must meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/)**. 
 
@@ -28,7 +28,7 @@ Work through the checklist together. Use each item as a conversation point and m
 3. **[Best practice](#best-practice)**
 4. **[User research](#user-research)**
 
-### Screen reader UX
+### 1) Screen reader UX
 Defining the screen reader UX is part of the design process. This communicates the user experience for screen reader users to the development team.
 
 - Without showing the reviewer a visual. Use the screen reader UX to describe the component.
@@ -37,22 +37,22 @@ Defining the screen reader UX is part of the design process. This communicates t
 
 Don’t worry **if you haven’t** documented the screen reader user experience yet. You can define this as part of the review process, after the rest of the items in the checklist are complete.
 
-### Initial look and see
+### 2) Initial look and see
 Have an initial look at the visual user experience. Does anything stand out as an accessibility concern?
 
 - Take it in turn to try and spot an issue
 - If you are having to explain a part of the user experience, that could be an area to explore making clearer
 
-### Most users, most the time
+### 3) Most users, most the time
 Work through the **[key considerations](https://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility#key-considerations)** for users, this will cover 80% of people, 80% of the time. 
 
-### Best practice
+### 4) Best practice
 Use the following best practice accessibility guides as a conversation point:
 
 - **[Dos and don’ts of designing for accessibility](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)** posters by Home Office Digital
 - **[Inclusive Design Principles](https://inclusivedesignprinciples.org/posters/single.pdf)** posters by Barclays (a more **[detailed version of the inclusive design principles](https://inclusivedesignprinciples.org/posters/multiple.pdf)** is also available).
 
-### User research
+### 5) User research
 Has any **[user research](https://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility#user-testing)** taken place, or is any user research planned? If so, have you included participants with accessibility needs? 
 
-Not sure who to include and when, see the **[Researching access needs](https://github.com/UKHomeOffice/posters/blob/master/accessibility/researching-access-needs/Research-who_to_include_when%3F.pdf)** poster by Home Office Digital.
+Not sure who to include and when, see the **[researching access needs: who to include when](https://github.com/UKHomeOffice/posters/blob/master/accessibility/researching-access-needs/Research-who_to_include_when%3F.pdf)** poster by Home Office Digital.
