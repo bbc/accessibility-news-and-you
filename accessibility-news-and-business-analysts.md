@@ -12,7 +12,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Has accessibility been thought about for the feature?
 
-0. Have you written accessibility acceptance criteria? If guidance is needed, write these with an Accessibility Champion in your team.
+0. Have you written accessibility acceptance criteria? If not or you aren't sure how, see the guide to **[writing accessibility acceptance criteria](accessibility-acceptance-criteria)**.
 
 ## Checklist - When live
 
