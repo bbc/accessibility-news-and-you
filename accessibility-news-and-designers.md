@@ -28,7 +28,7 @@ For designs created using Sketch or Photoshop etc.
 
 ### Checklist - Before design sign off
 
-0. Accessibility Champion Review - Get your designs peer reviewed, from a champion in the product/feature team, before sign off and/or development starts.
+0. [Accessibility design review](accessibility-design-review) - Get your designs peer reviewed, from a champion in the product/feature team, before sign off and/or development starts.
 
 0. Does your design use icons? Meaning should not just be conveyed with images, do the icons need some off-screen (visually hidden) text so users of assistive technology don't miss out? If so, what would this text be? Discuss this with the development team.
 
