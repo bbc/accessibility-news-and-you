@@ -96,7 +96,7 @@ If the component was an ordered list, you could list the key and high risk eleme
 
 0. List semantics for screen reader users
 1. List item numbers must be announced to screen reader users
-2. List item numbers must meet the colour contrast ratio of 4.1:5
+2. List item numbers must meet colour contrast levels
 3. Read from left to right when in 2 columns or more
 
 **[Back to 'list key and high risk elements'](#3-list-key-and-high-risk-elements)**
