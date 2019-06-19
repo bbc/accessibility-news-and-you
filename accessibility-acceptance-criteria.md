@@ -72,7 +72,7 @@ The criteria should be visible to all the team, including technical and non-tech
 
 - **[Focus order](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/focus-order)** - Does keyboard focus need to move to a particular element after a page interaction? For example, when activating a ‘Show more updates’ button. Focus will need to move to the new content if displayed above the button in the content order.
 
-- **[HTML markup](https://developer.mozilla.org/en-US/docs/Web/HTML)** - A sighted user can identify elements and their meaning by looking at them. For example, they can identify a heading because the font size is usually larger than that of other text. For screen reader users you convey that meaning by using **[semantic HTML markup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)**. In this case by using a HTML heading element.
+- **[HTML markup](https://developer.mozilla.org/en-US/docs/Web/HTML)** - A sighted user can identify elements and their meaning by looking at them. For example, they can identify a heading because the font size is usually larger than that of other text. For screen reader users you convey that meaning by using **[semantic HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)**. In this case by using a HTML heading element.
 
 - **[Landmarks](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/containers-and-landmarks)** - Does the screen reader UX include any **[ARIA landmarks](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html)**? For the component itself and/or should the component sit within a specific landmark? Such as a navigation landmark within the banner landmark.
 
