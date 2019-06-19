@@ -2,7 +2,7 @@
 layout: page
 title: Accessibility design review
 ---
-All the digital products we produce must meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/)**. 
+All the digital products we produce must meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**. 
 
 Accessibility design reviews will help embed accessibility in components from the start:
 
