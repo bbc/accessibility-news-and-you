@@ -6,14 +6,14 @@ All the digital products we produce must meet the **[BBC Accessibility Guideline
 
 Accessibility design reviews will help embed accessibility in components from the start:
 
-- Carry out a review on all design work before sign-off
+- Carry out a review on **all design work before sign-off**
 - For new components as well as iterations
 - Allow enough time to address any issues after the review
 
 Read **[getting started](https://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility#getting-started)** for somethings to consider before the review takes place.
 
 ## Organise a review
-- Ask an Accessibility Champion (from any discipline) to review the component with you
+- Ask an **Accessibility Champion** (from any discipline) to review the component with you
 - Allow 1 to 2 hours for the review, depending on the complexity of the component
 - Review at component level rather than page level
 
@@ -22,11 +22,11 @@ Working on a large project? If so, organise regular reviews throughout the desig
 ## Review checklist
 Work through the checklist together. Use each item as a conversation point and make a note of any issues or concerns that arise.
 
-0. **[Screen reader UX](#screen-reader-ux)**
-1. **[Initial look and see](#initial-look-and-see)**
-2. **[Most users, most the time](#most-users-most-the-time)**
-3. **[Best practice](#best-practice)**
-4. **[User research](#user-research)**
+0. **[Screen reader UX](#1-screen-reader-ux)**
+1. **[Initial look and see](#2-initial-look-and-see)**
+2. **[Most users, most the time](#3-most-users-most-the-time)**
+3. **[Best practice](#4-best-practice)**
+4. **[User research](#5-user-research)**
 
 ### 1) Screen reader UX
 Defining the screen reader UX is part of the design process. This communicates the user experience for screen reader users to the development team.
