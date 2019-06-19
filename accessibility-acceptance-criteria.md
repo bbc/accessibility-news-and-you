@@ -2,7 +2,7 @@
 layout: page
 title: A guide to writing accessibility acceptance criteria
 ---
-Accessibility acceptance criteria is one of the practices that helps us meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/)**.
+Accessibility acceptance criteria is one of the practices that helps us meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**.
 
 Here accessibility acceptance criteria defines conditions for elements:
 
@@ -11,11 +11,11 @@ Here accessibility acceptance criteria defines conditions for elements:
 
 Write this where relevant, for **new components and iterations before the development phase**. Note, this guide uses the **[GDS approach](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/)** as a basis, there are other ways that you could approach this. We will use the following steps:
 
-0. **[Accessibility design review confirmation](#accessibility-design-review-confirmation)**
-1. **[Gather documentation](#gather-documentation)**
-2. **[List key and high risk elements](#list-key-and-high-risk-elements)**
-3. **[Write the scenarios](#write-the-scenarios)**
-4. **[Make everyone aware](#make-everyone-aware)**
+0. **[Accessibility design review confirmation](#1-accessibility-design-review-confirmation)**
+1. **[Gather documentation](#2-gather-documentation)**
+2. **[List key and high risk elements](#3-list-key-and-high-risk-elements)**
+3. **[Write the scenarios](#4-write-the-scenarios)**
+4. **[Make everyone aware](#5-make-everyone-aware)**
 
 ## 1) Accessibility design review confirmation
 Confirm if the component you are writing criteria for has had a **[review for accessibility](accessibility-design-review)**. If this hasn’t taken place, ask UX to carry out a review before proceeding to the next step.
@@ -36,7 +36,7 @@ Hold a **[Three Amigos](https://en.wikipedia.org/wiki/Behavior-driven_developmen
 
 Alongside the gathered documentation, **use guidelines to help you** identify elements. Note, you do not need to identify and list everything that would make the component accessible. Your aim isn’t to reproduce guidelines, such as:
 
-- **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/)**
+- **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**
 - **[WCAG](https://www.w3.org/TR/WCAG21/)**
 - **[WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/)**
 - **[ARIA states and properties](https://www.w3.org/TR/wai-aria-1.1/#state_prop_def)**
@@ -78,7 +78,7 @@ The criteria should be visible to all the team, including engineers and non-tech
 
 - **Visually hidden content** - Are there any elements in the screen reader UX that you don’t have in the visual user experience? Such as heading that isn't needed visual design.
 
-**[Back to 'list key and high risk elements'](#list-key-and-high-risk-elements)**
+**[Back to 'list key and high risk elements'](#3-list-key-and-high-risk-elements)**
 
 ### Examples of elements that are at high risk of introducing an accessibility issue
 
@@ -88,7 +88,7 @@ The criteria should be visible to all the team, including engineers and non-tech
 
 - **Hidden content** - Is there any hidden content? Such as an unexpanded menu. If the menu isn't hidden correctly, it's at at high risk of introducing an accessibility issue. The menu items could be available to screen reader users when they shouldn't be.
 
-**[Back to 'list key and high risk elements'](#list-key-and-high-risk-elements)**
+**[Back to 'list key and high risk elements'](#3-list-key-and-high-risk-elements)**
 
 ### Example list of key and high risk elements for an ordered list component
 
@@ -99,7 +99,7 @@ If the component was an ordered list, you could list the key and high risk eleme
 2. List item numbers must meet the colour contrast ratio of 4.1:5
 3. Read from left to right when in 2 columns or more
 
-**[Back to 'list key and high risk elements'](#list-key-and-high-risk-elements)**
+**[Back to 'list key and high risk elements'](#3-list-key-and-high-risk-elements)**
 
 ### Example scenarios for an ordered list component
 In our example, using the list of key and high risk elements for an ordered list, the scenarios could be:
@@ -121,4 +121,4 @@ In our example, using the list of key and high risk elements for an ordered list
 - When the list items are displayed in 2 columns or more
 - Then each column must read from left to right
 
-**[Back to 'write the scenarios'](#write-the-scenarios)**
+**[Back to 'write the scenarios'](#4-write-the-scenarios)**
