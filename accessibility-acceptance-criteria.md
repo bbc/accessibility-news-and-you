@@ -9,9 +9,7 @@ Accessibility acceptance criteria defines conditions for elements:
 - That play a key part in a component being accessible
 - That are at high risk of introducing an accessibility issue
 
-Write accessibility acceptance criteria where relevant, for **new components and iterations** of existing components **before the development phase**.
-
-Note, this guide uses the **[GDS approach to defining accessibility acceptance criteria](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/)** as a basis, there are other ways you can approach this. 
+Write accessibility acceptance criteria where relevant, for **new components and iterations** of existing components **before the development phase**. Note, this guide uses the **[GDS approach to defining accessibility acceptance criteria](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/)** as a basis, there are other ways you can approach this. 
 
 We will use the following steps:
 
