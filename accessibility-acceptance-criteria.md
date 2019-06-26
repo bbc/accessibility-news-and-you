@@ -2,14 +2,18 @@
 layout: page
 title: A guide to writing accessibility acceptance criteria
 ---
-Accessibility acceptance criteria is one of the practices that helps us meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**.
+Defining accessibility acceptance criteria is one of the practices that helps us meet the **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**.
 
-Here accessibility acceptance criteria defines conditions for elements:
+Accessibility acceptance criteria defines conditions for elements:
 
 - That play a key part in a component being accessible
 - That are at high risk of introducing an accessibility issue
 
-Write this where relevant, for **new components and iterations before the development phase**. Note, this guide uses the **[GDS approach](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/)** as a basis, there are other ways that you could approach this. We will use the following steps:
+Write accessibility acceptance criteria where relevant, for **new components and iterations** of existing components **before the development phase**.
+
+Note, this guide uses the **[GDS approach to defining accessibility acceptance criteria](https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/)** as a basis, there are other ways you can approach this. 
+
+We will use the following steps:
 
 0. **[Accessibility design review confirmation](#1-accessibility-design-review-confirmation)**
 1. **[Gather documentation](#2-gather-documentation)**
@@ -26,7 +30,7 @@ Gather the following documentation. This will form a basis for writing the acces
 - Documented visual user experience
 - Documented screen reader UX
 
-Ask UX for this documentation if it's missing, before proceeding to the next step.
+Ask UX for this documentation if it's missing before proceeding to the next step.
 
 ## 3) List key and high risk elements
 Hold a **[Three Amigos](https://en.wikipedia.org/wiki/Behavior-driven_development#The_Three_Amigos)** session including a **designer** and **accessibility champion**. Here you should use the gathered documentation to **make a list** of elements:
@@ -36,11 +40,11 @@ Hold a **[Three Amigos](https://en.wikipedia.org/wiki/Behavior-driven_developmen
 
 Alongside the gathered documentation, **use guidelines to help you** identify elements. Note, you do not need to identify and list everything that would make the component accessible. Your aim isn’t to reproduce guidelines, such as:
 
-- **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**
-- **[WCAG](https://www.w3.org/TR/WCAG21/)**
-- **[WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/)**
-- **[ARIA states and properties](https://www.w3.org/TR/wai-aria-1.1/#state_prop_def)**
 - **[ARIA landmarks examples](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html)**
+- **[ARIA states and properties](https://www.w3.org/TR/wai-aria-1.1/#state_prop_def)**
+- **[BBC Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)**
+- **[WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/)**
+- **[WCAG](https://www.w3.org/TR/WCAG21/)**
 
 Need an example? See **[example list of key and high risk elements for an ordered list component](#example-list-of-key-and-high-risk-elements-for-an-ordered-list-component)**.
 
@@ -68,13 +72,13 @@ The criteria should be visible to all the team, including technical and non-tech
 
 - **[Content order](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-order)** - Is the content order in the screen reader UX different to the visual user experience? For example, you might position a close button in the top righthand corner of a component. We can improve the screen reader UX by announcing this button at the end of the component.
 
-- **Extra meaning** - Is the screen reader UX improved by reinforcing or providing extra semantics? For example, accordions that expand or collapse content have an arrow icon to convey this. This meaning should also convey to screen reader users. Such as via the aria-expanded attribute.
+- **Extra meaning** - Is the screen reader UX improved by reinforcing or providing extra semantics? For example, accordions that expand or collapse content have an arrow icon to convey this. This meaning should also be conveyed to screen reader users. Such as via the aria-expanded attribute.
 
 - **[Focus order](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/focus-order)** - Does keyboard focus need to move to a particular element after a page interaction? For example, when activating a ‘Show more updates’ button. Focus will need to move to the new content if displayed above the button in the content order.
 
-- **[HTML markup](https://developer.mozilla.org/en-US/docs/Web/HTML)** - A sighted user can identify elements and their meaning by looking at them. For example, they can identify a heading because the font size is usually larger than that of other text. For screen reader users you convey that meaning by using **[semantic HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)**. In this case by using a HTML heading element.
+- **[HTML markup](https://developer.mozilla.org/en-US/docs/Web/HTML)** - A sighted user can identify elements and their meaning by looking at them. For example, they can identify a heading because the font size is usually larger than that of other text. For screen reader users you must convey that meaning by using **[semantic HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)**. In this case by using a HTML heading element.
 
-- **[Landmarks](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/containers-and-landmarks)** - Does the screen reader UX include any **[ARIA landmarks](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html)**? For the component itself and/or should the component sit within a specific landmark? Such as a navigation landmark within the banner landmark.
+- **[Landmarks](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/containers-and-landmarks)** - Does the screen reader UX include any **[ARIA landmarks](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html)** for the component? And should the component sit within a specific landmark? Such as a navigation landmark within the banner landmark.
 
 - **Visually hidden content** - Are there any elements in the screen reader UX that you don’t have in the visual user experience? Such as heading that isn't needed in the visual design.
 
@@ -84,9 +88,9 @@ The criteria should be visible to all the team, including technical and non-tech
 
 - **Colour contrast** - A component’s use of colour can increase the risk of introducing an accessibility issue. Imagine dark grey text on a light grey background, this may meet **[colour contrast levels](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/colour-contrast)**. A slight change of shade to one of the greys, is at high risk of reducing colour contrast to an unacceptable level.
 
-- **[Headings](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/headings)** - Correct use of heading levels within components is important to screen reader users. A change to a heading level is at high risk of breaking a component or page heading structure.
+- **[Headings](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/headings)** - Correct use of headings within components is important for screen reader users. A change to a **[heading level](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)** is at high risk of breaking a component or page heading structure.
 
-- **Hidden content** - If content isn't hidden correctly, it's at high risk of introducing an accessibility issue. Such as in an unexpanded menu. The menu items could be available to screen reader users when they shouldn't be.
+- **Hidden content** - If content isn't hidden correctly, it's at high risk of introducing an accessibility issue. An example of this would be an unexpanded menu. The menu items could be available to screen reader users when they shouldn't be.
 
 **[Back to 'list key and high risk elements'](#3-list-key-and-high-risk-elements)**
 
