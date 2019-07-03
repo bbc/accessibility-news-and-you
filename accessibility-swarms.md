@@ -17,7 +17,7 @@ Carry out a **Team Accessibility Swarm**, with 4 to 6 people.
 
 - You don’t need to have worked on the ticket
 - All disciplines can join in. The **[testing steps](accessibility-and-testing-with-assistive-technology)** enable anyone, in any role, to use any of the assistive technology for the first time.
-- Ideally you want a mix of roles such as Business Analyst, Designer and Developer
+- Ideally you want a mix of roles such as Business Analyst, Designer and Developer etc. 
 - If you don't have a large team, why not invite people from another team to take part. And you can return the favour for them sometime.
 
 ### If it’s a small change
@@ -60,8 +60,8 @@ After the swarm, create tickets to fix the issues you aren't going to address in
 - If time, test with assistive technology  using more devices and operating system versions
 
 ## Be proactive
-- Any role can start a swarm – Business Analyst, Designer, Developer etc.
-- Product Owners, Project Managers & Testers should be asking if a swarm has taken place on a ticket
+- Any discipline can request and start a swarm – Business Analyst, Designer, Developer etc.
+- Product Owners, Project Managers & Testers should be asking if a swarm has taken place
 
 ## Top tips
 - Work at component level rather than page level
