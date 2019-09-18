@@ -5,7 +5,7 @@ title: Accessibility and Testing with Assistive Technology
 
 Usage instructions and testing steps for supported assistive technology. Test on an actual device if possible. Is the feature useable, does it make sense?
 
-Testing with assistive technology is just one part of the [Testers checklist](https://bbc-news.github.io/accessibility-news-and-you/accessibility-news-and-testers).
+Testing with assistive technology is just one part of the [Testers checklist](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-testers).
 
 Not sure which assistive technology you should be testing with? See [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology).
 
