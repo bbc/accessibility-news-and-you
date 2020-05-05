@@ -4,7 +4,7 @@ title: Accessibility, News and Developers
 ---
 Accessibility should be considered from the start of development and throughout the process.
 
-0. Are you aware of the [BBC Accessibility Standards and Guidelines](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/)? Some simple quick checks are outlined here, please refer to the guidelines for in depth information.
+0. Are you aware of the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)? Some simple quick checks are outlined here, please refer to the guidelines for in depth information.
 
 0. Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers? And how to use this?
 
@@ -12,7 +12,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklist - Before development starts
 
-0. Has there been an **Accessibility Review** for the product feature? (Part of the design checklist). Question/Check the **design** you are working from. Are elements styled correctly? e.g. Do links use the standard link colour and have the standard associated hover and focus styles? Do all elements meet [colour contrast](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile/design/colour-contrast) levels? Use a tool such as [contrast checker](http://webaim.org/resources/contrastchecker/) to check. All colours should meet a level of 4.5:1 or higher.
+0. Has there been an **Accessibility Review** for the product feature? (Part of the design checklist). Question/Check the **design** you are working from. Are elements styled correctly? e.g. Do links use the standard link colour and have the standard associated hover and focus styles? Do all elements meet [colour contrast](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/colour-contrast) levels? Use a tool such as [contrast checker](http://webaim.org/resources/contrastchecker/) to check. All colours should meet a level of 4.5:1 or higher.
 
 0. Does the design use **icons**? Meaning should not just be conveyed with icons/images, do the icons need some off-screen (visually hidden) text so users of assistive technology don't miss out? If so, what would this text be?
 
@@ -41,7 +41,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklist - Before code merge
 
-0. **Manually check the heading order**. Do the [heading](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/html/headings.shtml) and the heading order actually make sense? If working on a **foreign language site**, use Google Translate to check what the headers actually say. You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.)
+0. **Manually check the heading order**. Do the [heading](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/headings) and the heading order actually make sense? If working on a **foreign language site**, use Google Translate to check what the headers actually say. You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox. (Under ‘Information’ select ‘View Document Outline’ - This will show you the heading structure for the selected page.)
 
 0. **Colour blindness** - Use the [ChromeLens](http://chromelens.xyz/) dev tool extension to view the code with different vision issues. Let UX know if there are some concerns.
 
