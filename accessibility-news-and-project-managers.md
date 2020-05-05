@@ -4,7 +4,7 @@ title: Accessibility, News and Project Managers
 ---
 Accessibility should be considered from the start of the project and into operational use.
 
-0. Are you aware of the [BBC Accessibility Standards and Guidelines](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/)?
+0. Are you aware of the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)?
 
 0. Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers?
 
