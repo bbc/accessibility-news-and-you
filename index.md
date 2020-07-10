@@ -34,4 +34,4 @@ Watch the following two short videos for a quick introduction on accessibility.
 - [Accessibility Acceptance Criteria](accessibility-acceptance-criteria)
 - [Accessibility Design Review](accessibility-design-review)
 - [Accessibility Swarms](accessibility-swarms)
-- [How to document the screen reader user experience](/guides/screen-reader-ux)
+- [How to document the screen reader user experience](/accessibility-news-and-you/guides/screen-reader-ux.html)
