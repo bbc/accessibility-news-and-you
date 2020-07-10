@@ -1,0 +1,752 @@
+html {
+  font-size: 100%;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #3f3f42;
+  font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222222;
+    color: #fdfdfd;
+  }
+}
+
+
+/* Links
+--------------------------------------------------------*/
+.header a:link,
+.header a:visited {
+  border-bottom: 0.0625rem solid #9f8644; /* 1px */
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.main a:link,
+.main a:visited {
+  border-bottom: 0.0625rem solid #88733c; /* 1px */
+  color: #88733c;
+  text-decoration: none;
+}
+
+.details a:link,
+.details a:visited {
+  border-bottom: 0.0625rem solid #816c35; /* 1px */
+  color: #816c35;
+}
+
+.footer a:link,
+.footer a:visited {
+  border-bottom: 0.0625rem solid #9f8644; /* 1px */
+  color: #9f8644;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .main a:link,
+  .main a:visited {
+    border-color: #9f8644;
+    color: #9f8644;
+  }
+
+  .details a:link,
+  .details a:visited {
+    border-color: #c8a955;
+    color: #c8a955;
+  } 
+}
+
+.header a:hover,
+.footer a:hover {
+  border-bottom: 0.125rem solid #79afdf; /* 2px */
+  color: #79afdf;
+}
+
+.main a:hover {
+  border-bottom: 0.125rem solid #41729d; /* 2px */
+  color: #41729d;
+}
+
+@media (prefers-color-scheme: dark) {
+  .main a:hover,
+  .details a:hover {
+    border-color: #79afdf;
+    color: #79afdf;
+  } 
+}
+
+.header a:focus,
+.main a:focus,
+.footer a:focus {
+  background-color: #41729d;
+
+  /* 2px - border on focus so there is a visual state change 
+  when background colours are not used e.g. high contrast mode */
+  border-bottom: 0.125rem solid #41729d;
+  color: #ffffff;
+
+  /* minus left and right margin, and left and right padding to 
+  increase the background for buffer between the end of the 
+  background colour and the actual letter */
+  margin: 0 -0.125rem; /* 0 -2px */
+  padding: 0.1875rem 0.125rem 0; /* 3px 2px 0 */
+
+  /*
+  - Fixes FF bug where links wrap onto two lines causing a text to move on focus due to the extra padding 
+  - Also used for links that wrap onto two lines - the letter on the end of the line has a slight background buffer */
+  white-space: pre-wrap;
+}
+
+
+/* Visualy hidden
+--------------------------------------------------------*/
+.vh {
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  -webkit-clip: rect(1px,1px,1px,1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  position: absolute;
+  width: 1px;
+  overflow: hidden;
+  margin: 0px;
+}
+
+
+/* General rules
+--------------------------------------------------------*/
+.header {
+  background-color: #222222;
+  border-bottom: 0.0625rem solid transparent; /* 1px - Border for when background colours are not used e.g. high contrast mode */
+}
+
+.footer {
+  background-color: #222222;
+  border-top: 0.0625rem solid transparent; /* 1px - Border for when background colours are not used e.g. high contrast mode */
+  color: #fdfdfd;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header,
+  .footer {
+    background-color: #000000;
+  }
+}
+
+.header a {
+  font-size: 1rem;
+  font-weight: bolder;
+  line-height: 1.375rem;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.25rem;
+  margin: 0 0 2rem;
+  padding: 1.5rem 0 0;
+}
+
+.h1_label {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase; 
+  width: 100%;
+}
+
+.h2,
+.h3 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  margin: 0 0 1.5rem;
+  padding: 1.5rem 0 0;
+}
+
+.h2 {
+  font-weight: 700;
+}
+
+.h3 {
+  font-weight: 500;
+}
+
+.back-to + .h2,
+.back-to + .h3 {
+  margin-top: 1.5rem;
+}
+
+.main p,
+.footer p:first-child {
+  margin: 0 0 1.5rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.main p,
+.back-to {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.footer p {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.back-to {
+  display: inline;
+}
+
+.main small {
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  margin: 0 0 1.5rem;
+}
+
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+b,
+strong {
+  font-weight: 400;
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+    
+i,
+em {
+  font-style: italic;
+}
+
+img {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+img.image_show-more-updates {
+  margin-bottom: 0;
+}
+
+
+/* Table of contents
+--------------------------------------------------------*/
+.page-contents {
+  margin-bottom: 1.5rem;
+}
+
+.page-contents_strong {
+  display: block;
+  margin-bottom: 1rem; 
+  padding-top: 1.5rem;
+}
+
+.page-contents li {
+  border-left: 0.0625rem solid #3f3f42; /* 1px */
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page-contents li {
+    border-color: #fdfdfd;
+  }
+}
+
+
+/* Body copy list
+--------------------------------------------------------*/
+.body-copy-list.no-space {
+  margin-bottom: 1.5rem;
+}
+
+.body-copy-list li {
+  margin: 0 0 1.5rem 1rem;
+  position: relative;
+}
+
+.body-copy-list.no-space li {
+  margin-bottom: 0;
+}
+
+.body-copy-list li:before {
+  border: .1875rem solid #3f3f42; /* 3px */
+  border-radius: 50%;
+  content: '';
+  left: -1rem;
+  position: absolute;
+  top: .5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .body-copy-list li:before {
+    border-color: #fdfdfd;
+  }
+}
+
+
+/* Details
+--------------------------------------------------------*/
+.details {
+  background-color: #f2f2f2;
+  display: block; /*IE11 fix */
+  border: 0.0625rem solid transparent; /* 1px */
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .details {
+    background-color: #3f3f42;
+  }
+}
+
+/* Details > Summary */
+.details summary {
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  list-style-type: none;
+  margin-left: 1.5rem;
+  position: relative;
+}
+
+.details summary::-webkit-details-marker {
+  display: none;
+}
+
+.details summary:hover,
+.details summary:focus {
+  color: #41729d;
+  text-decoration: underline;
+  cursor: pointer;
+} 
+
+.details summary:focus {
+  outline: 0.0625rem solid transparent; /* 1px */
+  /* Using transparent colour as outlines look really 
+  odd in Safari when you activate these elements - 
+  Have used transparent colour to improve accessiblity 
+  as much as possible and added text underline */
+}
+
+@media (prefers-color-scheme: dark) {
+  .details summary:hover,
+  .details summary:focus {
+    color: #c8a955;
+  }
+}
+
+/* Details > Summary triangle icon */
+.details summary:before {
+  content: '';
+  left: -1.5rem; 
+  position: absolute;
+  top: .25rem; /* 4px */
+  height: .5rem; /* 8px */
+  width: .5rem; /* 8px */
+  border-right: .25rem solid #3f3f42; /* 4px */
+  border-top: .25rem solid #3f3f42; /* 4px */
+  transform: rotate(45deg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .details summary:before {
+    border-color: #fdfdfd;
+  }
+}
+
+.details[open] summary:before {
+  transform: rotate(135deg);
+  left: -1.3125rem; /* 21px */
+  top: .0625rem; /* 1px */
+}
+
+/* Details > h4 */
+.details_h4 {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+/* Details > Spacing */
+.details summary + .details_h4,
+.details summary + p,
+.details summary + .body-copy-list,
+.details .body-copy-list + p {
+  margin-top: 1.5rem;
+}
+
+.details p:last-child,
+.details .body-copy-list li:last-child {
+  margin-bottom: 0;
+}
+
+.details p.details_after-last-table,
+.details small.details_after-last-table {
+  margin: 1.5rem 0 0;
+}
+
+
+/* Tables
+--------------------------------------------------------*/
+.table-container + .table-container {
+  margin-top: 2rem;
+}
+
+.table-screen-reader-ux {
+  border-collapse: collapse;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  width: 100%;
+}
+
+.table-screen-reader-ux caption {
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin: 0 0 1rem;
+}
+
+.table-screen-reader-ux tr {
+  border-bottom: 0.0625rem solid #6f6e6e; /* 1px */
+}
+
+@media (prefers-color-scheme: dark) {
+  .table-screen-reader-ux tr {
+    border-color: #fdfdfd;
+  }
+}
+
+.table-screen-reader-ux th,
+.table-screen-reader-ux td {
+  padding: .5rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-screen-reader-ux th {
+  font-weight: bolder;
+}
+
+.table-screen-reader-ux .th-2,
+.table-screen-reader-ux th + td {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table-apps .th-3,
+.table-apps th + td + td {
+  padding-right: 1rem;
+}
+
+
+/* Formatted code example
+--------------------------------------------------------*/
+.code-example-screen-reader-ux {
+  background-color: #f2f2f2;
+  border: 0.0625rem solid transparent;
+  overflow-x: auto;
+  margin: 0 0 1.5rem;
+}
+
+.code-example-screen-reader-ux pre {
+  /*display: inline-block; This fixes the padding right not being respectd though this causes a bigger issue which is a font size bug in Safari on iOS */
+  /*font-size: 0.8125rem; Applying a font sizes causes the font size to vary in browsers */
+  font-weight: 400;
+  line-height: 1rem;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.code-example_html {
+  color: #8b4513;
+}
+
+.code-example_attribute {
+  color: #191970;
+}
+
+.code-example_value {
+  color: #483d8b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .code-example-screen-reader-ux {
+    background-color: #3f3f42;
+  }
+
+  .code-example_html {
+    color: #daa520;
+  }
+
+  .code-example_attribute {
+    color: #d3d3d3;
+  }
+
+  .code-example_value {
+    color: #b0c4de;
+  }
+}
+
+
+/* 0 to 599px
+--------------------------------------------------------*/
+@media (max-width: 37.4375rem) {
+.header {
+  padding: .85rem 1rem;
+}
+
+.main {
+  padding: 0 1rem 4rem;
+}
+
+.footer {
+  padding: 1.5rem 1rem;
+}
+
+.image_byline {
+  width: 72%;
+}
+
+.image_topic-tag {
+  width: 85%;
+}
+
+.image_show-more-updates {
+  width: 100%;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-screen-reader-ux {
+  width: 32.4375rem; /* 519px */
+}
+
+.table-web .th-1,
+.table-web tbody > tr > th {
+  width: 17%;
+}
+
+.table-web .th-2,
+.table-web tbody > tr > th + td {
+  width: 24%;
+}
+
+.table-apps .th-1,
+.table-apps tbody > tr > th {
+  width: 12%
+}
+
+.table-apps .th-2,
+.table-apps tbody > tr > th + td {
+  width: 38%
+}
+
+.table-apps .th-3,
+.table-apps tbody > tr > th + td + td {
+  width: 26%
+}
+}
+
+
+/* 600px to 1007px
+--------------------------------------------------------*/
+@media (min-width: 37.5rem) { /* 400 / 16 */
+.header {
+  padding: .85rem 5rem;
+}
+
+.main {
+  padding: 0 5rem 3.5em;
+}
+
+.footer {
+  padding: 3rem 5rem;
+}
+
+.h1 {
+  font-size: 2.75rem;
+  line-height: 3rem;
+  padding: 2rem 0 0;
+  margin: 0 0 2.5rem;
+}
+
+.h2,
+.h3 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin: 0 0 1.5rem;
+  padding: 2rem 0 0;
+}
+
+.image_byline {
+  width: 45%;
+}
+
+.image_topic-tag {
+  width: 57%;
+}
+
+.image_show-more-updates {
+  width: 64%;
+}
+
+.table-container {
+  overflow-x: initial;
+}
+
+.table-web .th-1,
+.table-web tbody > tr > th {
+  width: 23%;
+}
+
+.table-web .th-2,
+.table-web tbody > tr > th + td {
+  width: 32%;
+}
+
+.table-web .th-3,
+.table-web tbody > tr > th + td + td {
+  width: 45%;
+}
+
+.table-apps .th-1,
+.table-apps tbody > tr > th {
+  width: 13%
+}
+
+.table-apps .th-2,
+.table-apps tbody > tr > th + td {
+  width: 38%
+}
+
+.table-apps .th-3,
+.table-apps tbody > tr > th + td + td {
+  width: 30%
+}
+
+.table-apps .th-4,
+.table-apps tbody > tr > th + td + td + td {
+  width: 19%
+}
+}
+
+
+/* 1008px or wider
+--------------------------------------------------------*/
+@media (min-width: 63rem) { /* 420 / 16 */
+.header,
+.main,
+.footer { 
+  display: block; /* IE11 fix */
+  display: grid;
+  grid-template-columns: 1fr repeat(20, minmax(0px, 2.95rem)) 1fr;
+  grid-column-gap: 1rem;
+}
+
+.header,
+.footer {
+  margin: 0 auto; /* auto is IE11 fix */
+}
+
+.main {
+  margin: 0 auto 3.5rem; /* auto is IE11 fix */
+  padding-bottom: 0;
+  width: 600px; /* IE11 fix */
+  width: initial; /* This resets the width - IE11 doesn't support this and therefore uses 600px as the width */
+}
+
+.column-header {
+  grid-column: 2 / span 20;
+}
+
+.column-main {
+  grid-column: 7 / span 10;
+}
+
+.column-footer {
+  grid-column: 2 / span 10;
+}
+
+.column-nav {
+  grid-column: 2 / span 5;
+  height: max-content;
+  position: sticky;
+  top: 1.4em; /* to line up with baseline of h2/h3 */
+}
+
+.image_byline {
+  width: 57%;
+}
+
+.image_topic-tag {
+  width: 65%;
+}
+
+.image_show-more-updates {
+  width: 80%;
+}
+
+.table-web .th-1,
+.table-web tbody > tr > th {
+  width: 20%;
+}
+
+.table-web .th-2,
+.table-web tbody > tr > th + td {
+  width: 30%;
+}
+
+.table-web .th-3,
+.table-web tbody > tr > th + td + td {
+  width: 50%;
+}
+
+.table-apps .th-1,
+.table-apps tbody > tr > th {
+  width: 15%
+}
+
+.table-apps .th-2,
+.table-apps tbody > tr > th + td {
+  width: 28%
+}
+
+.table-apps .th-3,
+.table-apps tbody > tr > th + td + td {
+  width: 30%
+}
+
+.table-apps .th-4,
+.table-apps tbody > tr > th + td + td + td {
+  width: 27%
+}
+}
