@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Web: How to document the screen reader user experience - Accessibility And You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="User experience designers guide - How to document the screen reader user experience for web content. Using your visual as a starting point, we’ll take you step by step through how to document the screen reader UX introducing concepts along the way.">
+    <link rel="stylesheet" href="/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility And You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">User experience designers guide</span><span class="vh">, </span>
+                    <span>How to document the screen reader user experience</span>
+                </span>
+            </h1>
+
+            <p>User experience designers are responsible for designing the user experience. Period. A visual is not enough. This doesn't ensure a good user experience (UX) for all users. Accessible design process includes documenting the non-visual UX, for <a href="https://en.wikipedia.org/wiki/Screen_reader">screen reader</a> users. This also helps in achieving a good user experience for other types of assistive technology users.</p>
+
+            <p>This guide aims to demystify an area that can often be seen as daunting. If you don’t know where to start or maybe weren’t aware that this was your responsibility, then this guide will introduce you to concepts of screen reader UX and how to document this for your component. It’s actually fairly straight forward, and just an extra step to your process. It’s ok to concentrate on the visual user experience first, you’ve got to start somewhere, though always try to keep the screen reader UX in mind.</p>
+
+            <p>This guide won’t necessarily teach you how to make your user experience accessible or what best practice might be for your component. This is where accessibility guidelines come into play, such as the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/">BBC Mobile Accessibility Guidelines</a> or <a href="https://www.w3.org/TR/WCAG/">WCAG</a>. Consult guidelines as part of your process. And also consider other types of assistive technology users.</p>
+
+            <p>Thinking about everything at once can be overwhelming. Let’s focus on the screen reader UX. Using your visual as a starting point, this guide takes you step by step through how to document this for web based content. For native app based content see the <a href="screen-reader-ux-ios-android.html">iOS and Android guide</a>.</p>
+        
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#dont-leave-it-to-chance">Don’t leave it to chance</a></li>
+                    <li role="listitem"><a href="#7-top-tips">7 top tips</a></li>
+                    <li role="listitem"><a href="#step-by-step">Step by step</a></li>
+                    <li role="listitem"><a href="#next-steps">Next steps</a></li>
+                    <li role="listitem"><a href="#ux-review">UX review</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="dont-leave-it-to-chance" class="h2" tabindex="-1">Don’t leave it to chance</h2>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Knowledge</strong> - Like designers, engineers have different skill sets. Some know more about accessibility than others. This documentation will enable you to better communicate and collaborate with engineers.</li>
+
+                <li role="listitem"><strong>Interpretation</strong> - By looking at a visual, many engineers will be able to interpret the screen reader UX. Though their interpretation may not be the same as what you had intended.</li>
+
+                <li role="listitem"><strong>Creative license</strong> - Visual styling doesn’t always follow the rules. For example, as part of a component you might have a heading which has low key styling, as you didn’t want to draw attention to it. Don't assume an engineer will know that this is a heading if it doesn’t look the same as other headings.</li>
+
+                <li role="listitem"><strong>Consistency</strong> - You cannot assume that all engineers will interpret a visual in the same way. If you work in a large team, it’s more than likely multiple engineers will work on your component.</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="7-top-tips" class="h2" tabindex="-1">7 top tips</h2>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Components not pages</strong> - Document at component level, as you would for the visual UX.</li>
+
+                <li role="listitem"><strong>Context</strong> - Don’t forget to consider the context of the component at the page level. This is particularly important when considering heading and landmark structure.</li>
+
+                <li role="listitem"><strong>Consistency</strong> - Ensure you have a consistent user experience. Consistency is good for all users, both at component and page level.</li>
+
+                <li role="listitem"><strong>Verbosity</strong> - Be careful not to make the screen reader UX more verbose than it needs to be. This should be of a similar level to that of the visual UX.</li>
+
+                <li role="listitem"><strong>Engineers are your friends</strong> - If it’s a complex component collaborate with an engineer to document the screen reader UX. Engineers may be able to suggest approaches that you may not have considered. This also makes an excellent starting point for collaboration with engineering.</li>
+
+                <li role="listitem"><strong>Use a screen reader</strong> - Get to know your users. Designing an iteration? Have a go using the testing steps to navigate through the existing iteration. The testing steps enable anyone to use any of the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-supported-assistive-technology">supported assistive technology</a> for the first time.</li>
+
+                <li role="listitem"><strong>Always</strong> - It’s always important to document the screen reader UX, even if it's a small simple component.</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="step-by-step" class="h2" tabindex="-1">Step by step</h2>
+
+            <p>Using your visual as a starting point, we’ll take you step by step through how to document the screen reader UX introducing concepts along the way. We’ll be using a fictional ‘Share’ component as an example. Also see the <a href="/assets/pdf/screen-reader-ux/screen-reader-ux-steps-poster.pdf">steps poster</a> which can be used alongside this guide.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-pencil-and-paper" id="step-by-step-navigation">1 - Pencil and paper</a></li>
+                <li role="listitem"><a href="#step-2-cross-out-elements-you-dont-need">2 - Elements you don’t need</a></li>
+                <li role="listitem"><a href="#step-3-add-any-extra-elements">3 - Add any extra elements</a></li>
+                <li role="listitem"><a href="#step-4-define-the-content-order">4 - Define the content order</a></li>
+                <li role="listitem"><a href="#step-5-define-native-semantic-roles">5 - Define native semantic roles</a></li>
+                <li role="listitem"><a href="#step-6-define-the-announced-content">6 - Define the announced content</a></li>
+                <li role="listitem"><a href="#step-7-add-any-ux-improvements">7 - Add any UX improvements</a></li>
+                <li role="listitem"><a href="#step-8-define-focus-order-and-behaviour">8 - Focus order and behaviour</a></li>
+                <li role="listitem"><a href="#step-9-define-any-landmarks">9 - Define any landmarks</a></li>
+                <li role="listitem"><a href="#step-10-validate-the-experience">10 - Validate the experience</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-pencil-and-paper" class="h3" tabindex="-1">Step 1 - Pencil and paper</h3>
+
+            <p>Like a visual, you might not get this right the first time, doing this with pencil and paper will save you time. You can then document the results in a digital format afterwards.</p>
+
+            <p>So lets start! Grab a pencil or pen if you prefer&hellip; Then do one of the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">A rough sketch of the component (similar to the sketch of our example ‘Share’ component)</li>
+                <li role="listitem">Print a wireframe</li>
+                <li role="listitem">Print a visual</li>
+            </ul>
+
+            <img src="/assets/img/screen-reader-ux/step-1.png" alt="Step 1, a rough sketch of a fictional 'Share' component" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-cross-out-elements-you-dont-need" class="h3" tabindex="-1">Step 2 - Cross out elements you don’t need</h3>
+
+            <p>Are there any elements in the visual user experience that you don’t need in the screen reader UX? For example, an element that might not be relevant or make sense, or an element that doesn't add anything to the user experience, for a screen reader user.</p>
+
+            <p>Best practice would almost always be to have the same elements for all users. Though sometimes there may be an exception, as user needs in the visual and non-visual UX can vary, the UX should be comparable. Before crossing out an element, question why one user group would have an element and not another. Also keep in mind that you will be hiding this content from other assistive technology, such as speech recognition and reading solutions.</p>
+
+            <p><strong>Cross out elements you don't need and label them as hidden elements</strong>. They will still form part of the visual user experience. In our example ‘Share’ component, the input field element containing the url of the link is for illustrative purposes, so we’ll cross this out.</p>
+
+            <details class="details">
+                <summary>Other examples of elements you might not need</summary>
+
+                <h4 class="details_h4">Images</h4>
+
+                <p>Is there a decorative or presentational image which doesn’t need alternative text (alt text)? Or an image that would repeat associated text content? For example, in the case of an article byline the portrait photo might not need alt text if it would repeat the text next to it e.g. the name of the author.</p>
+
+                <img src="/assets/img/screen-reader-ux/byline.png" alt="Sketch of article byline with portrait photo crossed out" class="image_byline">
+
+                <h4 class="details_h4">Alternatives</h4>
+                
+                <p>Is there any content that you are providing an alternative for? Such as an interactive map that can't be accessible.</p>
+            </details>
+
+            <img src="/assets/img/screen-reader-ux/step-2.png" alt="Step 2, sketch with elements that we don't need crossed out" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-add-any-extra-elements" class="h3" tabindex="-1">Step 3 - Add any extra elements</h3>
+        
+            <p>Would any additional elements improve the user experience for screen reader users? Any such elements will be rarely needed and should be used sparingly.</p>
+
+            <p>Like the previous step, best practice would almost always be to have the same elements for all users. Before adding an extra element, question why one user group would have an element and not another. Also keep in mind that it's easy to forget extra elements are there, as you can’t see them, in a future iteration these elements could be forgotten about and no longer make sense.</p>
+
+            <p><strong>Draw on any extra elements, and label them as visually hidden elements</strong>, as we don’t want to add them to the visual user experience. In our example, we’ll add a heading element so screen reader users can easily identify and find this content. Don’t forget to consider the context of the component at the page level. A heading element may not be appropriate for all ‘Share’ components.</p>
+
+            <details class="details">
+                <summary>Another example of an extra element</summary>
+
+                <h4 class="details_h4">Skip links</h4>
+
+                <p>Skip links are visually hidden by default and will form part of the screen reader UX. Screen reader users who use a keyboard, along with other keyboard users can press the ‘TAB’ key to navigate through actionable elements on a page, such as links and buttons. These are also referred to as focusable elements. Skip links enable keyboard users to skip or bypass content when there is a good reason to do so. They should be used sparingly. A good example would be a 'skip to content' link. This enables a user to bypass a website’s navigation and go straight to the main content of a page. This would otherwise be repetitive for keyboard only users to navigate on all pages of a website. All focusable elements should be displayed when they receive focus. This means ‘skip links’ will also form part of the visual user experience when they receive focus.</p>
+            </details>
+
+            <img src="/assets/img/screen-reader-ux/step-3.png" alt="Step 3, sketch with extra elements added" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-define-the-content-order" class="h3" tabindex="-1">Step 4 - Define the content order</h3>
+
+            <p>In what order should a screen reader read through the elements? To illustrate this, <strong>add a number next to each element</strong>. Always try to make the order of elements match the visual order. A mismatch could lead to confusion for some users, such as a sighted screen reader user. It will also make building the component more complex.</p>
+
+            <p>On occasion, there may be times when the desired visual order just can’t give a good experience for a screen reader user. In our example, the ‘X’ close button is visually displayed on the top right as is best practise. It may not provide the best screen reader UX to have this content announced before the other share options. So on this occasion we'll change the content order for screen reader users.</p>
+
+            <p>Another example is information that is key to an interaction. In our example, the text “Warning: Not responsible for content on social platforms” is such a case. Inorder for a screen reader user to make an informed decision, this information should be read before the share links. Ideally this warning text should be displayed before the links in the visual too, as this would help other users as well.</p>
+
+            <img src="/assets/img/screen-reader-ux/step-4.png" alt="Step 4, sketch with numbers added next to each element to define the content order" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-define-native-semantic-roles" class="h3" tabindex="-1">Step 5 - Define native semantic roles</h3>
+
+            <p>In a well designed visual user experience, a sighted user should be able to identify elements and their semantic roles along with any expected behaviours by simply looking at them. For example, when viewing an article, you can usually identify text that has a semantic role of heading because the font size of it is larger than that of surrounding text. For screen reader users you need to convey this in another way, by using meaningful code. This is often referred to as semantic code.</p> 
+
+            <p>Semantic code defines the roles of elements and relationships between elements, which then conveys the meaning and structure of content to screen reader users. This is usually conveyed to the user alongside <a href="#step-6-define-the-announced-content">the announced content</a> of elements. This also tells the screen reader how elements behave or should be treated.<p>
+
+            <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> primarily defines the semantic roles of elements and structure of web content. You don’t need to know how to write the code, however some basic knowledge will be an advantage.</p>
+
+            <p>Think about every element in your component and the associated semantic roles for the non-visual user experience. Consider what HTML element is the most appropriate to convey the meaning you had intended from the visual styling. This is referred to as the use of semantic HTML. Strip away the presentation styling and what are you left with? A heading, an image, a link, a button etc.</p>
+
+            <p>If your component includes a <b>common design pattern</b>, such as <a href="https://www.bbc.co.uk/gel/guidelines/tabs">tabs</a>. If available, use a <a href="https://bbc.github.io/gel/">technical guide</a> as a starting point. Such as the <a href="https://bbc.github.io/gel/components/tabs/">BBC GEL technical guide for tabs</a> or <a href="https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel">WAI-ARIA Authoring Practices tabs design pattern</a>. Reference any used documentation so engineers can follow a best practice accessible implementation.</p>
+
+            <p><strong>Define native semantic roles by documenting the HTML for each element</strong>. In our example, we’ll define native semantic roles via HTML elements of heading level 2, paragraph, link, button, unordered list and list item.</p>
+
+            <details class="details">
+                <summary>Which HTML elements are the most appropriate</summary>
+
+                <p>Use common HTML elements. There are <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">over a hundred HTML elements</a> you can use. However many of them are not well supported by screen readers. Not sure which HTML elements to define? Collaborate with an engineer. You will usually only need to use a handful of common elements from the following, most of which are well supported by screen readers.</p>
+
+                <div class="table-container">
+                    <table class="table-screen-reader-ux table-web" aria-describedby="announcement-note">
+                        <caption>Common HTML elements for page sections</caption>
+                        <thead>
+                            <tr>
+                                <th class="th-1" scope="col">Element</th>
+                                <th class="th-2" scope="col">Code</th>
+                                <th class="th-3" scope="col">Semantic role announcement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Header</a></th>
+                                <td><code>&lt;header&gt;</code></td>
+                                <td>Banner</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">Navigation</a></th>
+                                <td><code>&lt;nav&gt;</code></td>
+                                <td>Navigation</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main">Main</a></th>
+                                <td><code>&lt;main&gt;</code></td>
+                                <td>Main</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section">Section</a></th>
+                                <td><code>&lt;section&gt;</code></td>
+                                <td>Region</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside">Aside</a></th>
+                                <td><code>&lt;aside&gt;</code></td>
+                                <td>Complementary</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer">Footer</a></th>
+                                <td><code>&lt;footer&gt;</code></td>
+                                <td>Content information</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-container">
+                    <table class="table-screen-reader-ux table-web" aria-describedby="announcement-note">
+                        <caption>Common HTML elements for content</caption>
+                        <thead>
+                            <tr>
+                                <th class="th-1" scope="col">Element</th>
+                                <th class="th-2" scope="col">Code</th>
+                                <th class="th-3" scope="col">Semantic role announcement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">Heading</a></th>
+                                <td><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></td>
+                                <td>‘Heading’ with the corresponding level. Such as ‘heading level 1’.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">Unordered list</a></th>
+                                <td><code>&lt;ul&gt;</code></td>
+                                <td>List semantics are announced. The exact announcement varies depending on screen reader.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">Ordered list</a></th>
+                                <td><code>&lt;ol&gt;</code></td>
+                                <td>List semantics are announced. The exact announcement varies depending on screen reader.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">List item</a></th>
+                                <td><code>&lt;li&gt;</code></td>
+                                <td>List item semantics announced by some screen readers. The exact announcement varies depending on screen reader.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">Link</a></th>
+                                <td><code>&lt;a&gt;</code></td>
+                                <td>Link</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">Button</a></th>
+                                <td><code>&lt;button&gt;</code></td>
+                                <td>Button</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">Image</a></th>
+                                <td><code>&lt;img&gt;</code></td>
+                                <td>'Image' or 'Graphic' depending on the screen reader</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">Figure</a></th>
+                                <td><code>&lt;figure&gt;</code></td>
+                                <td>'Figure' announced by some screen readers</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption">Figure caption</a></th>
+                                <td><code>&lt;figcaption&gt;</code></td>
+                                <td>Caption semantics announced by some screen readers. The exact announcement varies depending on screen reader.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time">Time</a></th>
+                                <td><code>&lt;time&gt;</code></td>
+                                <td>'Time' announced by some screen readers</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">Paragraph</a></th>
+                                <td><code>&lt;p&gt;</code></td>
+                                <td>Semantics not announced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">Italic</a></th>
+                                <td><code>&lt;i&gt;</code></td>
+                                <td>Semantics not announced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">Emphasis</a></th>
+                                <td><code>&lt;em&gt;</code></td>
+                                <td>Semantics not announced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">Bring attention</a></th>
+                                <td><code>&lt;b&gt;</code></td>
+                                <td>Semantics not announced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">Strong</a></th>
+                                <td><code>&lt;strong&gt;</code></td>
+                                <td>Semantics not announced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">Block quote</a></th>
+                                <td><code>&lt;blockquote&gt;</code></td>
+                                <td>'Blockquote' announced by some screen readers</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr">Thematic break</a></th>
+                                <td><code>&lt;hr&gt;</code></td>
+                                <td>Seperator</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">Description list</a></th>
+                                <td><code>&lt;dl&gt;</code></td>
+                                <td>Semantics announced by some screen readers. The exact announcement varies depending on screen reader.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">Details</a></th>
+                                <td><code>&lt;details&gt;</code></td>
+                                <td>Semantics announced by some screen readers. The exact announcement varies depending on screen reader.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Table</a></th>
+                                <td><code>&lt;table&gt;</code></td>
+                                <td>'Table'. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content">Table content</a> should also be specified and roles announced.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Form</a></th>
+                                <td><code>&lt;form&gt;</code></td>
+                                <td>Semantics not announced. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Forms">Form content</a> should also be specified and roles announced.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="table-container">
+                    <table class="table-screen-reader-ux table-web" aria-describedby="announcement-note">
+                        <caption>No appropriate semantic HTML element</caption>
+                        <thead>
+                            <tr>
+                                <th class="th-1" scope="col">Element</th>
+                                <th class="th-2" scope="col">Code</th>
+                                <th class="th-3" scope="col">Semantic role announcement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div">Div</a></th>
+                                <td><code>&lt;div&gt;</code></td>
+                                <td>No semantics will be announced</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span">Span</a></th>
+                                <td><code>&lt;span&gt;</code></td>
+                                <td>No semantics will be announced</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <small id="announcement-note" class="details_after-last-table">Note, semantic role announcement information is intended to provide a general overview of what is commonly announced by screen readers. This will vary depending on the screen reader used. Like web browsers, screen readers can behave slightly differently.</small>
+            </details>
+
+            <details class="details">
+                <summary>More information on semantics</summary>
+
+                <h4 class="details_h4">Link vs button</h4>
+
+                <p>It’s important to use the correct semantic role for the job. Links and buttons have different behaviours which have well established user expectations. Such as being able to activate a button by pressing the spacebar on a keyboard. Use a link if you will be taken to a new url upon activation. Use a button to submit a form or for an in-page interaction. The only exception is an in-page anchor link, which takes you to another part of the same page upon activation. The clue is in the name here - this is a link element.</p>
+
+                <h4 class="details_h4">Perceived affordance</h4>
+
+                <p>Semantic roles communicate the meaning of content to screen reader users. They also communicate expectations. For example when an element is interacted with, such as link vs button. Expectations aren't only important for screen reader users. Visual styling gives sighted users an expectation and a perceived affordance. Visual styling should communicate the semantic meaning of HTML elements. For example, interactive elements should look like interactive elements. If you don't have perceived affordance this may cause issues for some users. For example, those using speech recognition assistive technology, rely on being able to visually interpret meaning and behaviour to know what they can interact with and how, via speech.</p>
+
+                <h4 class="details_h4">No appropriate semantic element</h4>
+
+                <p>In this case a div or span HTML element can be used. An engineer can decide which is the most appropriate. No semantics will be announced from either. For example, in an article, before the body copy, you might have a heading level one (h1) with a label below that, such as a topic tag. The topic tag isn't part of the heading, and it's not a link, nor is it a paragraph of text. There isn’t an appropriate semantic element in this case.</p>
+
+                <img src="/assets/img/screen-reader-ux/topic-tag.png" alt="Sketch of an article with a topic tag" class="image_topic-tag">
+
+                <h4 class="details_h4">Why aren’t semantics conveyed at the paragraph level?</h4>
+
+                <p>This is largely down to frequent use of such elements. And in some cases a history of incorrect semantic use on the web, such as that of the <code>&lt;b&gt;</code> tag. Semantics in such cases could clutter and confuse a screen reader user's experience. It is however always important to use the appropriate HTML element. One day the semantics of these elements might be announced. And also screen reader users can navigate by element type, such as via headings or paragraphs etc.</p>
+            </details>
+
+            <img src="/assets/img/screen-reader-ux/step-5-web.png" alt="Step 5, sketch with list added defining native semantic roles by documenting the HTML for each element" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-define-the-announced-content" class="h3" tabindex="-1">Step 6 - Define the announced content</h3>
+
+            <p>When a screen reader encounters an element with a semantic role, meaning is usually conveyed. The screen reader will also announce the content of the element. For example, when a screen reader encounters an element with a semantic role of heading (h1) and content of ‘Screen reader UX’. The combined announcement of semantic role and content would result in ‘heading level 1, Screen reader UX’ or ‘Screen reader UX, heading level 1’ depending on the screen reader. Like web browsers, screen readers can behave slightly differently.</p>
+
+            <p>For a comparable experience to that of the visual, you should document the content or text that should be announced for each element. This should include images and icons, in such cases this is often referred to as a textual alternative or alternative text. You have already documented semantics by defining native semantic roles via HTML elements.</p>
+
+            <p>You might want to announce extra text content to that of the visual. For example, to provide context, which might be obvious or not relevant in the visual user experience. Extra text is usually referred to as visually hidden text, as it doesn't form part of the visual user experience. An engineer can decide what is the most appropriate way to implement this, usually by applying CSS or an aria-label to elements. Use extra text sparingly and only when absolutely necessary.</p>
+
+            <p><strong>Document what content should be announced for each element</strong>. In our example, in addition to the text in the visual, we’ll also document extra text for some elements to provide context. Along with the announced content for icons and images.</p>
+
+            <details class="details">
+                <summary>Other considerations for extra text</summary>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong>Development</strong> - Extra text can add complexity to the code which might mean it’s harder to maintain.</li>
+
+                    <li role="listitem"><strong>Editorial</strong> - Editorial may not be aware of extra text content. And in some cases be able to add content that doesn’t make sense combined with this.</li>
+
+                    <li role="listitem"><strong>Future iterations</strong> - It's easy to forget that extra text content is there, as you can’t see it. In a future iteration this information could be forgotten about and no longer make sense.</li>
+
+                    <li role="listitem"><strong>Complexity</strong> - Extra text could cause confusion and add to complexity for some users. For example a sighted screen reader user could see one thing but hear another.</li>
+
+                    <li role="listitem"><strong>Localisation</strong> - Extra text may need to be translated into many different languages. This can also add extra complexity to the code if required for multiple languages with different sentence structures.</li>
+
+                    <li role="listitem"><strong>No CSS</strong> - CSS could be unsupported, removed or not load for a user with a poor internet connection. In these cases, if implemented with CSS, extra text will be displayed in the visual user experience.</li>
+                </ul>
+            </details>
+
+            <details class="details">
+                <summary>Other examples of announced content</summary>
+
+                <h4 class="details_h4">Context</h4>
+
+                <p>In our example, there’s a button with text of ‘More’. We could just announce this content. However, a screen reader user may need extra information to be sure what they’re going to be shown more of. So we’ll provide some by announcing ‘More share options’. This is especially useful when elements are navigated to out of context. For example, you can navigate solely through buttons on a page, in which case 'More' wouldn't mean much without knowing the context. Ideally you should also visually display this text, as this would be useful for everyone.</p>
+
+                <h4 class="details_h4">Icons</h4>
+
+                <p>If an icon is key to understanding, it will need some text content announcing for it, that communicates its meaning and purpose. This is referred to as a textual alternative. For example, if an icon, such as a video play button, doesn’t have any associated text that conveys its meaning and purpose, a textual alternative would be needed for a screen reader user. In our example, the ‘X’ close button would be such a case. We could just announce ‘Close’, though this doesn’t give any context. So we’ll provide some by announcing ‘Close more share options’.</p>
+
+                <h4 class="details_h4">Images</h4>
+
+                <p>The announced content for an image is the alternative text (alt text) that is provided for this. This should describe the image.</p>
+
+                <h4 class="details_h4">Key information</h4>
+
+                <p>Try to provide key information first for text alternatives. This will aid browsing of content so users don't have to always listen to the full text. In our example, the function of link elements 3 to 6 is to share an article. To uniquely describe the target of each link, we also need to announce the social platform. The social platform distinguishes this from the other share links so we'll announce that first. We can then announce the function or context afterwards. For example 'Facebook, share this article'.</p>
+            </details>
+
+            <details class="details">
+                <summary>Abbreviations</summary>
+
+                <h4 class="details_h4">Commonly known and spoken</h4>
+
+                <p>Abbreviations which are commonly known and spoken do not need unabbreviated announced content. For example GMT is an abbreviation for Greenwich Mean Time. The abbreviation of this is commonly spoken.</p>
+
+                <h4 class="details_h4">Commonly known but not spoken</h4>
+
+                <p>Abbreviations which are commonly known but not usually spoken, should have unabbreviated announced content. Or preferably be unabbreviated as this would be helpful for other users as well, such as those with a learning impairment. For example the date ‘Thursday 18th December’ is commonly abbreviated to ‘Thur 18th Dec’. Though you would not say ‘Thur’ or ‘Dec’ even if it was written like that. Another example would be an abbreviated timestamp of ‘1h’, this is an abbreviation for ‘1 hour ago’. Providing both abbreviated and unabbreviated content is also a less than optimal code solution.</p>
+
+                <h4 class="details_h4">Not commonly known</h4>
+
+                <p>Abbreviations which are not commonly known should have unabbreviated announced content. Or preferably be unabbreviated as this would be helpful for all users.</p>
+            </details>
+
+            <img src="/assets/img/screen-reader-ux/step-6-web.png" alt="Step 6, sketch with list added defining the announced content for each element" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-add-any-ux-improvements" class="h3" tabindex="-1">Step 7 - Add any UX improvements</h3>
+
+            <p>Improvements should be called upon sparingly. They are particularly relevant for in-page interactions and dynamic content. In our example, the 'More' button has a downwards arrow icon. This is a visual clue for sighted users. Giving a hint to the behaviour of the button upon activation, this is also known as an affordance. Could the non-visual UX be improved by providing a comparable affordance for the button behaviour?</p>
+
+            <p><strong>Consider every element and document any desired UX improvements. Consider UX improvements such as <a href="#additional-semantic-roles">additional semantic roles</a> and <a href="#affordances">affordances</a>. Also document <a href="#states">states</a> for relevant actionable elements, changes to <a href="#language">language</a> and any <a href="#additional-functionality">additional functionality</a> that would improve the UX.</strong> While you can, you do not need to define any ARIA specifics. Let an engineer consider the best technical approach, or collaborate. In our example, for the 'More' button, we’ll let users know if the content that the button controls is currently expanded or collapsed.</p>
+
+            <details class="details">
+                <summary id="additional-semantic-roles">Additional semantic roles</summary>
+
+                <p>If appropriate provide additional semantic roles that would improve the user experience, that could not be defined by native semantic roles via HTML elements. Use any additional semantic roles sparingly.</p>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong>Tabs</strong> - This may be particularly relevant for tabs. Tabs display content via panels, one at a time. Document any additional semantics that would improve the UX.</li>
+
+                    <li role="listitem"><strong>Not needed often</strong> - Additional semantic roles will not be needed often. The W3C has a list of additional semantic <a href="https://www.w3.org/TR/wai-aria-1.1/#role_definitions">ARIA roles</a> that can be applied to HTML elements, including some of those that can be achieved natively via HTML.</li>
+                </ul>
+            </details>
+
+            <details class="details">
+                <summary id="affordances">Affordances</summary>
+
+                <p>Affordances can be used to communicate expectations and help users understand what will happen when they perform an action on an element. Always use a consistent approach for affordances, both at component and page level.</p>
+
+                <p>The W3C has a list of <a href="https://www.w3.org/TR/wai-aria-1.1/#state_prop_def">ARIA properties</a> that can be applied to HTML elements to provide affordances, including some of those that can be achieved natively via HTML.</p>
+            </details>
+
+            <details class="details">
+                <summary id="states">States</summary>
+
+                <p>States should be provided to improve the UX of relevant actionable elements, such as those of buttons and checkboxes. In our example, the ‘More’ button is such an example. Providing an expanded or collapsed state affordance would improve the UX. This will result in a combined announcement of content, semantic role and state. When in a collapsed state of ‘More share options. Button. Collapsed’ and when expanded ‘More share options. Button. Expanded’.</p>
+
+                <p>You will usually only need to use a handful of states from the following:</p>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong>Checked</strong> - Indicates the state of checkboxes and radio buttons.</li>
+
+                    <li role="listitem"><strong>Collapsed</strong> - Indicates content is currently collapsed. For coding details see <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-expanded">aria-expanded</a>.</li>
+
+                    <li role="listitem"><strong>Current</strong> - Indicates that an element represents the current item within a set of related elements. For example to indicate the currently displayed page in a navigation menu. For coding details see <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-current">aria-current</a>.</li>
+
+                    <li role="listitem"><strong>Disabled</strong> - Indicates that an element is disabled.</li>
+
+                    <li role="listitem"><strong>Expanded</strong> - Indicates content is currently expanded. For coding details see <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-expanded">aria-expanded</a>.</li>
+
+                    <li role="listitem"><strong>Pressed</strong> - Indicates the state of a toggle button. For coding details see <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-pressed">aria-pressed</a>.</li>
+
+                    <li role="listitem"><strong>Selected</strong> - Indicates that an element is currently selected, such as a tab. For coding details see <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-selected">aria-selected</a>.</li>
+                </ul>
+
+                <p>The W3C has a list of <a href="https://www.w3.org/TR/wai-aria-1.1/#state_prop_def">ARIA states</a> that can be applied to HTML elements, including those that can be achieved natively via HTML.</p>
+            </details>
+
+            <details class="details">
+                <summary id="language">Language</summary>
+                
+                <p>Note any changes in language to content, this will aid a screen reader in announcing the content with the appropriate accent.</p>
+            </details>
+
+            <details class="details">
+                <summary id="additional-functionality">Additional functionality</summary>
+
+                <p>If appropriate, also provide additional functionality that could improve the screen reader UX, such as a live region for dynamic content:</p>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong>Notify users of new or updated content without interrupting the user's current task</strong> - For example, in the case of a news update being added to a page or screen. Without a notification screen reader users may be unaware of this. Notify the user of the new content when they have finished their current task.</li>
+
+                    <li role="listitem"><strong>Notify users of new or updated content immediately</strong> - For example, in the case of an error message being added to a screen. Without a notification screen reader users may be unaware of this. Notify the user of the new content immediately (this behavior may not be desired for all error messages).</li>
+                </ul>
+            </details>
+
+            <img src="/assets/img/screen-reader-ux/step-7-web.png" alt="Step 7, sketch with list added documenting any UX improvements" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-8-define-focus-order-and-behaviour" class="h3" tabindex="-1">Step 8 - Define focus order and behaviour</h3>
+
+            <p>All actionable elements, such as links and buttons, are by default focusable with a screen reader and other assistive technologies such as <a href="https://en.wikipedia.org/wiki/Switch_access">switch devices</a>. The order in which these elements can be focused and interacted with, for example with a keyboard by pressing the ‘TAB’ key, is important to consider. This order is referred to as the focus order or sometimes the tab order. All focusable elements should be visually displayed when they receive focus, and this order should follow a logical sequence. This is usually expected visually from left to right as you move through elements and down a page. Though there will be some exceptions to this. This order is by default defined by the content order.</p>
+
+            <p><strong>Define the focus order by adding a directional line between actionable elements. Also document when focus needs to be moved on the users behalf after an in-page interaction</strong>. In our example, in addition to defining the focus order, we’ll also add some notes on focus movement for the 'Close' button upon activation.</p>
+
+            <details class="details">
+                <summary>Moving focus on the users behalf</summary>
+            
+                <p>It’s important to consider when focus needs to be moved on the users behalf after an in-page interaction. Interactions should follow a logical sequence and provide a good user experience. For example, if a ‘Show more updates’ button is activated and new content is inserted above the button, by default focus would remain on the button after activation, this would be a frustrating experience for assistive technology users, who would then have to identify the start of the new content and navigate to it. In this example, to improve the UX, focus should be moved on the users behalf to the new content upon activation of the button.</p>
+
+                <img src="/assets/img/screen-reader-ux/show-more-updates.png" alt="Sketch documentating moving focus on the users behalf after an in-page interaction" class="image_show-more-updates">
+            </details>
+
+            <img src="/assets/img/screen-reader-ux/step-8-web.png" alt="Step 8, sketch with directional line added between actionable elements defining the focus order, along with focus movement notes" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-9-define-any-landmarks" class="h3" tabindex="-1">Step 9 - Define any landmarks</h3>
+
+            <p>Typically we use colour or other styling to identify areas of web pages visually. For example, the <a href="https://www.bbc.co.uk/news">BBC News</a> website has a red block at the top. Visually this groups and identifies the page banner content. In the non-visual experience, you need another way to do this.</p> 
+
+            <p>Landmarks provide a way for screen readers to identify areas of web pages. This enables users to identify and navigate to areas of a page.</p>
+
+            <p>Note, landmarks are different to headings. Use the ‘show landmarks’ and ‘show headings’ buttons at the top of the <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html">ARIA landmarks examples</a> page to see how.</p>
+
+            <p><strong>If appropriate document any landmarks and associated labels for your component. Also make a note of any landmarks your component should sit within if relevant</strong>. There are <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/banner.html">8 landmark roles</a> that you can use. Use the steps in the <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html">General Principles of Landmark Design</a> to decide if a landmark is appropriate for your component and/or part of it. This won't always be necessary. In our example, we’ll add a fictional region landmark.</p>
+
+            <img src="/assets/img/screen-reader-ux/step-9-web.png" alt="Step 9, sketch with list added defining any landmarks" class="sketch">
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-10-validate-the-experience" class="h3" tabindex="-1">Step 10 - Validate the experience</h3>
+        
+            <p>Validate the screen reader user experience by describing this to the reviewer as part of an <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-design-review">accessibility design review</a>. Make sure you don't show them the visual user experience beforehand!</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="next-steps" class="h2" tabindex="-1">Next steps</h2>
+        
+            <p>When the screen reader UX has been documented an <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-design-review">accessibility design review</a> can take place. The next step in achieving an accessible component is <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-acceptance-criteria">writing accessibility acceptance criteria</a>. For which, this documentation along with your visual will form a basis for. Your component is then ready for the development phase.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="ux-review" class="h2" tabindex="-1">UX review</h2>
+        
+            <p>When the component has been developed and is ready for UX review, an <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-swarms">accessibility swarm</a> is your chance to review and sign off the screen reader UX. Designers are responsible for reviewing the experience for all users, not just the visual UX. Use this documentation to review against.</p>
+
+            <p>Reviewing the HTML could be one step in your review process. This should never replace reviewing the user experience with a screen reader and other assistive technologies. You can review the HTML by inspecting the code in the browser. Not sure how, ask an engineer to show you. Check that the HTML matches what you documented. You might also see a number of additional div or span elements. These elements are mainly used to achieve layout and visual styling with CSS.</p>
+
+            <p>You might be curious to know what the documented screen reader UX for our example ‘Share’ component looks like in HTML. Let's take a peek at the code&hellip;</p>
+
+<div class="code-example-screen-reader-ux" tabindex="0"><!-- Tabindex used so keyboard users can focus on this element and scroll the container to see all the content -->
+<pre>
+<code><span class="code-example_line"><span class="code-example_html">&lt;section</span> <span class="code-example_attribute">role="<span class="code-example_value">region</span>" aria-labelledby="<span class="code-example_value">heading</span>"</span><span class="code-example_html">&gt;</span></span>
+    <span class="code-example_line"><span class="code-example_html">&lt;h2</span> <span class="code-example_attribute">id="<span class="code-example_value">heading</span>" class="<span class="code-example_value">visually-hidden</span>"</span><span class="code-example_html">&gt;</span>Share this article<span class="code-example_html">&lt;/h2&gt;</span></span>
+    <span class="code-example_line"><span class="code-example_html">&lt;p&gt;</span>Warning: Not responsible for content on social platforms<span class="code-example_html">&lt;/p&gt;</span></span>
+    <span class="code-example_line code-example_html">&lt;ul&gt;</span>
+        <span class="code-example_line code-example_html">&lt;li&gt;</span>
+            <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">url</span>"</span><span class="code-example_html">></span>Facebook, share this article<span class="code-example_html">&lt;/a&gt;</span></span>
+        <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+        <span class="code-example_line code-example_html">&lt;li&gt;</span>
+            <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">url</span>"</span><span class="code-example_html">></span>Twitter, share this article<span class="code-example_html">&lt;/a&gt;</span></span>
+        <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+        <span class="code-example_line code-example_html">&lt;li&gt;</span>
+            <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">url</span>"</span><span class="code-example_html">></span>Messenger, share this article<span class="code-example_html">&lt;/a&gt;</span></span>
+        <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+        <span class="code-example_line code-example_html">&lt;li&gt;</span>
+            <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">url</span>"</span><span class="code-example_html">></span>Instagram, share this article<span class="code-example_html">&lt;/a&gt;</span></span>
+        <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+        <span class="code-example_line code-example_html">&lt;li&gt;</span>
+            <span class="code-example_line"><span class="code-example_html">&lt;button</span> <span class="code-example_attribute">aria-expanded="<span class="code-example_value">true</span>"</span><span class="code-example_html">&gt;</span></span>
+                <span class="code-example_line"><span class="code-example_html">&lt;span&gt;</span>More<span class="code-example_html">&lt;/span&gt;</span></span>
+                <span class="code-example_line"><span class="code-example_html">&lt;span</span> <span class="code-example_attribute">class="<span class="code-example_value">visually-hidden</span>"</span><span class="code-example_html">&gt;</span> share options<span class="code-example_html">&lt;/span&gt;</span></span>
+            <span class="code-example_line code-example_html">&lt;/button&gt;</span>
+            <span class="code-example_line code-example_html">&lt;ul&gt;</span>
+                <span class="code-example_line code-example_html">&lt;li&gt;</span>
+                    <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">url</span>"<span class="code-example_html">></span></span>LinkedIn, share this article<span class="code-example_html">&lt;/a&gt;</span></span>
+                <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+                <span class="code-example_line code-example_html">&lt;li&gt;</span>
+                    <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">mailto</span>"</span><span class="code-example_html">></span>Email, share this article<span class="code-example_html">&lt;/a&gt;</span></span>
+                <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+            <span class="code-example_line code-example_html">&lt;/ul&gt;</span>
+            <span class="code-example_line"><span class="code-example_html">&lt;button&gt;</span>Close more share options<span class="code-example_html">&lt;/button&gt;</span></span>
+        <span class="code-example_line code-example_html">&lt;/li&gt;</span>
+    <span class="code-example_line code-example_html">&lt;/ul&gt;</span>
+    <span class="code-example_line"><span class="code-example_html">&lt;button</span> <span class="code-example_attribute">aria-label="<span class="code-example_value">Copy article link</span>"</span><span class="code-example_html">&gt;</span>Copy link<span class="code-example_html">&lt;/button&gt;</span></span>
+    <span class="code-example_line"><span class="code-example_html">&lt;a</span> <span class="code-example_attribute">href="<span class="code-example_value">url</span>"</span><span class="code-example_html">&gt;</span>Read more about sharing<span class="code-example_html">&lt;/a&gt;</span></span>
+<span class="code-example_line code-example_html">&lt;/section&gt;</span></code>
+</pre>
+</div>
+
+            <p>If our example component was part of a website, when inspecting the code you might also expect to see a number of div and/or span elements in addition. Helping to achieve layout and visual styling with CSS.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2020 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
