@@ -700,7 +700,11 @@ img.image_show-more-updates {
   grid-column: 2 / span 5;
   height: max-content;
   position: sticky;
-  top: 1.4em; /* to line up with baseline of h2/h3 */
+  top: 0; /* to line up with baseline of heading in main column */
+}
+
+.column-nav .page-contents_strong {
+  padding-top: 2.9rem; /* to line up with baseline of heading in main column */
 }
 
 .image_byline {
