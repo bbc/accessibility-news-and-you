@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>How to write accessibility acceptance criteria - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - How to write accessibility acceptance criteria. We’ll take you step by step through how to write accessibility acceptance criteria for a component.">
+    <!-- <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/> -->
+    <link rel="stylesheet" href="../assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>How to write accessibility acceptance criteria</span>
+                </span>
+            </h1>
+
+            <p>Defining accessibility acceptance criteria is one of the practices that helps us meet the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/">BBC Mobile Accessibility Guidelines</a>.</p>
+
+            <p>Accessibility acceptance criteria defines conditions:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">That play a key part in a component being accessible</li>
+
+                <li role="listitem">That are at high risk of introducing an accessibility issue</li>
+            </ul>
+
+            <p>Write accessibility acceptance criteria where relevant, for <b>new</b> components and <b>iterations</b> of existing components <b>before the development phase</b>.</p>
+
+            <h2 id="step-by-step" class="h2" tabindex="-1">Step by step</h2>
+
+            <p>We’ll take you step by step through how to write accessibility acceptance criteria for a component.</p>
+        </div>
+        
+
+        <nav class="page-contents column-nav" role="navigation" aria-label="Steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-accessibility-design-review-confirmation" id="step-by-step-navigation">1 - Accessibility design review</a></li>
+                <li role="listitem"><a href="#step-2-gather-documentation">2 - Gather documentation</a></li>
+                <li role="listitem"><a href="#step-3-list-key-and-high-risk-factors">3 - List key and high risk factors</a></li>
+                <li role="listitem"><a href="#step-4-write-the-scenarios">4 - Write the scenarios</a></li>
+                <li role="listitem"><a href="#step-5-make-everyone-aware">5 - Make everyone aware</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-accessibility-design-review-confirmation" class="h3" tabindex="-1">Step 1 - Accessibility design review confirmation</h3>
+
+            <p>Confirm if the component you are writing criteria for has been through an <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html">accessibility design review</a>. If this hasn’t taken place, ask UX to carry out a review before proceeding to the next step.</p>
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-gather-documentation" class="h3" tabindex="-1">Step 2 - Gather documentation</h3>
+
+            <p>Gather the following documentation. This will form a basis for writing the accessibility acceptance criteria:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Documented visual user experience</li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">Documented screen reader UX</a></li>
+            </ul>
+
+            <p>If something is missing, ask UX for all the required documentation before proceeding to the next step.</p>
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-list-key-and-high-risk-factors" class="h3" tabindex="-1">Step 3 - List key and high risk factors</h3>
+        
+            <p>Hold a <a href="https://en.wikipedia.org/wiki/Behavior-driven_development#The_Three_Amigos">Three Amigos</a> session, including a <b>business analyst</b>, <b>designer</b> and <b><a href="https://www.bbc.co.uk/accessibility/forproducts/champions">accessibility champion</a></b>. Then use the gathered documentation to make a list of factors:</p>
+            
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">That play a key part in a component being accessible</li>
+
+                <li role="listitem">That are at high risk of introducing an accessibility issue</li>
+            </ul>
+
+            <p>Alongside the gathered documentation, <b>use guidelines to help you</b>, such as:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html">ARIA landmarks examples</a></li>
+
+                <li role="listitem"><a href="https://www.w3.org/TR/wai-aria-1.1/#state_prop_def">ARIA states and properties</a></li>
+
+                <li role="listitem"><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/">BBC Mobile Accessibility Guidelines</a></li>
+
+                <li role="listitem"><a href="https://www.w3.org/TR/wai-aria-practices-1.1/">WAI-ARIA Authoring Practices</a></li>
+
+                <li role="listitem"><a href="https://www.w3.org/TR/WCAG/">WCAG</a></li>
+            </ul>
+
+            <p>Note, you don't need to identify and list everything that would make the component accessible. Your aim isn’t to reproduce guidelines.</p>
+
+            <details class="details">
+                <summary id="example-list-of-key-and-high-risk-factors-for-an-ordered-list-component">Example list of key and high risk factors for a component</summary>
+
+                <p>Using an ordered list component as an example, the identified key and high risk factors could be:</p>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">List semantics for screen reader users</li>
+
+                    <li role="listitem">List item numbers must be announced to screen reader users</li>
+
+                    <li role="listitem">List item numbers must meet colour contrast levels (the colour used is not from the brand palette)</li>
+
+                    <li role="listitem">When in 2 columns or more, each column reads from top to bottom</li>
+                </ul>
+
+                <!-- <img src="/accessibility-news-and-you/assets/img/accessibility-acceptance-criteria/unordered-list-component.png" alt="Unordered list component" class="image_unordered-list"> -->
+            </details>
+
+            <details class="details">
+                <summary>Examples of factors that could play a key part in a component being accessible</summary>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-2-cross-out-elements-you-dont-need">Different elements</a></strong> - Are there any elements in the visual user experience that you don't have in the screen reader UX? For example, an element that might not be relevant or make sense, or an element that doesn't add anything to the user experience, for a screen reader user.</li>
+
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-3-add-any-extra-elements">Extra elements</a></strong> - Are there any extra elements in the screen reader UX that you don’t have in the visual user experience? Such as heading that isn't needed in the visual UX.</li>
+
+                    <li role="listitem"><strong><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-order">Content order</a></strong> - Is the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-4-define-the-content-order">content order in the screen reader UX</a> different to that of the visual user experience? For example, in a menu, a close button 'X' could be is visually displayed on the top right as is best practise, though it may not provide the best screen reader UX to have this content announced before the menu content.</li>
+
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">Native semantic roles</a></strong> - In a well designed visual user experience, a sighted user should be able to identify elements and their semantic roles along with any expected behaviours by simply looking at them. For example, when viewing an article, you can usually identify text that has a semantic role of heading because the font size of it is larger than that of surrounding text. For screen reader users you need to convey this in another way, for web content primarily by using semantic HTML elements.</li>
+
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">Announced content</a></strong> - In addition to the text content in the visual user experience, is there any extra text that should be announced to screen reader users? For example, to provide context, which might be obvious or not relevant in the visual user experience. Or text alternatives for images and icons.</li>
+
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-7-add-any-ux-improvements">UX improvements</a></strong> - Does the screen reader UX include any UX improvements such as additional semantic roles or affordances? For example, a 'More' button may have a downwards arrow icon. This is a visual clue for sighted users. Giving a hint to the behaviour of the button upon activation. Does non-visual UX provide a comparable affordance for the button behaviour? Also consider states for relevant actionable elements, changes to language and any additional functionality that improves the UX.</li>
+
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-9-define-any-landmarks">Landmarks</a></strong> - Does the screen reader UX include any <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks">landmarks</a>? Or should the component sit within a specific landmark?</li>
+                </ul>
+            </details>
+
+            <details class="details">
+                <summary>Examples of factors that could be at high risk of introducing an accessibility issue</summary>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/colour-contrast">Colour contrast</a></strong> - A component’s use of colour could increase the risk of introducing an accessibility issue. Imagine dark grey text on a light grey background, this may meet colour contrast levels. A slight change of shade to one of the greys, is at high risk of reducing colour contrast to an unacceptable level.</li>
+
+                    <li role="listitem"><strong><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-8-define-focus-order-and-behaviour">Focus order</a></strong> - Does focus need to be moved on the users behalf after an in-page interaction? For example, if a ‘Show more updates’ button is activated and new content is inserted above the button, by default focus would remain on the button after activation, this would be a frustrating experience for assistive technology users, who would then have to identify the start of the new content and navigate to it. In this example, to improve the UX, focus should be moved on the users behalf to the new content upon activation of the button.</li>
+
+                    <li role="listitem"><strong><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/headings">Headings</a></strong> - Correct use of headings within components is important for screen reader users. A missing heading or change to a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">heading level</a> is at risk of breaking a component or page heading structure.</li>
+
+                    <li role="listitem"><strong>Hidden content</strong> - If content isn't hidden correctly, it's at high risk of introducing an accessibility issue. An example of this could be a collapsed menu. The menu items could be available to screen reader users when they aren't visible if not hidden correctly.</li>
+                </ul>
+            </details>
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-write-the-scenarios" class="h3" tabindex="-1">Step 4 - Write the scenarios</h3>
+
+            <p>Write scenarios for all identified factors. Use the <b>Given, When, Then</b> approach that is used in <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behaviour Driven Development</a>. This format will help everyone in the team understand.</p>
+
+            <p>Things to remember:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Use guidelines and documentation</strong> - Extract relevant rules or information. If appropriate link back to guidelines for reference.</li>
+
+                <li role="listitem"><strong>Don’t specify a solution</strong> - If the component styling or assistive technology changes, the criteria should still apply. Engineers will consider the best solution to achieve the defined criteria.</li>
+
+                <li role="listitem"><strong>Be consistent</strong> - If you have defined similar criteria before, replicate the format.</li>
+            </ul>
+
+            <details class="details">
+                <summary>Example scenarios for a component</summary>
+
+                <p>Using the <a href="#example-list-of-key-and-high-risk-factors-for-an-ordered-list-component">identified list of key and high risk factors</a> from the example in the previous step, the scenarios for an ordered list component could be:</p>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Given I use a screen reader</li>
+
+                    <li role="listitem">When navigating to an ordered list</li>
+
+                    <li role="listitem">Then it should be announced as a list</li>
+                </ul>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Given I use a screen reader</li>
+
+                    <li role="listitem">When navigating to a list item in an ordered list</li>
+
+                    <li role="listitem">Then the text should be announced</li>
+
+                    <li role="listitem">And it should be prefixed by the announcement of the list number</li>
+                </ul>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Given I am viewing an ordered list</li>
+
+                    <li role="listitem">When the list item number is a different colour to the text</li>
+
+                    <li role="listitem">Then the number must meet the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/colour-contrast">colour contrast</a> ratio of 4.1:5</li>
+                </ul>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Given I am viewing an ordered list</li>
+
+                    <li role="listitem">When the list items are displayed in 2 columns or more</li>
+
+                    <li role="listitem">Then columns must be displayed from left to right</li>
+
+                    <li role="listitem">And read from top to bottom</li>
+                </ul>
+            </details>
+
+            <div>
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-make-everyone-aware" class="h3" tabindex="-1">Step 5 - Make everyone aware</h3>
+
+            <p>The criteria should be visible to all the team, including technical and non-technical team members.<p>
+
+            <small class="note">Note, this guide uses the <a href="https://insidegovuk.blog.gov.uk/2018/01/24/improving-accessibility-with-accessibility-acceptance-criteria/">GDS approach to defining accessibility acceptance criteria</a> as a basis, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2020 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
