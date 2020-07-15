@@ -402,7 +402,8 @@ img.image_show-more-updates {
 }
 
 .details p:last-child,
-.details .body-copy-list li:last-child {
+.details .body-copy-list li:last-child,
+.details .body-copy-list.no-space:last-child {
   margin-bottom: 0;
 }
 
