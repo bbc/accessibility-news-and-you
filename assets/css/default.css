@@ -291,6 +291,10 @@ img.image_show-more-updates {
   margin-bottom: 0;
 }
 
+.body-copy-list.no-space.list-of-links li {
+  padding-bottom: .5rem;
+}
+
 .body-copy-list li:before {
   border: .1875rem solid #3f3f42; /* 3px */
   border-radius: 50%;
