@@ -178,7 +178,8 @@ body {
 }
 
 .back-to + .h2,
-.back-to + .h3 {
+.back-to + .h3,
+.back-to-container + .h3 {
   margin-top: 1.5rem;
 }
 
