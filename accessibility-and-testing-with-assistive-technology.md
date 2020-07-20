@@ -14,6 +14,8 @@ Not sure which assistive technology you should be testing with? See [Accessibili
 - [NVDA](accessibility-and-testing-with-nvda)
 - [Read and Write](accessibility-and-testing-with-read-and-write)
 - [TalkBack](accessibility-and-testing-with-talkback)
+- [Voice Access](https://support.google.com/accessibility/android/answer/6151848?hl=en)
+- [Voice Control](https://support.apple.com/en-us/HT210417)
 - [VoiceOver OS (Mac)](accessibility-and-testing-with-voiceover-os)
 - [VoiceOver iOS (iPhone/iPad)](accessibility-and-testing-with-voiceover-ios)
 - [ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)
