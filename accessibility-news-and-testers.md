@@ -20,6 +20,10 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklist - Manual
 
+0. **Screen reader UX** - Check the [screen reader UX](https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html) is met.
+
+0. **Accessibility acceptance criteria** - Check the [accessibility acceptance criteria](https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html) is met.
+
 0. **Design** - Are elements styled correctly? e.g. Do links use the standard link colour and have the standard associated hover and focus styles?
 
 0. Do all elements meet [**colour contrast**](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/colour-contrast) levels? Use a tool such as [contrast checker](http://webaim.org/resources/contrastchecker/) to check. All colours should meet a level of 4.5:1 or higher.
@@ -50,6 +54,8 @@ To gain an understanding of accessibility features and what to look for it is re
     0. When using '**Trace tab path**', the path should go from left to right as you work your way down the page (there will be some exceptions to this order, such as when the 'Breaking news' banner is on the page). Use the [ChromeLens](http://chromelens.xyz/) dev tool extension to trace the tab path.
 
 0. **Has the feature been considered without javascript**? It should degrade gracefully. Use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox to easily turn Javascript off.
+
+0. **No CSS** - Disable CSS and check core content is accessible when styling is unsupported or removed. You can use a tool such as the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) add-on for Chrome or Firefox to disable CSS.
 
 ## Checklist - Assistive Technology
 
