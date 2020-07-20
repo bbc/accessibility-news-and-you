@@ -6,48 +6,50 @@ Based on the results from the [2016 GOV.UK Assistive Technology Survey](https://
 
 See [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology) for usage instructions and testing steps.
 
-## Category 1
-
 To meet the **Definition of Done** the following **MUST** be used for testing, in order to be considered acceptable for a live release.
 
-0. **[ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)** Latest Version<br>
-With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
-(Screen Magnifier with Screen Reader capabilities)
+## Mobile AT
 
-0. **[Dragon Naturallyspeaking](accessibility-and-testing-with-dragon)** Version 13<br>
-With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
-(Speech Recognition)
-
-0. **[JAWS](accessibility-and-testing-with-jaws)** Version 17<br>
-With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
-(Screen Reader)
-
-0. **[Read&Write](accessibility-and-testing-with-read-and-write)** Latest Version<br>
-With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
-(Reading Solution)
-
-0. **[VoiceOver iOS (iPhone/iPad)](accessibility-and-testing-with-voiceover-ios)** Latest Version<br>
+0. **[VoiceOver iOS - iPhone](accessibility-and-testing-with-voiceover-ios)** (Latest Version)<br>
 With Safari (Latest Version) on iOS (Latest Version)<br>
 (Screen Reader)
 
-## Category 2
+0. **[TalkBack](accessibility-and-testing-with-talkback)** (Latest Version)<br>
+With Chrome (Latest Version) on Android (Latest Version)<br>
+(Screen Reader)
 
-If the component/feature is used on a wide range of pages and services, to meet the **Definition of Done** the following **SHOULD** be used for testing, in order to be considered acceptable for a live release.
+0. **[Voice Control iOS - iPhone](https://support.apple.com/en-us/HT210417)** (Latest Version)<br>
+With Safari (Latest Version) on iOS (Latest Version)<br>
+(Speech Recognition)
+
+0. **[Voice Access](https://support.google.com/accessibility/android/answer/6151848?hl=en)** (Latest Version)<br>
+With Chrome (Latest Version) on Android (Latest Version)<br>
+(Speech Recognition)
+
+## Laptop / Desktop AT
+
+0. **[ZoomText Magnifier/Reader](accessibility-and-testing-with-zoomtext)** (Latest Version)<br>
+With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
+(Screen Magnifier with Screen Reader capabilities)
+
+0. **[Dragon Naturallyspeaking](accessibility-and-testing-with-dragon)** (Version 13)<br>
+With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
+(Speech Recognition)
+
+0. **[JAWS](accessibility-and-testing-with-jaws)** (Version 17)<br>
+With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
+(Screen Reader)
+
+0. **[Read&Write](accessibility-and-testing-with-read-and-write)** (Latest Version)<br>
+With Internet Explorer 11 on Windows (XP/Vista/7/8/10)<br>
+(Reading Solution)
 
 0. **[NVDA](accessibility-and-testing-with-nvda)** (Latest Version)<br>
 With Firefox (Latest Version) on Windows (XP/Vista/7/8/10)<br>
 (Screen Reader)
 
-## Category 3
-
-To further our audience support, the following **COULD** be used for testing.
-
-0. **[VoiceOver OS (Mac)](accessibility-and-testing-with-voiceover-os)** (Latest Version)<br>
+0. **[VoiceOver OS - Mac](accessibility-and-testing-with-voiceover-os)** (Latest Version)<br>
 With Safari (Latest Version) on Mac OS (Latest Version)<br>
-(Screen Reader)
-
-0. **[TalkBack](accessibility-and-testing-with-talkback)** (Latest Version)<br>
-With Chrome (Latest Version) on Android (Latest Version)<br>
 (Screen Reader)
 
 ## Why do we base our testing on the GOV.UK survey
