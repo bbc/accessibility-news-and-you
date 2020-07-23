@@ -32,6 +32,6 @@ Watch the following two short videos for a quick introduction on accessibility.
 - [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
 - [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology)
 - [Accessibility Design Review](/accessibility-news-and-you/guides/accessibility-design-review.html)
-- [Accessibility Swarms](accessibility-swarms)
+- [Accessibility Swarms](/accessibility-news-and-you/guides/accessibility-swarms.html)
 - [How to write accessibility acceptance criteria](/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html)
 - [How to document the screen reader user experience](/accessibility-news-and-you/guides/screen-reader-ux.html)
