@@ -6,18 +6,6 @@ We want to be the most accessible news website in the world. You can help us ach
 
 If you have any questions ask one of the Accessibility Champions around the department.
 
-## What is A11y?
-Accessibility is often referred to as 'A11y' for short. Not really sure what accessibility is or why we should consider it? 
-
-"**The most powerful technology in the world is technology that everyone, including people with disabilities, can use. To work, create, communicate, stay in shape, and be entertained. So we don’t design products for some people or even most people. We design them for every single person.**" (Apple)
-
-"**When I turn on a game like "Uncharted", I'm not, you know confined to a wheelchair, I'm a swashbuckler, there to treasure-hunt, like Nathan Drake. That brief period of escape is why accessibility is so crucial.**" (Josh Straub)
-
-Watch the following two short videos for a quick introduction on accessibility. 
-
-0. [A Thief's End - A New Adventure in Video Game Accessibility](https://www.youtube.com/watch?v=Ls_CD4mB42s) 
-0. [Apple – Accessibility – Sady](https://www.youtube.com/watch?v=XB4cjbYywqg)
-
 ## What is your role?
 
 - [Business Analyst](accessibility-news-and-business-analysts)
@@ -32,6 +20,6 @@ Watch the following two short videos for a quick introduction on accessibility.
 - [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
 - [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology)
 - [Accessibility Design Review](/accessibility-news-and-you/guides/accessibility-design-review.html)
-- [Accessibility Swarms](accessibility-swarms)
+- [Accessibility Swarms](/accessibility-news-and-you/guides/accessibility-swarms.html)
 - [How to write accessibility acceptance criteria](/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html)
 - [How to document the screen reader user experience](/accessibility-news-and-you/guides/screen-reader-ux.html)

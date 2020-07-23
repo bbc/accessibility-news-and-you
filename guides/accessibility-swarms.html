@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Accessibility swarms - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - Accessibility Swarms. We’ll take you step by step through how to carry out an accessibility swarm for a component.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>Accessibility swarms</span>
+                </span>
+            </h1>
+
+            <p>Accessibility swarms are a practice that we carry out in BBC News. We do this because <b>accessibility is a team responsibility</b>.</p>
+
+            <p>This practice also:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Helps everyone better understand accessibility</li>
+
+                <li role="listitem">Increases engagement with accessibility</li>
+
+                <li role="listitem">Increases accessibility knowledge throughout the team</li>
+
+                <li role="listitem">Improves the user experience for our users</li>
+            </ul>
+
+            <p>Accessibility swarms take place on <b>all new front-end code</b>, this means any change to <b>HTML, CSS or front-end JavaScript</b> code.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Page contents">
+            <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+            <ol role="list">
+                <li role="listitem"><a href="#who-should-take-part">Who should take part?</a></li>
+                <li role="listitem"><a href="#planning-for-swarms">Planning for swarms</a></li>
+                <li role="listitem"><a href="#when-should-a-swarm-take-place">When should a swarm take place?</a></li>
+                <li role="listitem"><a href="#how-long-will-a-swarm-take">How long will a swarm take?</a></li>
+                <li role="listitem"><a href="#how-to-carry-out-a-swarm">How to carry out a swarm</a></li>
+                <li role="listitem"><a href="#moving-to-the-test-phase">Moving to the test phase</a></li>
+                <li role="listitem"><a href="#top-tips">Top tips</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h2 id="who-should-take-part" class="h2" tabindex="-1">Who should take part?</h2>
+
+            <p>If it's a new component or feature, hold a <b>team accessibility swarm</b>:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Include 4 to 6 people</li>
+
+                <li role="listitem">You don’t need to have worked on the component or feature</li>
+
+                <li role="listitem">All disciplines can join in. The <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-assistive-technology">testing steps</a> enable anyone, in any role, to use any of the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-supported-assistive-technology">supported assistive technology</a> for the first time</li>
+
+                <li role="listitem">Ideally a mixture of roles should take part, such as business analyst, designer, engineer etc.</li>
+
+                <li role="listitem">If you don't have a large team, why not invite people from another team to take part. And you can return the favour for them another time</li>
+            </ul>
+
+            <p>If it's a small change, carry out a <b>developer accessibility swarm</b>:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">You don’t need 4 to 6 people</li>
+
+                <li role="listitem">2 engineers can work through the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-testers">swarm checklist</a> alone</li>
+
+                <li role="listitem">You only need to check what’s relevant. For example, if you have only changed a colour, then you only need to check what’s relevant to this. Such as colour contrast and colour blindness. Not sure what's relevant, ask</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="planning-for-swarms" class="h2" tabindex="-1">Planning for swarms</h2>
+
+            <p>The level of accessibility swarm, team or developer, should be defined up front and documented as a requirement before the development phase.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="when-should-a-swarm-take-place" class="h2" tabindex="-1">When should a swarm take place?</h2>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Before the work moves from development to test</li>
+
+                <li role="listitem">When HTML, CSS & front-end JavaScript is code complete</li>
+
+                <li role="listitem">After code review and UX review have taken place</li>
+
+                <li role="listitem">Some developer testing with some assistive technology should already have taken place</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="how-long-will-a-swarm-take" class="h2" tabindex="-1">How long will a swarm take?</h2>
+            
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Some swarms will be shorter, some longer</li>
+
+                <li role="listitem">Allow 2 hours</li>
+
+                <li role="listitem">It will depend on the size and complexity of the component, and experience of the swarmers</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="how-to-carry-out-a-swarm" class="h2" tabindex="-1">How to carry out a swarm</h2>
+
+            <p><b>Before the swarm starts</b>, prepare a <b>document</b> to make a note of any issues. Also ensure you'll have all the <b>equipment</b> you need:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Android device with Talkback</li>
+
+                <li role="listitem">iPhone</li>
+
+                <li role="listitem">Mac laptop</li>
+
+                <li role="listitem">Windows laptop with <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-supported-assistive-technology">supported assistive technology</a> installed</li>
+
+                <li role="listitem">Headphones with microphone, to use with Dragon NaturallySpeaking on Windows e.g. Jabra headset</li>
+            </ul>
+
+            <p><b>At the start of the swarm</b>:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Brief the swarmers. Is there something that you need to look out for that might not be obvious? Such as some visually hidden text</li>
+
+                <li role="listitem">Get into pairs, technical role with non-technical role, such as designer and engineer. We all have different skills and can help each other along</li>
+            </ul>
+
+            <p><b>During the swarm</b>:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Work through the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-testers">swarm checklist</a>, with each pair looking at different items from the checklist</li>
+
+                <li role="listitem">Test with all <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-supported-assistive-technology">supported assistive technology</a> following the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-assistive-technology">testing steps</a></li>
+
+                <li role="listitem">Make notes of any issues</li>
+
+                <li role="listitem">Prioritise bugs</li>
+            </ul>
+
+            <p><b>After the swarm</b>:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Create tickets to fix the issues you aren't going to address as part of the current pull request</li>
+
+                <li role="listitem">Include information on how to replicate the issue and the bug priority level</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="moving-to-the-test-phase" class="h2" tabindex="-1">Moving to the test phase</h2>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Swarms take place before work moves from development to test. On a rare occasion, if the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-testers">swarm checklist</a> was not completed fully, fill in the gaps to ensure there is complete testing coverage</li>
+
+                <li role="listitem">If the code hasn’t changed since the swarm, you do not need to repeat what was carried out during the swarm</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="top-tips" class="h2" tabindex="-1">Top tips</h2>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Be proactive, any discipline can request and start a swarm</li>
+
+                <li role="listitem">Work at component level rather than page level</li>
+
+                <li role="listitem">The more swarms you do, the more familiar and faster you will get</li>
+
+                <li role="listitem">Always follow the <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-assistive-technology">testing steps</a></li>
+
+                <li role="listitem">Not sure? Ask an <a href="https://www.bbc.co.uk/accessibility/forproducts/champions">accessibility champion</a></li>
+            </ul>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2020 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
