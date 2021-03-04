@@ -3,7 +3,11 @@ description:
 
 markdown: kramdown
 theme: minima
+url: "https://bbc.github.io" # the base hostname & protocol for your site
+gems:
+  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - node_modules
