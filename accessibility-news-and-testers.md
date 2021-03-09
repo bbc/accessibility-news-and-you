@@ -6,7 +6,7 @@ Accessibility testing should be done as part of the **Definition of Done**.
 
 0. Are you aware of the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)? Some simple quick checks are outlined here, please refer to the guidelines for in depth information.
 
-0. Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers? And how to use this?
+0. Do you have an understanding of what [Assistive Technology we support](/assistive-technology/testing.html#supported-at), such as screen readers? And how to use this?
 
 To gain an understanding of accessibility features and what to look for it is recommended to attend the Accessible UX course and complete the [Accessibility for Web Developers](http://www.bbc.co.uk/academy/beta/course/COU-12887) <small>(Internal BBC link)</small> online course. The [Introduction to Screen Readers](http://www.bbc.co.uk/academy/beta/course/COU-50344015) <small>(Internal BBC link)</small> course would also be very useful.
 
@@ -59,7 +59,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 ## Checklist - Assistive Technology
 
-Test with [Supported Assistive Technology](accessibility-and-supported-assistive-technology), using an actual device if possible.
+Test with [Supported Assistive Technology](/assistive-technology/testing.html#supported-at), using an actual device if possible.
 
 The accessibility acceptance criteria can be used for manual testing steps on device, this is written by the Business Analyst and part of their checklist.
 

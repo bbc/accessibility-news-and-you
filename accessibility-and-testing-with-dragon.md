@@ -63,4 +63,4 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 ## Other pages
 
-- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
+- [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)

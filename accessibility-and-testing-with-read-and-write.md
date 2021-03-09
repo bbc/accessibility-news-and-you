@@ -55,4 +55,4 @@ When testing with **IE**, you may experience **text that is hidden** being read 
 
 ## Other pages
 
-- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
+- [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)

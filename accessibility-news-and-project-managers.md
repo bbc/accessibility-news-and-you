@@ -6,7 +6,7 @@ Accessibility should be considered from the start of the project and into operat
 
 0. Are you aware of the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)?
 
-0. Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers?
+0. Do you have an understanding of what [Assistive Technology we support](/assistive-technology/testing.html#supported-at), such as screen readers?
 
 ## Checklist
 
@@ -15,11 +15,11 @@ Accessibility should be considered from the start of the project and into operat
 0. **Engage all disciplines** - Everyone has a part to play. Accessibility is a cross discipline solution,
 not just the role of the developer. To meet accessibility standards you need to have engagement from everyone in the team. It's your role to help and encourage team members from all disiplines to engage with accessibiliy, for example are all team members aware of the disipline checklists on this guide?
 
-0. **[Assistive technology priorites](accessibility-and-supported-assistive-technology)** - Does everyone in the team know what assistive technology to test with and what the priorities are?
+0. **[Assistive technology priorites](/assistive-technology/testing.html)** - Does everyone in the team know what assistive technology to test with and what the priorities are?
 
 0. **Easy access for all to assistive technology** - For testing with assistive technology to be a success on your project, you need to have no barriers to accessing this. This could be a PC laptop specifically for testing with assistive technology which is PC based, such as ZoomText, Dragon, Jaws, Read&Write and NVDA, that is shared between all team members.
 
-0. **Testing steps** - Does everyone in the team know how to use all the [assistive technology](accessibility-and-supported-assistive-technology)? Anyone, in any role, should be able to use any of the supported assistive technologies comfortably, by following the testing steps for assistive technology in this guide, such as [Accessibility and Testing with VoiceOver iOS](accessibility-and-testing-with-voiceover-ios).
+0. **Testing steps** - Does everyone in the team know how to use all the [assistive technology](/assistive-technology/testing.html#supported-at)? Anyone, in any role, should be able to use any of the supported assistive technologies comfortably, by following the testing steps for assistive technology in this guide, such as [Accessibility and Testing with VoiceOver iOS](accessibility-and-testing-with-voiceover-ios).
 
 0. **Accessibility Swarms** - Is the team as a whole engaged with accessibility? Are 'Accessibility Swarms' being carried out? Before a ticket (for front-end development - HTML, CSS and/or Javascript) moves from Development to Test, is the team downing tools and getting together to run through the final accessibility checks and test with all the assistive technology that we support? All disciplines can join in - Ideally you want a mix of roles such as Business Analyst, Designer and Developer.
 

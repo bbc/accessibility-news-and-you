@@ -6,7 +6,7 @@ Design with accessibility in mind from the start.
 
 Some simple quick checks are outlined here, please refer to the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/) for in depth information.
 
-Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers? And how to use this?
+Do you have an understanding of what [Assistive Technology we support](/assistive-technology/testing.html#supported-at), such as screen readers? And how to use this?
 
 For an introduction on accessible thinking see the [How to Design for Accessibility](http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility) guide. It is also recommended to attend the Accessible UX course and complete the [Accessibility for Web Developers](http://www.bbc.co.uk/academy/beta/course/COU-12887) <small>(Internal BBC link)</small> online course. The [Introduction to Screen Readers](http://www.bbc.co.uk/academy/beta/course/COU-50344015) <small>(Internal BBC link)</small> course would also be very useful.
 
@@ -38,7 +38,7 @@ For designs created using Sketch or Photoshop etc.
 
 ### Checklist - When on test or live
 
-0. Test your design with assistive technology, such as a screen reader, VoiceOver on iOS (iPhone/iPad) is recommended, does the feature make sense? If using VoiceOver for the 1st time, see [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology).
+0. Test your design with assistive technology, such as a screen reader, VoiceOver on iOS (iPhone/iPad) is recommended, does the feature make sense? If using VoiceOver for the 1st time, see [VoiceOver iOS testing steps](accessibility-and-testing-with-voiceover-ios).
 0. You can use the bbc-a11y Pa11y Dashboard to check for code errors against the BBC Accessibility Standards. Note passing the standards does not mean a product is useable. This dashboard is to be released early 2017.
 
 ## Checklists for other roles in the team

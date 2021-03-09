@@ -15,10 +15,9 @@ If you have any questions ask one of the Accessibility Champions around the depa
 - [Project Manager](accessibility-news-and-project-managers)
 - [Tester](accessibility-news-and-testers)
 
-## Other pages
+## Guides
 
-- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
-- [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology)
+- [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)
 - [Accessibility Design Review](/accessibility-news-and-you/guides/accessibility-design-review.html)
 - [Accessibility Swarms](/accessibility-news-and-you/guides/accessibility-swarms.html)
 - [How to write accessibility acceptance criteria](/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html)

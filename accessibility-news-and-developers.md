@@ -6,7 +6,7 @@ Accessibility should be considered from the start of development and throughout 
 
 0. Are you aware of the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)? Some simple quick checks are outlined here, please refer to the guidelines for in depth information.
 
-0. Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers? And how to use this?
+0. Do you have an understanding of what [Assistive Technology we support](/assistive-technology/testing.html#supported-at), such as screen readers? And how to use this?
 
 To gain an understanding of accessibility features and what to look for it is recommended to attend the Accessible UX course and complete the [Accessibility for Web Developers](http://www.bbc.co.uk/academy/beta/course/COU-12887) <small>(Internal BBC link)</small> online course. The [Introduction to Screen Readers](http://www.bbc.co.uk/academy/beta/course/COU-50344015) <small>(Internal BBC link)</small> course would also be very useful.
 
@@ -37,7 +37,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Do you need to use any [**ARIA**](https://www.w3.org/WAI/intro/aria.php)? For example, ARIA can be used simply to add [landmarks/regions](https://w3c.github.io/aria-practices/examples/landmarks/index.html) to a page or more advanced usage can help with dynamic content and advanced user interface controls such as tabs. For examples see [ARIA Authoring Practices](http://w3c.github.io/aria-practices/). Note ARIA should be used sparingly.
 
-0. Use **VoiceOver** (Screen Reader) on iOS (iPhone/iPad) during development. It's a lot more effort to fix bugs after you are code complete. If using VoiceOver for the 1st time, see [Accessibility and Testing with Assistive Technology](accessibility-and-testing-with-assistive-technology).
+0. Use **VoiceOver** (Screen Reader) on iOS (iPhone/iPad) during development. It's a lot more effort to fix bugs after you are code complete. If using VoiceOver for the 1st time, see [VoiceOver iOS testing steps](accessibility-and-testing-with-voiceover-ios).
 
 ## Checklist - Before code merge
 
@@ -47,7 +47,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Specifically check your code for errors against **BBC Accessibility Standards**, either by using [bbc-a11y](https://github.com/bbc/bbc-a11y) in the terminal or by using the bbc-a11y Pa11y Dashboard (Dashboard to be released early 2017).
 
-0. Test with [Assistive Technology](accessibility-and-supported-assistive-technology) that we support
+0. Test with [Assistive Technology](/assistive-technology/testing.html) that we support
 
 0. Automated testing with SHIVE (HIVE for Screen Readers) - Have **cucumber tests** been written against the accessibility acceptance criteria? Note, SHIVE is not yet in production, however the tests should still be written so you are ready to go when it is.
 
