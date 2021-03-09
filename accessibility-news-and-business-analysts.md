@@ -6,7 +6,7 @@ To gain an understanding of accessibility features and what to look for it is re
 
 0. Are you aware of the [BBC Accessibility Standards and Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)?
 
-0. Do you have an understanding of what [Assistive Technology we support](accessibility-and-supported-assistive-technology), such as screen readers? And how to use this?
+0. Do you have an understanding of what [Assistive Technology we support](/assistive-technology/testing.html#supported-at), such as screen readers? And how to use this?
 
 ## Checklist - Before development starts
 

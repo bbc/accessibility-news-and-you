@@ -92,4 +92,4 @@ TalkBack lets you control whether text is read to you by **paragraph, a line, a 
 
 ## Other pages
 
-- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
+- [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)

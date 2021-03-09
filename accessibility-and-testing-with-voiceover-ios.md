@@ -76,4 +76,4 @@ If VoiceOver is talking too quick, you can reduce the 'Speaking rate'. Go to 'Se
 
 ## Other pages
 
-- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
+- [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)

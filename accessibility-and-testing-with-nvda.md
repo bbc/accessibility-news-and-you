@@ -93,4 +93,4 @@ The default mode for reading content with NVDA is the 'Screen Layout' mode. This
 
 ## Other pages
 
-- [Accessibility and Supported Assistive Technology](accessibility-and-supported-assistive-technology)
+- [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)
