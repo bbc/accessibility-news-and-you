@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Testing with assistive technology - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - Testing with assistive technology. What, when and how to test with AT.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>Testing with assistive technology</span>
+                </span>
+            </h1>
+
+            <p>As a miminum test web products with all supported assistive technology (AT) to be considered acceptable for a live release.</p>
+
+            <p>The assistive technology is based on results from the <a href="https://webaim.org/projects/screenreadersurvey8/">2019 WebAIM screen reader survey</a>, <a href="https://accessibility.blog.gov.uk/2016/11/01/results-of-the-2016-gov-uk-assistive-technology-survey/">2016 GOV.UK assistive technology survey</a>, along with advice from BBC assistive technology specialists and audience statistics.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Page contents">
+            <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+            <ol role="list">
+                <li role="listitem"><a href="#supported-at">Supported AT</a></li>
+                <li role="listitem"><a href="#when-to-test-with-at">When to test with AT</a></li>
+                <li role="listitem"><a href="#how-to-test-with-at">How to test with AT</a></li>
+                <li role="listitem"><a href="#top-tips">Top tips</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h2 id="supported-at" class="h2" tabindex="-1">Supported AT</h2>
+
+            <p>Test with the latest version available.</p>
+
+            <div class="table-container table-container-at">
+                <table class="table-type-one table-at">
+                    <caption>Mobile supported AT</caption>
+                    <thead>
+                        <tr>
+                            <th class="th-1" scope="col">Assistive technology</th>
+                            <th class="th-2" scope="col">Operating system</th>
+                            <th class="th-3" scope="col">Browser</th>
+                            <th class="th-4" scope="col">Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback">TalkBack</a></th>
+                            <td>Android</td>
+                            <td>Chrome</td>
+                            <td>Screen reader</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-voiceover-ios">VoiceOver</a></th>
+                            <td>iOS</td>
+                            <td>Safari</td>
+                            <td>Screen reader</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://support.google.com/accessibility/android/answer/6151848?hl=en">Voice Access</a></th>
+                            <td>Android</td>
+                            <td>Chrome</td>
+                            <td>Speech recognition</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://support.apple.com/en-us/HT210417">Voice Control</a></th>
+                            <td>iOS</td>
+                            <td>Safari</td>
+                            <td>Speech recognition</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-container table-container-at">
+                <table class="table-type-one table-at">
+                    <caption>Desktop / Laptop supported AT</caption>
+                    <thead>
+                        <tr>
+                            <th class="th-1" scope="col">Assistive technology</th>
+                            <th class="th-2" scope="col">Operating system</th>
+                            <th class="th-3" scope="col">Browser</th>
+                            <th class="th-4" scope="col">Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-read-and-write">Read&Write</a> or <a href="https://www.youtube.com/watch?v=j9C59pRImY0&list=PL1A31CA479D1F8699&index=7">ClaroRead</a></th>
+                            <td>Windows</td>
+                            <td>Chrome</td>
+                            <td>Reading solution</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-zoomtext">ZoomText Magnifier / Reader</a></th>
+                            <td>Windows</td>
+                            <td>Chrome</td>
+                            <td>Screen magnifier with speech</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-jaws">JAWS</a></th>
+                            <td>Windows</td>
+                            <td>Chrome &amp; IE11</td>
+                            <td>Screen reader</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-nvda">NVDA</a></th>
+                            <td>Windows</td>
+                            <td>Firefox ESR &amp; Chrome</td>
+                            <td>Screen reader</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-voiceover-os">VoiceOver</a></th>
+                            <td>Mac</td>
+                            <td>Safari</td>
+                            <td>Screen reader</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-dragon">Dragon</a></th>
+                            <td>Windows</td>
+                            <td>Chrome</td>
+                            <td>Speech recognition</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>            
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="when-to-test-with-at" class="h2" tabindex="-1">When to test with AT</h2>
+
+            <p>Test with assistive technology as part of:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Development</strong> - An accessible front-end development approach includes checking code with assistive technology during development.</li>
+
+                <li role="listitem"><strong>UX review</strong> - Designers are responsible for reviewing the experience for all users, not just the visual UX. Reviewing the HTML could be one step in the review process. This should never replace reviewing the user experience with a screen reader and other assistive technologies. When a component has been developed and is ready for UX review, designers can review and sign off the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a> during an <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-swarms.html">accessibility swarm</a>.</li>
+
+                <li role="listitem"><strong>Accessibility swarms</strong> - Assistive technology testing forms part of an <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-swarms.html">accessibility swarm</a>, along with other accessibliity checks. As a miminum, test with all supported assistive technology during an accessibility swarm to be considered acceptable for a live release.</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="how-to-test-with-at" class="h2" tabindex="-1">How to test with AT</h2>
+
+            <p>Ensure your team has all the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-swarms.html#how-to-carry-out-a-swarm">equipment you will need</a>, then follow the testing steps.</p>
+
+            <p>The testing steps enable anyone, in any role, to use any of the supported assistive technology for the first time.</p>
+
+            <p>Always follow the testing steps. This ensures everyone is testing with the same methods in a consistent way, using common techniques.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="AT testing steps">
+                <strong id="at-testing-steps" class="page-contents_strong" tabindex="-1">AT testing steps</strong>
+                <ul role="list">
+                    <li role="listitem"><a href="https://www.youtube.com/watch?v=j9C59pRImY0&list=PL1A31CA479D1F8699&index=7">ClaroRead</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-dragon">Dragon</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-jaws">JAWS</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-nvda">NVDA</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-read-and-write">Read&Write</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback">TalkBack</a></li>
+                    <li role="listitem"><a href="https://support.google.com/accessibility/android/answer/6151848?hl=en">Voice Access</a></li>
+                    <li role="listitem"><a href="https://support.apple.com/en-us/HT210417">Voice Control</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-voiceover-ios">VoiceOver iOS</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-voiceover-os">VoiceOver Mac</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-zoomtext">ZoomText Magnifier / Reader</a></li>
+                </ul>
+            </nav>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="top-tips" class="h2" tabindex="-1">Top tips</h2>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Using a screen reader for the first time can be daunting, don't worry, have ago</li>
+
+                <li role="listitem">The more assistive technology you use, the more familiar and faster you will get</li>
+
+                <li role="listitem">Always follow the <a href="#at-testing-steps">testing steps</a></li>
+
+                <li role="listitem">Not sure? Ask an <a href="https://www.bbc.co.uk/accessibility/forproducts/champions">accessibility champion</a></li>
+            </ul>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2020 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
