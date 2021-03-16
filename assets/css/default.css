@@ -461,6 +461,11 @@ img.image_show-more-updates {
   vertical-align: top;
 }
 
+.table-type-one.table-at th,
+.table-type-one.table-at td {
+  vertical-align: bottom;
+} 
+
 .table-type-one th {
   font-weight: bolder;
 }
@@ -601,12 +606,10 @@ img.image_show-more-updates {
 .table-at .th-3,
 .table-at tbody > tr > th + td + td {
   width: 25%;
-  vertical-align: bottom;
 }
 
 .table-at .th-4,
 .table-at tbody > tr > th + td + td + td {
-  vertical-align: bottom;
 }
 }
 
@@ -705,13 +708,11 @@ img.image_show-more-updates {
 .table-at .th-3,
 .table-at tbody > tr > th + td + td {
   width: 25%;
-  vertical-align: bottom;
 }
 
 .table-at .th-4,
 .table-at tbody > tr > th + td + td + td {
   width: 25%;
-  vertical-align: bottom;
 }
 }
 
