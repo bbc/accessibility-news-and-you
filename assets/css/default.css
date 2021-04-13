@@ -123,6 +123,12 @@ figure.poster > a:focus {
   white-space: initial;
 }
 
+@media (prefers-color-scheme: dark) {
+  figure.poster > a:focus {
+    border-color: #79afdf;
+  }
+}
+
 
 /* Visualy hidden
 --------------------------------------------------------*/
