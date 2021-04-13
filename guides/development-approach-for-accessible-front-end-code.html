@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Our development approach for accessible front-end code - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Software engineers guide - Our development approach for accessible front-end code. We’ll take you step by step through our approach when picking up a front-end ticket.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Software engineers guide</span><span class="vh">, </span>
+                    <span>Our development approach for accessible front-end code</span>
+                </span>
+            </h1>
+
+            <p>Our development approach for accessible front-end code helps us meet the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/">BBC Mobile Accessibility Guidelines</a>.</p>
+
+            <h2 id="step-by-step" class="h2" tabindex="-1">Step by step</h2>
+
+            <p>We’ll take you step by step through our development approach for accessible front-end code from picking up a front-end ticket.</p>
+
+            <figure class="poster last">
+                <a href="/accessibility-news-and-you/pdfs/our-development-approach-for-accessible-front-end-code-poster.pdf">
+                    <img src="/accessibility-news-and-you/assets/img/development-approach/our-development-approach-for-accessible-front-end-code-poster.png" alt="The steps in our development approach for accessible front-end code from picking up a front-end ticket">
+                </a>
+                <figcaption>Poster which can be used alongside this guide showing our development approach for accessible front-end code.</figcaption>
+            </figure>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-pick-up-front-end-ticket" id="step-by-step-navigation">1 - Pick up front-end ticket</a></li>
+                <li role="listitem"><a href="#step-2-look-at-screen-reader-ux">2 - Look at screen reader UX</a></li>
+                <li role="listitem"><a href="#step-3-read-aac">3 - Read AAC</a></li>
+                <li role="listitem"><a href="#step-4-write-html">4 - Write HTML</a></li>
+                <li role="listitem"><a href="#step-5-check-with-supported-at">5 - Check with supported AT</a></li>
+                <li role="listitem"><a href="#step-6-write-automated-tests">6 - Write automated tests</a></li>
+                <li role="listitem"><a href="#step-7-design-and-code-review">7 - Design and code review</a></li>
+                <li role="listitem"><a href="#step-8-swarm-accessibility-checklist">8 - Swarm accessibility checklist</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-pick-up-front-end-ticket" class="h3" tabindex="-1">Step 1 - Pick up front-end ticket</h3>
+
+            <p>Pick up a front-end ticket to work on, this could be a Jira ticket or a GitHub Issue depending on the workflow of your team.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-look-at-screen-reader-ux" class="h3" tabindex="-1">Step 2 - Look at screen reader UX</h3>
+
+            <p>An accessible design approach includes documenting the non-visual user experience (UX), for screen reader users. This also helps in achieving a good UX for other types of assistive technology users. <b>Before writing any code</b>, look at the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">documented screen reader UX</a>.</p>
+
+            <p>Don’t leave it to chance:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Interpretation</strong> - By looking at a visual, many engineers will be able to interpret the screen reader UX. Though their interpretation may not be the same as what the designer had intended.</li>
+
+                <li role="listitem"><strong>Knowledge</strong> - Like designers, engineers have different skill sets. Some know more about HTML and accessibility than others. This documentation enables designers and engineers to better communicate and collaborate.</li>
+
+                <li role="listitem"><strong>Creative license</strong> - Visual styling doesn’t always follow the rules. For example, as part of a component you might have a heading which has low key styling, as the designer didn’t want to draw attention to it. How do you know for sure that element should be a HTML heading if it doesn’t look the same as other headings?</li>
+
+                <li role="listitem"><strong>Consistency</strong> - You cannot assume that all engineers will interpret a visual in the same way. If you work in a large team, it’s more than likely multiple engineers will work on a component.</li>
+            </ul>
+
+            <p>As an engineer, you are likely to have a higher degree of working knowledge for HTML, than a designer. If you see an improvement that could be made, talk to UX before implementing any such improvement. UX are responsible for designing the user experience. Period.</p>
+
+            <p>If a <b>div or span</b> HTML element has been specified decide which is the most appropriate non semantic element. No semantics will be  announced from either. Though they can both affect the screen reader user experience in different ways.</p>
+
+            <p>If the screen reader UX is missing, ask UX for the required documentation before proceeding to the next step.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-read-aac" class="h3" tabindex="-1">Step 3 - Read accessibility acceptance criteria</h3>
+        
+            <p>We <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">write accessibility acceptance criteria</a> for <b>new</b> components and features, as well as <b>iterations</b>, <b>before the development phase</b>. Read the accessibility acceptance criteria before proceeding to the next step.</p>
+
+            <p>Accessibility acceptance criteria defines conditions for factors:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">That play a key part in a component or feature being accessible</li>
+
+                <li role="listitem">That are at high risk of introducing an accessibility issue</li>
+            </ul>
+
+            <p>If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before proceeding to the next step.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-write-html" class="h3" tabindex="-1">Step 4 - Write HTML</h3>
+
+            <p>You can now <b>start to write some code</b>. The first stage of this should include writing the required HTML. Follow the defined screen reader UX, using the front-end JavaScript library that your code base uses to build user interfaces, such as React.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-check-with-supported-at" class="h3" tabindex="-1">Step 5 - Check with supported assistive technology</h3>
+
+            <p>Checking your code little and often with assistive technology enables you to easily identify when and where any bugs are introduced or the screen reader UX is not met.</p>
+
+            <p>When the <b>raw HTML</b> can be output in the browser, check that the screen reader UX is as expected with <a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-supported-assistive-technology">supported assistive technology</a>, and that no bugs are present. You can then add the required CSS and check again with assistive technology. Before writing any required front-end JavaScript and checking again.</p>
+
+            <ol class="body-copy-list no-space" role="list">
+                <li role="listitem">Write HTML</li>
+                <li role="listitem">Check with supported AT</li>
+                <li role="listitem">Add CSS</li>
+                <li role="listitem">Check with supported AT</li>
+                <li role="listitem">Add front-end JavaScript</li>
+                <li role="listitem">Check with supported AT</li>
+            </ol>
+
+            <p>To save time you maybe tempted to leave checking with assistive technology until the end of your code writing. Doing this might not be time effective, espcically for more complicated components, which may be more time consuming to debug, if checking with AT is left until the end.</p>
+
+            <p>An <a href="#step-8-swarm-accessibility-checklist">accessiblity swarm</a> should not be the first time the code is checked with assistive technology.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-write-automated-tests" class="h3" tabindex="-1">Step 6 - Write automated tests for accessibility</h3>
+
+            <p>Write automated tests for accessibility where relevant, along with other automated tests. If your team uses a test driven development (TDD) approach, this step would take place just before <a href="#step-4-write-html">writing the HTML</a>.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-design-and-code-review" class="h3" tabindex="-1">Step 7 - Design and code review</h3>
+
+            <p>When the ticket is code complete:</p> 
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Ask UX for a design review</li>
+                <li role="listitem">Request for the code to be reviewed by other engineers</li>
+            </ul>
+
+            <p>When reviewing code, this should take into account if the code meets the defined screen reader UX and accessibility acceptance criteria.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-8-swarm-accessibility-checklist" class="h3" tabindex="-1">Step 8 - Swarm accessibility checklist</h3>
+
+            <p><b>After addressing all UX and code review comments</b> hold an <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-swarms.html">accessiblity swarm</a>. On completion of the swarm and resolving any bugs, the component is then ready for Test.</p>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2021 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
