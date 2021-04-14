@@ -22,3 +22,4 @@ If you have any questions ask one of the Accessibility Champions around the depa
 - [Accessibility Swarms](/accessibility-news-and-you/guides/accessibility-swarms.html)
 - [How to write accessibility acceptance criteria](/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html)
 - [How to document the screen reader user experience](/accessibility-news-and-you/guides/screen-reader-ux.html)
+- [Our development approach for accessible front-end code](/accessibility-news-and-you/guides/development-approach-for-accessible-front-end-code.html)
