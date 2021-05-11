@@ -292,6 +292,7 @@ img {
 }
 
 img.image_show-more-updates,
+img.image_ordered-list,
 figure.poster > a > img {
   margin-bottom: 0;
 }
@@ -601,7 +602,8 @@ figure.poster > a > img {
   width: 85%;
 }
 
-.image_show-more-updates {
+.image_show-more-updates,
+.image_ordered-list {
   width: 100%;
 }
 
@@ -697,7 +699,8 @@ figure.poster > a > img {
   width: 57%;
 }
 
-.image_show-more-updates {
+.image_show-more-updates,
+.image_ordered-list {
   width: 64%;
 }
 
@@ -819,6 +822,10 @@ figure.poster > a > img {
 
 .image_show-more-updates {
   width: 80%;
+}
+
+.image_ordered-list {
+  width: 75%;
 }
 
 .table-screen-reader-ux-web .th-1,
