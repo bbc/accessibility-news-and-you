@@ -36,7 +36,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 6. Navigate to the end of the feature before the feature to be tested, then select '**Links**' from the '[Rotor menu](#rotor-menu)', then swipe from top to bottom to read through the links. Are all links read out? Is any content that is not a link read out?
 7. Select '**Landmarks**' from the '[Rotor menu](#rotor-menu)', then swipe from top to bottom to read through the landmarks.
 - Are all landmarks read out? Not sure what landmarks are? See [W3C ARIA Landmarks Examples](https://w3c.github.io/aria-practices/examples/landmarks/index.html). Not sure what landmarks the feature should read out? See the accessibility acceptance criteria.
-8. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynmaic content such as page updates or advanced user interface controls such as tabs. Swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
+8. **ARIA** can be used simply to add landmarks/regions/labels to a page or more advanced usage can help with dynamic content such as page updates or advanced user interface controls such as tabs. Swipe from left to right to move through the feature checking that all ARIA is being acknowledge/read out correctly. See the accessibility acceptance criteria for details on what should be read out. Still not sure what should be acknowledged/read out? Ask an Accessiblity Champion.
 
 ### Tables
 
