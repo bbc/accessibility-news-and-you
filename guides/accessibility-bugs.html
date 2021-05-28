@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Accessibility bugs - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - Accessibility bugs. We’ll take you step by step through what bugs mean for users and teams, and how to prioritise them.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>Accessibility bugs</span>
+                </span>
+            </h1>
+
+            <p>The BBC is for everyone. Having an accessibility bug in your product could mean that it’s not for everyone.</p>
+
+            <p>Accessibility bugs can disable. They can prevent products and their content being available to and accessible to as many people as possible.</p>
+
+            <p>It’s a requirement of all the digital products we produce to meet the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/">BBC Mobile Accessibility Guidelines</a> or equivalent <a href="https://www.w3.org/TR/WCAG21/">WCAG</a> guidelines outside the UK, so they are accessible to the widest possible audience.</p>
+
+            <p>In addition to meeting these guidelines, the level of user experience for users of assistive technology should be comparable where possible, to that of those who don’t use assistive technology.</p>
+
+            <p>If you don’t meet a guideline or have a poor user experience when using assistive technology, you have an accessibility bug in your product.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Page contents">
+            <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+            <ol role="list">
+                <li role="listitem"><a href="#what-bugs-mean-for-users">What bugs mean for users</a></li>
+                <li role="listitem"><a href="#teams-and-accessibility-bugs">Teams and accessibility bugs</a></li>
+                <li role="listitem"><a href="#how-to-categorise-bugs">How to categorise bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h2 id="what-bugs-mean-for-users" class="h2" tabindex="-1">What bugs mean for users</h2>
+
+            <p>Accessibility bugs don't just apply to users with disabilities. Accessibility bugs mean that our content is not available to and accessible to as many users as possible. All users have different needs, at different times, and in different circumstances. For example, browsing in bright sunlight could make it hard to see the screen of a mobile device for a sighted user, meeting colour contrast levels limits this as much as possible.</p>
+
+            <p>Did you know that:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">One billion people in the world experience some form of disability. This number is expected to double by 2050.</li>
+
+                <li role="listitem">There are around 14.1 million disabled people in the UK, this means 1 in 5 of the population are disabled.</li>
+
+                <li role="listitem">Almost everyone is likely to experience some form of disability ─ temporary or permanent ─ at some point in life.</li>
+            </ul>
+
+            <p>Sources: <a href="https://www.who.int/news-room/fact-sheets/detail/disability-and-health">WHO</a> and <a href="https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2019-to-2020/family-resources-survey-financial-year-2019-to-2020#disability-1">Department for Work & Pensions</a>.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="teams-and-accessibility-bugs" class="h2" tabindex="-1">Teams and accessibility bugs</h2>
+
+            <p>Depending on the <a href="#how-to-categorise-bugs">severity</a> <b>an accessibility bug can block a release</b>.</p>
+
+            <h3 class="h3">How can my team avoid or limit the number of accessibility bugs?</h3>
+
+            <p>Plan ahead, don’t leave accessibility to the end.</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Accessibility should be considered from the start of the product life cycle and throughout</li>
+
+                <li role="listitem">It’s going to be painful and expensive if you don’t fully consider accessibility until the end</li>
+            </ul>
+
+            <h3 class="h3">Cross discipline solution</h3>
+
+            <p>Accessibility is a cross discipline solution in which everyone in the team has a part to play, from Product Owner to Tester. It’s not just the role of a single software engineer in the team. Everyone is responsible for accessibility. Be clear what part you and your discipline have to play.</p>
+
+            <p>To help there are accessibility checklists for all team disciplines:</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Accessibility checklists by discipline">
+                <strong class="page-contents_strong">Discipline checklists</strong>
+                <ul role="list">
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-business-analysts">Business Analyst</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-designers">Designer</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-product-owners">Product Owner</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-project-managers">Product Manager</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-developers">Software Engineer</a></li>
+                    <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-testers">Tester</a></li>
+                </ul>
+            </nav>
+
+            <h3 class="h3">Practices and approaches</h3>
+
+            <p>The following practices and approaches will help your team, if your team isn’t already carrying out these, start.</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html#step-4-user-research">Accessibility user research</a></li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html">Accessibility design reviews</a></li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">Screen reader UX</a></li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a></li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/development-approach-for-accessible-front-end-code.html">Development approach for accessible front-end code</a></li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html">Testing with assistive technology</a></li>
+
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-swarms.html">Accessibility swarms</a></li>
+            </ul>
+
+            <p>Finally, be proactive. Teams are responsible for the products they build. If you need guidance or reassurance, ask an <a href="https://www.bbc.co.uk/accessibility/forproducts/champions">Accessibility Champion</a> or your Accessibility Lead.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="how-to-categorise-bugs" class="h2" tabindex="-1">How to categorise bugs</h2>
+
+            <p>There are 3 categories of accessibility bugs:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><a href="#p1-accessibility-bugs">Priority 1 (P1)</a></li>
+
+                <li role="listitem"><a href="#p2-accessibility-bugs">Priority 2 (P2)</a></li>
+
+                <li role="listitem"><a href="#p3-accessibility-bugs">Priority 3 (P3)</a></li>
+            </ul>
+
+            <h3 id="p1-accessibility-bugs" class="h3" tabindex="-1">P1 accessibility bugs</h3>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Lead to exclusion</li>
+
+                <li role="listitem">Mean the user can't access content</li>
+
+                <li role="listitem">Must be fixed prior to release</li>
+
+                <li role="listitem">Always block a release (the only exception is legally mandated needs to deliver, such as an election, however even in such cases there is an overwhelming responsibility for the content to be accessible)</li>
+            </ul>
+
+            <p>Not 100% sure if your bug is a P1, ask your Accessibility Lead or Engineering Manager.</p>
+
+            <details class="details">
+                <summary>P1 bug examples</summary>
+
+                <h4 class="details_h4">Example 1 - P1</h4>
+
+                <p>As a screen reader user, when navigating through the homepage, a heading is announced for ‘Top stories’, though I cannot see any of the top stories.</p>
+
+                <p><strong>Why is this a P1?</strong> The user can't access content, in this case the top stories. <strong>Solution:</strong>  Remove the code that is causing this content to be hidden to screen readers, such as an <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-hidden">aria-hidden</a> attribute.</p>
+
+                <img src="/accessibility-news-and-you/assets/img/accessibility-bugs/bugs-top-stories.png" alt="Top stories component highlighting stories that cannot be read" class="image_bugs-top-stories" width="600">
+
+                <h4 class="details_h4">Example 2 - P1</h4>
+
+                <p>As a keyboard only user, when I press the ‘tab’ key to move between actionable elements on a page, such as links and buttons, I cannot tab to the ‘Menu’ button in the banner, and therefore cannot access the menu items.</p>
+
+                <p><strong>Why is this a P1?</strong> The user can't access content, in this case some of the index pages of the website can’t be navigated to. <strong>Solution:</strong> Add the ‘Menu’ button to the tab order by using the appropriate semantic HTML element e.g. a button.</p>
+
+                <img src="/accessibility-news-and-you/assets/img/accessibility-bugs/bugs-banner-menu-button.png" alt="Menu button highlighted in banner component" class="image_bugs-banner-menu-button" width="600">
+            </details>
+
+            <h3 id="p2-accessibility-bugs" class="h3" tabindex="-1">P2 accessibility bugs</h3>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Make something harder</li>
+
+                <li role="listitem">Mean the user can access content though it's hard or causes annoyance</li>
+
+                <li role="listitem">Should be fixed prior to release (though on some occasions this might mean being live with a bug for a short period of time)</li>
+
+                <li role="listitem">Product decision whether to release with a P2 bug</li>
+
+                <li role="listitem">Aim to have as few of these as possible</li>
+            </ul>
+
+            <details class="details">
+                <summary>P2 bug examples</summary>
+
+                <h4 class="details_h4">Example 1 - P2</h4>
+
+                <p>As a keyboard only user, when I activate the ‘Show more updates’ button, keyboard focus is taken to the top of the page.</p>
+
+                <p><strong>Why is this a P2?</strong> The user can access content though it's hard or causes annoyance. After activating the ‘Show more updates’ button, the user has to navigate to the newly shown updates by starting their journey again from the top of the page, if the user isn’t a sighted user, they also have to identify the new content themselves. <strong>Solution:</strong>  When the ‘Show more updates’ button is activated, move keyboard focus to the newly shown updates.</p>
+
+                <img src="/accessibility-news-and-you/assets/img/accessibility-bugs/bugs-show-more-updates.png" alt="Live reporting component highlighting new updates" class="image_bugs-show-more-updates" width="600">
+
+                <h4 class="details_h4">Example 2 - P2</h4>
+
+                <p>As a screen reader user, I can navigate via the menu or list of links, this contains all the links that are on a given page. When I navigate to a ‘Read more’ link in this list, I am not sure what I would read more about. I also cannot distinguish the content of this link from the other 3 links in the list which are also described as ‘Read more’.</p>
+
+                <p><strong>Why is this a P2?</strong> The user can access content though it's hard or causes annoyance. As a screen reader user if I am navigating via the menu or list of links, I may not know the context of a link and it can cause annoyance if I have to activate a link to identify the content of it. <strong>Solution:</strong> Make link text descriptive and if link text is duplicated on a page, ways of making each link unique must also be used, for example, by using an <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-label">aria label</a> or visually hidden off screen text.</p>
+
+                <img src="/accessibility-news-and-you/assets/img/accessibility-bugs/bugs-list-of-links.png" alt="Screen reader list of links highlighting 4 read more links" class="image_bugs-list-of-links" width="600">
+            </details>
+
+            <h3 id="p3-accessibility-bugs" class="h3" tabindex="-1">P3 accessibility bugs</h3>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Minor usability issue</li>
+
+                <li role="listitem">Mean the user can access content though there is a minor usability or user experience issue</li>
+
+                <li role="listitem">Could be fixed prior to release if time allows, alternatively at a later date</li>
+
+                <li role="listitem">Product decision whether to release with a P3 bug</li>
+
+                <li role="listitem">Aim to have a comparable UX for all users</li>
+            </ul>
+
+            <details class="details">
+                <summary>P3 bug examples</summary>
+
+                <h4 class="details_h4">Example 1 - P3</h4>
+
+                <p>As a screen reader user, when I navigate to the ‘Share’ button on an article page, it does not announce if the content of the popup button is already displayed.</p>
+
+                <p><strong>Why is this a P3?</strong> The user can access content though there is a minor usability or user experience issue. As a screen reader user, it would improve my user experience if the screen reader announced if the content of the popup button was expanded or collapsed. <strong>Solution:</strong> Add an <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-expanded">aria-expanded</a> attribute to the button element.</p>
+
+                <img src="/accessibility-news-and-you/assets/img/accessibility-bugs/bugs-share-button.png" alt="Share this article component with popup displayed" class="image_bugs-share-button" width="600">
+
+                <h4 class="details_h4">Example 2 - P3</h4>
+
+                <p>As a keyboard only user, when I press the ‘tab’ key to move between actionable elements (such as links and buttons) on an article page, there isn’t a ‘Skip to content’ link in the banner, like there is on other pages, such as the homepage.</p>
+
+                <p><strong>Why is this a P3?</strong> The user can access content though there is a minor usability or user experience issue. As a keyboard only user, it’s not a consistent experience site wide, on some pages there is a skip link and some pages there isn’t, this is inconsistent and confusing. <strong>Solution:</strong> Add the ‘Skip to content’ link to the banner on all pages. When the user activates this link, it should always take the user to the start of the main content.</p>
+
+                <img src="/accessibility-news-and-you/assets/img/accessibility-bugs/bugs-banner-skip-to-content.png" alt="Skip to content link highlighted on a banner component" class="image_bugs-banner-skip-to-content" width="600">
+            </details>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2021 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
