@@ -17,6 +17,7 @@ If you have any questions ask one of the Accessibility Champions around the depa
 
 ## Guides
 
+- [Accessibility bugs](/accessibility-news-and-you/guides/accessibility-bugs.html)
 - [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)
 - [Accessibility Design Review](/accessibility-news-and-you/guides/accessibility-design-review.html)
 - [Accessibility Swarms](/accessibility-news-and-you/guides/accessibility-swarms.html)
