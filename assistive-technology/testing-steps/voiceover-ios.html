@@ -62,7 +62,7 @@
 
             <h2 id="testing-in-a-foreign-language" class="h2" tabindex="-1">Testing in a foreign language</h2>
 
-            <p>When testing with assistive technology it's important to <b>test in a language that is supported</b> by the assistive technology, and with a <b>language that you can understand</b>. For further information see the testing in a foreign language guide.</p>
+            <p>When testing with assistive technology it's important to <b>test in a language that is supported</b> by the assistive technology, and with a <b>language that you can understand</b>. For further information see the assistive technology testing in a foreign language guide.</p>
 
             <p>Before testing content in a foreign language, check what <a href="https://support.apple.com/en-us/HT206175">languages are supported by VoiceOver</a>.</p>
 
@@ -72,9 +72,9 @@
 
             <p>We’ll take you step by step through how to test a component or feature. Following the same steps every time, ensures that everyone is testing using the same methods and using the most common techniques.</p>
 
-            <p>There are many <a href="https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios">VoiceOver gestures</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below. The steps will <b>enable anyone, in any role, to use VoiceOver for the first time</b>. To become more familiar and proficient using AT, resist the temptation to cheat, always try to navigate like a user would.</p>
+            <p>There are many <a href="https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios">VoiceOver gestures</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below. The testing steps <b>enable anyone, in any role, to use VoiceOver for the first time</b>. To become more familiar and proficient using assistive technology, resist the temptation to cheat, always try to navigate like a user would.</p>
 
-            <p>As you go, make a note of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
         </div>
         
         <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
@@ -127,7 +127,7 @@
             <p>Get in position to start testing by navigating as follows, depending on the context on which you are testing your component, either within a page or in isolation. This will ensure that when you start testing you don’t miss out any elements within the component that you can’t see, such as:</p>
 
             <ul class="body-copy-list no-space" role="list">
-                <li role="listitem">Semantics for any landmark or sectioning elements</li>
+                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">Semantics</a> for any <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-9-define-any-landmarks">landmark</a> or <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#which-html-elements-are-the-most-appropriate">sectioning elements</a></li>
 
                 <li role="listitem">Visually hidden off screen elements</li>
             </ul>
@@ -138,7 +138,7 @@
                 <p>Navigate to the <b>last element in the component before</b> the one you're going to test.</p>
 
                 <ul class="body-copy-list" role="list">
-                    <li role="listitem">Swipe right selects the next item, swipe right anywhere on the screen, until you reach the last element in the component before the component you're going to test. Ensure it’s a quick swipe, taking no more than a split second, otherwise what you have physically touched on the screen could be navigated to and read out instead.</li>
+                    <li role="listitem">Swipe right selects the next item, swipe right anywhere on the screen. Ensure it’s a quick swipe, taking no more than a split second, otherwise what you have physically touched on the screen could be navigated to and read out instead. Swipe right until you reach the last element in the component before the component you're going to test.</li>
 
                     <li role="listitem">You may find it quicker, if the component you are testing <b>starts with a heading</b>, to navigate to that <a href="#step-6-navigate-by-headings">heading via the ‘Rotor’ menu</a>, then swipe left to select the previous item, until you hear the last element in the component before the one you're going to test being announced.</li>
                 </ul>
@@ -152,7 +152,7 @@
                 <ul class="body-copy-list no-space" role="list">
                     <li role="listitem">To select the first item on the screen do a four-finger tap near the top of the screen</li>
 
-                    <li role="listitem">Swipe right selects the next item, swipe right though the address bar to the web page</li>
+                    <li role="listitem">Swipe right selects the next item, swipe right through the address bar to the web page</li>
                 </ul>
             </details>
 
@@ -174,7 +174,7 @@
                 <li role="listitem">Swipe right through all items in the component, listening to what’s announced, until you reach the first item in the component after the component you are testing, or the bottom of the page if testing in isolation.</li>
             </ul>
 
-            <p>Navigating to the first item in the component after the one you're testing, will ensure that you don’t miss out any elements that you can’t see, such as a visually hidden off screen element.</p>
+            <p>Navigating to the first item in the component after the one you're testing, will ensure that you don’t miss out any elements that you can’t see at the end, such as a visually hidden off screen element.</p>
 
             <details class="details">
                 <summary>Navigating through all items bug examples</summary>
@@ -201,13 +201,13 @@
 
                 <li role="listitem">Headings are now selected as the method of navigation when swiping up or down.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through headings until you reach the last heading in the component before the one you're testing, or if testing in isolation, to select the first item on the screen do a four-finger tap near the top of the screen.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through headings until you reach the last heading in the component before the one you're testing, or if testing in isolation (or there are no other headings) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
                 <li role="listitem">Swipe down to read the first heading in the component you are testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
                 <li role="listitem">If you need to hear what was announced again, swipe up to the previous heading then swipe down again.</li>
 
-                <li role="listitem">Swipe down to go through all headings in the component, listening to what’s announced, until you reach the first heading in the component after the component you are testing, or the bottom of the page if testing in isolation.</li>
+                <li role="listitem">Swipe down to go through all headings in the component, listening to what’s announced, until you reach the first heading in the component after the component you are testing, or the bottom of the page if testing in isolation (or there are no other headings).</li>
             </ul>
 
             <details class="details">
@@ -218,7 +218,7 @@
 
                     <li role="listitem">What's announced doesn’t match the screen reader UX</li>
 
-                    <li role="listitem">A heading was announced and none where defined in the screen reader UX</li>
+                    <li role="listitem">A heading was announced and none were defined in the screen reader UX</li>
 
                     <li role="listitem">A heading is announced twice</li>
                 </ul>
@@ -235,13 +235,13 @@
 
                 <li role="listitem">Links are now selected as the method of navigation when swiping up or down.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through links until you reach the last link in the component before the one you're testing, or if testing in isolation, to select the first item on the screen do a four-finger tap near the top of the screen.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through links until you reach the last link in the component before the one you're testing, or if testing in isolation (or there are no other links) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
                 <li role="listitem">Swipe down to read the first link in the component you are testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
                 <li role="listitem">If you need to hear what was announced again, swipe up to the previous link then swipe down again.</li>
 
-                <li role="listitem">Swipe down to go through all links in the component, listening to what’s announced, until you reach the first link in the component after the component you are testing, or the bottom of the page if testing in isolation.</li>
+                <li role="listitem">Swipe down to go through all links in the component, listening to what’s announced, until you reach the first link in the component after the component you are testing, or the bottom of the page if testing in isolation (or there are no other links).</li>
             </ul>
 
             <p>To activate a link, once it has focus, double tap anywhere on the screen.</p>
@@ -254,7 +254,7 @@
 
                     <li role="listitem">What's announced doesn’t match the screen reader UX</li>
 
-                    <li role="listitem">A link was announced and none where defined in the screen reader UX</li>
+                    <li role="listitem">A link was announced and none were defined in the screen reader UX</li>
 
                     <li role="listitem">A link is announced twice</li>
                 </ul>
@@ -271,13 +271,13 @@
 
                 <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-9-define-any-landmarks">Landmarks</a> are now selected as the method of navigation when swiping up or down.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through landmarks until you reach a landmark in a component before the one you're testing, or if testing in isolation, to select the first item on the screen do a four-finger tap near the top of the screen.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through landmarks until you reach a landmark in a component before the one you're testing, or if testing in isolation (or there are no other landmarks) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
                 <li role="listitem">Swipe down to read the first landmark in the component you are testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
                 <li role="listitem">If you need to hear what was announced again, swipe up to the previous landmark then swipe down again.</li>
 
-                <li role="listitem">Swipe down to go through all landmarks in the component, listening to what’s announced, until you reach the first landmark after the component you are testing, or the bottom of the page if testing in isolation.</li>
+                <li role="listitem">Swipe down to go through all landmarks in the component, listening to what’s announced, until you reach the first landmark after the component you are testing, or the bottom of the page if testing in isolation (or there are no other landmarks).</li>
             </ul>
 
             <details class="details">
@@ -306,7 +306,7 @@
 
                     <li role="listitem">What's announced doesn’t match the screen reader UX</li>
 
-                    <li role="listitem">A landmark was announced and none where defined in the screen reader UX</li>
+                    <li role="listitem">A landmark was announced and none were defined in the screen reader UX</li>
 
                     <li role="listitem">A landmark was announced without a label</li>
                 </ul>
@@ -318,10 +318,10 @@
 
             <h3 id="step-9-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 9 - Accessibility acceptance criteria</h3>
 
-            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specifc to your component and documented screen reader UX, specific <a href="https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios">VoiceOver gestures</a> maybe needed.</p>
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented screen reader UX, specific <a href="https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios">VoiceOver gestures</a> maybe needed.</p>
 
             <ul class="body-copy-list no-space" role="list">
-                <li role="listitem">Look at the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
+                <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
 
                 <li role="listitem">Check that any criteria that is specific to using a screen reader is met with VoiceOver iOS.</li>
             </ul>
@@ -337,13 +337,13 @@
 
                 <li role="listitem">Tables are now selected as the method of navigation when swiping up or down.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through tables until you reach a table in a component before the one you're testing, or if testing in isolation, to select the first item on the screen do a four-finger tap near the top of the screen.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through tables until you reach a table in a component before the one you're testing, or if testing in isolation (or there are no other tables) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
-                <li role="listitem">Swipe down to read the first table in the component you are testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
+                <li role="listitem">Swipe down to the first table in the component you are testing. Check that a table caption was announced if one was defined in the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If you need to hear what was announced again, swipe right to the previous item then swipe left.</li>
 
-                <li role="listitem">If you need to hear what was announced again, swipe up to the previous table then swipe down again.</li>
+                <li role="listitem">Select ‘<b>Rows</b>’ in the <b>Rotor</b> menu, tables rows are now selected as the method of navigation when swiping up or down. Navigate all table rows. Swipe right or left to navigate through all table columns. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
-                <li role="listitem">Swipe down to go through all tables in the component, listening to what’s announced, until you reach the first table after the component you are testing, or the bottom of the page if testing in isolation.</li>
+                <li role="listitem">Swipe down to go through all tables in the component, repeating the above steps, listening to what’s announced, until you reach the first table after the component you are testing, or the bottom of the page if testing in isolation (or there are no other tables).</li>
             </ul>
 
             <details class="details">
@@ -354,7 +354,7 @@
 
                     <li role="listitem">Go to the ‘Accessibility’ menu in ‘Settings’</li>
 
-                    <li role="listitem">Within the 'VoiceOver' menu to go 'Rotor'</li>
+                    <li role="listitem">Within the 'VoiceOver' menu go to 'Rotor'</li>
 
                     <li role="listitem">Check 'Tables'</li>
 
