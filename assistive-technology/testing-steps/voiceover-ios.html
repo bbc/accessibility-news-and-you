@@ -22,21 +22,21 @@
                 </span>
             </h1>
 
-            <p>VoiceOver screen reader for iOS comes already installed on iPhones. Test with the latest version available.</p>
+            <p>We’ll take you step by step through how to test a component or feature with VoiceOver on iPhone. Test with the latest version available.</p>
 
             <nav class="page-contents" role="navigation" aria-label="Page contents">
                 <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
                 <ol role="list">
-                    <li role="listitem"><a href="#how-to-turn-on-voiceover">How to turn on VoiceOver</a></li>
+                    <li role="listitem"><a href="#how-to-turn-voiceover-on-off">How to turn VoiceOver on / off</a></li>
                     <li role="listitem"><a href="#its-speaking-too-fast">It's speaking too fast</a></li>
                     <li role="listitem"><a href="#testing-in-a-foreign-language">Testing in a foreign language</a></li>
                     <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
                 </ol>
             </nav>
 
-            <h2 id="how-to-turn-on-voiceover" class="h2" tabindex="-1">How to turn on VoiceOver</h2>
+            <h2 id="how-to-turn-voiceover-on-off" class="h2" tabindex="-1">How to turn VoiceOver on / off</h2>
 
-            <p>It's recommended to use a <b>shortcut</b> to turn on VoiceOver. Go to ‘Settings’, then within the ‘Accessibility’ menu look for ‘Accessibility Shortcut’, make sure VoiceOver is selected here. This shortcut will enable you to toggle VoiceOver on or off, from any screen or web page, at anytime.</p>
+            <p>VoiceOver screen reader for iOS comes already installed on iPhones. It's recommended to use a <b>shortcut</b> to turn VoiceOver on or off. Go to ‘Settings’, then within the ‘Accessibility’ menu look for ‘Accessibility Shortcut’, make sure VoiceOver is selected here. This shortcut will enable you to toggle VoiceOver on or off, from any screen or web page, at any time.</p>
 
             <p>With the VoiceOver shortcut enabled, on newer iPhones, you will now be able to <b>triple click the side button to toggle VoiceOver on or off at any time</b>. With older style iPhones the shortcut is a triple click of the ‘home’ button.</p>
 
@@ -48,7 +48,7 @@
 
             <p>If you are new to VoiceOver, you may find the rate in which announcements are made too quick to understand. To find a speaking rate that you are comfortable with:</p>
 
-            <ul class="body-copy-list no-space" role="list">
+            <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Select ‘<b>Speaking rate</b>’ in the <b>Rotor</b> menu by doing a two-finger rotation gesture (similar to how you might turn a dial with your thumb and finger) until you hear ‘Speaking rate’ announced</li>
 
                 <li role="listitem">The speaking rate can now be adjusted by swiping up or down</li>
@@ -56,7 +56,7 @@
                 <li role="listitem">Swipe down to decrease the speaking rate</li>
 
                 <li role="listitem">Swipe up to increase the speaking rate</li>
-            </ul>
+            </ol>
 
             <a href="#page-contents" class="back-to">Back to page contents</a>
 
@@ -64,7 +64,7 @@
 
             <p>When testing with assistive technology it's important to <b>test in a language that is supported</b> by the assistive technology, and with a <b>language that you can understand</b>. For further information see the assistive technology testing in a foreign language guide.</p>
 
-            <p>Before testing content in a foreign language, check what <a href="https://support.apple.com/en-us/HT206175">languages are supported by VoiceOver</a>.</p>
+            <p>Check what <a href="https://support.apple.com/en-us/HT206175">languages are supported by VoiceOver</a>.</p>
 
             <a href="#page-contents" class="back-to">Back to page contents</a>
 
@@ -116,7 +116,7 @@
 
             <h3 id="step-3-turn-voiceover-on" class="h3" tabindex="-1">Step 3 - Turn VoiceOver on</h3>
         
-            <p>Triple click the side button to <a href="#how-to-turn-on-voiceover">turn VoiceOver on</a> via the ‘Accessibility shortcut’.</p>
+            <p>Triple click the side button to <a href="#how-to-turn-voiceover-on-off">turn VoiceOver on</a> via the ‘Accessibility shortcut’.</p>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to steps</a>
@@ -140,10 +140,8 @@
                 <ul class="body-copy-list" role="list">
                     <li role="listitem"><a href="#swiping-right-left">Swipe right</a> until you reach the last element in the component before the component you're going to test.</li>
 
-                    <li role="listitem"><b>If the component you're going to test starts with a heading</b>, you may find it quicker to navigate to that <a href="#step-6-navigate-by-headings">heading via the ‘Rotor’ menu</a>, then <a href="#swiping-right-left">swipe left</a> to select the previous item, until you hear the last element in the component before the component you're going to test announced.</li>
+                    <li role="listitem"><b>If the component you're going to test starts with a heading</b>, you may find it quicker to navigate to that heading via the <a href="#rotor-menu">Rotor menu</a>, then <a href="#swiping-right-left">swipe left</a> until you reach the last element in the component before the component you're going to test.</li>
                 </ul>
-
-                <p id="swiping-right-left">Swiping right selects the next item, swiping left selects the previous item. You can swipe right or left anywhere on the screen. Ensure it’s a quick swipe, taking no more than a split second, otherwise what you have physically touched on the screen could be navigated to and read out instead.</p>
             </details>
 
             <details class="details">
@@ -151,14 +149,14 @@
 
                 <p>If the component is in isolation, <b>ensure you are right at the top of the page</b>.</p>
 
-                <ul class="body-copy-list no-space" role="list">
+                <ol class="body-copy-list ordered-list-steps" role="list">
                     <li role="listitem">To select the first item on the screen do a <b>four-finger tap near the top</b> of the screen</li>
 
-                    <li role="listitem"><a href="#swiping-right">Swipe right</a> through the items in the address bar to the web page</li>
-                </ul>
-
-                <p id="swiping-right">Swiping right selects the next item. You can swipe right anywhere on the screen. Ensure it’s a quick swipe, taking no more than a split second, otherwise what you have physically touched on the screen could be navigated to and read out instead.</p>
+                    <li role="listitem"><a href="#swiping-right-left">Swipe right</a> through the items in the address bar to the web page</li>
+                </ol>
             </details>
+
+            <p id="swiping-right-left"><b>Swiping right</b> selects the next item, <b>swiping left</b> selects the previous item. You can swipe right or left anywhere on the screen. Ensure it’s a quick swipe, taking no more than a split second, otherwise what you have physically touched on the screen could be navigated to and read out instead.</p>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to steps</a>
@@ -168,15 +166,15 @@
 
             <p>You are now ready to start testing.</p>
 
-            <ul class="body-copy-list no-space" role="list">
-                <li role="listitem"><a href="#swiping-right">Swipe right</a>, you should enter the component.</li>
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem"><a href="#swiping-right-left">Swipe right</a>, you should enter the component.</li>
 
                 <li role="listitem">Listen to what's announced and check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If the documented screen reader UX is missing, ask UX for this before continuing.</li>
 
                 <li role="listitem">If you need to hear what was announced again, swipe left to the previous item then swipe right again.</li>
 
                 <li role="listitem">Swipe right through all items in the component, listening to what’s announced, until you reach the <a href="#navigating-to-the-first-item-in-the-component-after">first item in the component after</a> the component you're testing, or the bottom of the page if testing in isolation.</li>
-            </ul>
+            </ol>
 
             <p id="navigating-to-the-first-item-in-the-component-after">Navigating to the first item in the component after the one you're testing, will ensure that you don’t miss out any elements that you can’t see at the end, such as a visually hidden off screen element.</p>
 
@@ -200,10 +198,8 @@
 
             <h3 id="step-6-navigate-by-headings" class="h3" tabindex="-1">Step 6 - Navigate by headings</h3>
 
-            <ul class="body-copy-list no-space" role="list">
-                <li role="listitem">Select ‘<b>Headings</b>’ in the <b>Rotor</b> menu by doing a two-finger rotation gesture (similar to how you might turn a dial with your thumb and finger) until you hear ‘Headings’ announced.</li>
-
-                <li role="listitem">Headings are now selected as the method of navigation when swiping up or down.</li>
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Select ‘<b>Headings</b>’ in the <a href="#rotor-menu">Rotor menu</a>.</li>
 
                 <li role="listitem">Get in position to start testing, swipe up to navigate through headings until you reach the last heading in the component before the one you're testing, or if testing in isolation (or there are no other headings) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
@@ -212,7 +208,29 @@
                 <li role="listitem">If you need to hear what was announced again, swipe up to the previous heading then swipe down again.</li>
 
                 <li role="listitem">Swipe down to go through all headings in the component, listening to what’s announced, until you reach the first heading in the component after the component you're testing, or the bottom of the page if testing in isolation (or there are no other headings).</li>
-            </ul>
+            </ol>
+
+            <details class="details">
+                <summary id="rotor-menu">Rotor menu</summary>
+
+                <p>You can <b>select a method of navigation in the Rotor menu for swiping up or down</b>, by doing a two-finger rotation gesture (similar to how you might turn a dial with your thumb and finger). For example, if you select ‘Headings’ in the Rotor menu by doing a two-finger rotation gesture until you hear ‘Headings’ announced, headings will now be selected as the method of navigation when swiping up or down.</p>
+
+                <p>Adding items to the Rotor menu:</p>
+
+                <ol class="body-copy-list ordered-list-steps" role="list">
+                    <li role="listitem">If VoiceOver is on, triple click the side button to toggle VoiceOver off or with older style iPhones triple click the ‘home’ button</li>
+
+                    <li role="listitem">Go to the ‘Accessibility’ menu in ‘Settings’</li>
+
+                    <li role="listitem">Within the 'VoiceOver' menu to go 'Rotor'</li>
+
+                    <li role="listitem">Check the desired item, such as 'Landmarks' or 'Tables'</li>
+
+                    <li role="listitem">Navigate back to your testing url</li>
+
+                    <li role="listitem">To resume testing, triple click the side button to toggle VoiceOver on or with older style iPhones triple click the ‘home’ button</li>
+                </ol>
+            </details>
 
             <details class="details">
                 <summary>Navigating by headings bug examples</summary>
@@ -234,10 +252,8 @@
 
             <h3 id="step-7-navigate-by-links" class="h3" tabindex="-1">Step 7 - Navigate by links</h3>
 
-            <ul class="body-copy-list no-space" role="list">
-                <li role="listitem">Select ‘<b>Links</b>’ in the <b>Rotor</b> menu by doing a two-finger rotation gesture (similar to how you might turn a dial with your thumb and finger) until you hear ‘Links’ announced.</li>
-
-                <li role="listitem">Links are now selected as the method of navigation when swiping up or down.</li>
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Select ‘<b>Links</b>’ in the <a href="#rotor-menu">Rotor menu</a>.</li>
 
                 <li role="listitem">Get in position to start testing, swipe up to navigate through links until you reach the last link in the component before the one you're testing, or if testing in isolation (or there are no other links) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
@@ -246,7 +262,7 @@
                 <li role="listitem">If you need to hear what was announced again, swipe up to the previous link then swipe down again.</li>
 
                 <li role="listitem">Swipe down to go through all links in the component, listening to what’s announced, until you reach the first link in the component after the component you're testing, or the bottom of the page if testing in isolation (or there are no other links).</li>
-            </ul>
+            </ol>
 
             <p>To activate a link, once it has focus, double tap anywhere on the screen.</p>
 
@@ -270,10 +286,8 @@
 
             <h3 id="step-8-navigate-by-landmarks" class="h3" tabindex="-1">Step 8 - Navigate by landmarks</h3>
 
-            <ul class="body-copy-list no-space" role="list">
-                <li role="listitem">Select ‘<b>Landmarks</b>’ in the <b>Rotor</b> menu by doing a two-finger rotation gesture (similar to how you might turn a dial with your thumb and finger) until you hear ‘Landmarks’ announced.</li>
-
-                <li role="listitem"><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-9-define-any-landmarks">Landmarks</a> are now selected as the method of navigation when swiping up or down.</li>
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Select ‘<b>Landmarks</b>’ in the Rotor menu. If that method of navigation isn't present, <a href="#rotor-menu">add it to the Rotor menu</a>.</li>
 
                 <li role="listitem">Get in position to start testing, swipe up to navigate through landmarks until you reach a landmark in a component before the one you're testing, or if testing in isolation (or there are no other landmarks) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
@@ -282,25 +296,7 @@
                 <li role="listitem">If you need to hear what was announced again, swipe up to the previous landmark then swipe down again.</li>
 
                 <li role="listitem">Swipe down to go through all landmarks in the component, listening to what’s announced, until you reach the first landmark after the component you're testing, or the bottom of the page if testing in isolation (or there are no other landmarks).</li>
-            </ul>
-
-            <details class="details">
-                <summary>Landmarks aren't in the Rotor menu</summary>
-
-                <ul class="body-copy-list no-space" role="list">
-                    <li role="listitem">Triple click the side button to toggle VoiceOver off or with older style iPhones triple click the ‘home’ button</li>
-
-                    <li role="listitem">Go to the ‘Accessibility’ menu in ‘Settings’</li>
-
-                    <li role="listitem">Within the 'VoiceOver' menu to go 'Rotor'</li>
-
-                    <li role="listitem">Check 'Landmarks'</li>
-
-                    <li role="listitem">Navigate back to your testing url</li>
-
-                    <li role="listitem">To resume testing, triple click the side button to toggle VoiceOver on or with older style iPhones triple click the ‘home’ button</li>
-                </ul>
-            </details>
+            </ol>
 
             <details class="details">
                 <summary>Navigating by landmarks bug examples</summary>
@@ -324,11 +320,11 @@
 
             <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented screen reader UX, specific <a href="https://support.apple.com/en-gb/guide/iphone/iph3e2e2281/ios">VoiceOver gestures</a> maybe needed.</p>
 
-            <ul class="body-copy-list no-space" role="list">
+            <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
 
                 <li role="listitem">Check that any criteria that is specific to using a screen reader is met with VoiceOver on iPhone.</li>
-            </ul>
+            </ol>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to steps</a>
@@ -336,37 +332,17 @@
 
             <h3 id="step-10-components-with-a-table" class="h3" tabindex="-1">Step 10 - Components with a table</h3>
 
-            <ul class="body-copy-list no-space" role="list">
-                <li role="listitem">Select ‘<b>Tables</b>’ in the <b>Rotor</b> menu by doing a two-finger rotation gesture (similar to how you might turn a dial with your thumb and finger) until you hear ‘Tables’ announced.</li>
-
-                <li role="listitem">Tables are now selected as the method of navigation when swiping up or down.</li>
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Select ‘<b>Tables</b>’ in the Rotor menu. If that method of navigation isn't present, <a href="#rotor-menu">add it to the Rotor menu</a>.</li>
 
                 <li role="listitem">Get in position to start testing, swipe up to navigate through tables until you reach a table in a component before the one you're testing, or if testing in isolation (or there are no other tables) select the first item on the screen by doing a four-finger tap near the top of the screen.</li>
 
                 <li role="listitem">Swipe down to the first table in the component you're testing. Check that a table caption was announced if one was defined in the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If you need to hear what was announced again, swipe right to the previous item then swipe left.</li>
 
-                <li role="listitem">Select ‘<b>Rows</b>’ in the <b>Rotor</b> menu, tables rows are now selected as the method of navigation when swiping up or down. Navigate all table rows. Swipe right or left to navigate through all table columns. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
+                <li role="listitem">Select ‘<b>Rows</b>’ in the Rotor menu, tables rows are now selected as the method of navigation when swiping up or down. Navigate all table rows. Swipe right or left to navigate through all table columns. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
                 <li role="listitem">Swipe down to go through all tables in the component, repeating the above steps, listening to what’s announced, until you reach the first table after the component you're testing, or the bottom of the page if testing in isolation (or there are no other tables).</li>
-            </ul>
-
-            <details class="details">
-                <summary>Tables aren't in the Rotor menu</summary>
-
-                <ul class="body-copy-list no-space" role="list">
-                    <li role="listitem">Triple click the side button to toggle VoiceOver off or with older style iPhones triple click the ‘home’ button</li>
-
-                    <li role="listitem">Go to the ‘Accessibility’ menu in ‘Settings’</li>
-
-                    <li role="listitem">Within the 'VoiceOver' menu go to 'Rotor'</li>
-
-                    <li role="listitem">Check 'Tables'</li>
-
-                    <li role="listitem">Navigate back to your testing url</li>
-
-                    <li role="listitem">To resume testing, triple click the side button to toggle VoiceOver on or with older style iPhones triple click the ‘home’ button</li>
-                </ul>
-            </details>
+            </ol>
 
             <details class="details">
                 <summary>Navigating by tables bug examples</summary>

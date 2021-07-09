@@ -328,7 +328,8 @@ figure.poster > a > img {
 
 /* Body copy list
 --------------------------------------------------------*/
-.body-copy-list.no-space {
+.body-copy-list.no-space,
+.body-copy-list.ordered-list-steps {
   margin-bottom: 1.5rem;
 }
 
@@ -345,7 +346,7 @@ figure.poster > a > img {
   padding-bottom: .5rem;
 }
 
-.body-copy-list li:before {
+ul.body-copy-list li:before {
   border: .1875rem solid #3f3f42; /* 3px */
   border-radius: 50%;
   content: '';
@@ -358,6 +359,11 @@ figure.poster > a > img {
   .body-copy-list li:before {
     border-color: #fdfdfd;
   }
+}
+
+.body-copy-list.ordered-list-steps li {
+  list-style-type: decimal;
+  margin-bottom: .5rem;
 }
 
 
@@ -457,7 +463,8 @@ figure.poster > a > img {
 
 .details p:last-child,
 .details .body-copy-list li:last-child,
-.details .body-copy-list.no-space:last-child {
+.details .body-copy-list.no-space:last-child,
+.details .body-copy-list.ordered-list-steps:last-child {
   margin-bottom: 0;
 }
 
