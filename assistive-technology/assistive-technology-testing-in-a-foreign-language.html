@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Assistive technology testing in a foreign language - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - Assistive technology testing in a foreign language.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>Assistive technology testing in a foreign language</span>
+                </span>
+            </h1>
+
+            <p>When testing with assistive technology it's important to <b>test in a language that is supported</b> by the assistive technology, and with a <b>language that you can understand</b>.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Page contents">
+            <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+            <ol role="list">
+                <li role="listitem"><a href="#a-language-you-understand">A language you understand</a></li>
+                <li role="listitem"><a href="#operating-system-language">Operating system language</a></li>
+                <li role="listitem"><a href="#at-language-support">AT language support</a></li>
+                <li role="listitem"><a href="#testing-in-an-unsupported-language">Testing in an unsupported language</a></li>
+                <li role="listitem"><a href="#top-tips">Top tips</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h2 id="a-language-you-understand" class="h2" tabindex="-1">A language you understand</h2>
+
+            <p>Make every effort when testing with assistive technology (AT), to test in a language you can understand. Even for an experienced AT user, navigating and reading content in a language that isn't understood would be challenging.</p>
+
+            <p>Consider the following when testing in a foreign language:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Component library</strong> - If the language or languages of your product are not ones that you understand, do you have a component library in a language you do understand, can you use that for testing?</li>
+
+                <li role="listitem"><strong>Test content</strong> - Can you create some test content in a language you do understand? If doing this, make sure that the test page has the correct language code for the content. Language codes enable assistive technologies to announce content in the correct way, with the correct accent.</li>
+
+                <li role="listitem"><strong>Ask someone who does understand</strong> - Ask another team member who does understand the language to test with you.</li>
+
+                <li role="listitem"><strong>Languages you can read</strong> - If testing can’t be done in a language you or a team member understands, test with a font you can read even if you can't understand it. For example, if your first language is english, test with a latin font over a script font.</li>
+
+                <li role="listitem"><strong>Languages you can't read</strong> - Screen reader caption panels display in text format on screen, what is being announced at any given time. If you can't read the language, at a minimum you will be able to check the text in the caption panel, against what can be seen on screen, and the documented screen reader UX. Note not all screen readers have a caption panel, and some may require you to enable the caption panel. To turn the ‘Caption Panel’ on for <b>VoiceOver on iPhone</b>, within ‘Settings’ go to the ‘Accessibility’ menu, then under 'VoiceOver' look for 'Caption Panel'.</li>
+            </ul>          
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="operating-system-language" class="h2" tabindex="-1">Operating system language</h2>
+
+            <p>Does my operating system (OS) language need to be in the same foreign language as the content I'm testing? No, this is not necessary, though if you understand the foreign language, and are comfortable changing your OS language, this is the best way to test. This ensures a true user experience in the language.</p>
+
+            <p>Depending on the assistive technology, if your OS language is different to the foreign language content you're testing, you may observe the content being announced in the foreign language, and the associated <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and user instructions being announced in the OS language. This is an acceptable way to test. <b>If content is not accounced as expected</b>, validate the bug by testing with the same OS language as the foreign language content you're testing.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="at-language-support" class="h2" tabindex="-1">AT language support</h2>
+
+            <p>Not all languages are supported by all assistive technologies, and some may require specific downloads.</p>
+
+            <div class="table-container table-container-at">
+                <table class="table-type-one table-at two-columns">
+                    <caption>Mobile AT language support</caption>
+                    <thead>
+                        <tr>
+                            <th class="th-1" scope="col">Assistive technology</th>
+                            <th class="th-2" scope="col">Language support</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback">TalkBack</a></th>
+                            <td>Add</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-ios.html">VoiceOver on iPhone</a></th>
+                            <td><a href="https://support.apple.com/en-us/HT206175">Over 30 languages on iPhone</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://support.google.com/accessibility/android/answer/6151848?hl=en">Voice Access</a></th>
+                            <td>Add</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://support.apple.com/en-us/HT210417">Voice Control</a></th>
+                            <td>Add</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-container table-container-at">
+                <table class="table-type-one table-at two-columns">
+                    <caption>Desktop / Laptop AT language support</caption>
+                    <thead>
+                        <tr>
+                            <th class="th-1" scope="col">Assistive technology</th>
+                            <th class="th-2" scope="col">Language support</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-read-and-write">Read&Write</a> or <a href="https://www.youtube.com/watch?v=j9C59pRImY0&list=PL1A31CA479D1F8699&index=7">ClaroRead</a></th>
+                            <td>Add</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-zoomtext">ZoomText Magnifier / Reader</a></th>
+                            <td>Add</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-jaws">JAWS</a></th>
+                            <td>Add</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-nvda">NVDA</a></th>
+                            <td>Add</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-voiceover-os">VoiceOver on Mac</a></th>
+                            <td><a href="https://support.apple.com/en-us/HT206175">Over 30 languages on Mac</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-dragon">Dragon</a></th>
+                            <td>Add</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-in-an-unsupported-language" class="h2" tabindex="-1">Testing in an unsupported language</h2>
+
+            <p>Testing in an unsupported language is better than not testing at all with assistive technology. While it's not recommended, if there are no other options, this can be done as a best efforts approach.</p>
+
+            <p>Examples of things you may observe when doing this:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">The language code being announced alongside content. For example at the time of writing, if using Jaws on a page in the Pidgin language, as this language is not supported by this screen reader, the first time content is encounted on the page, this results in an announcement that includes the language code for Pidgin (PCM), alongside the content and semantics of the element. For example, '<b>PCM</b>, Sport, Heading level 2'.</li>
+
+                <li role="listitem">Content not read out at all, or just the semantics and user instructions</li>
+
+                <li role="listitem">Content read in a different language to that specified</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="top-tips" class="h2" tabindex="-1">Top tips</h2>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Using a screen reader can be daunting enough, test with a language you understand</li>
+
+                <li role="listitem">If you don't understand the language, is there someone who does understand?</li>
+
+                <li role="listitem">Always follow the <a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html#at-testing-steps">testing steps</a></li>
+            </ul>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2021 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
