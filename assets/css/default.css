@@ -674,6 +674,16 @@ ul.body-copy-list li:before {
 .table-at .th-4,
 .table-at tbody > tr > th + td + td + td {
 }
+
+.table-at.two-columns .th-1,
+.table-at.two-columns tbody > tr > th {
+  width: 50%;
+}
+
+.table-at.two-columns .th-2,
+.table-at.two-columns tbody > tr > th + td {
+  width: 50%;
+}
 }
 
 
@@ -786,6 +796,16 @@ ul.body-copy-list li:before {
 .table-at .th-4,
 .table-at tbody > tr > th + td + td + td {
   width: 25%;
+}
+
+.table-at.two-columns .th-1,
+.table-at.two-columns tbody > tr > th {
+  width: 50%;
+}
+
+.table-at.two-columns .th-2,
+.table-at.two-columns tbody > tr > th + td {
+  width: 50%;
 }
 }
 
