@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-GB" dir="ltr">
 <head>
-    <title>Talkback on Android testing steps - Accessibility, Your Team and You</title>
+    <title>TalkBack on Android testing steps - Accessibility, Your Team and You</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <meta name="description" content="Team guide - Talkback on Android testing steps. We’ll take you step by step through how to test a component or feature.">
+    <meta name="description" content="Team guide - TalkBack on Android testing steps. We’ll take you step by step through how to test a component or feature.">
     <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
 </head>
 <body>
@@ -18,40 +18,40 @@
             <h1 id="content" class="h1" tabindex="-1">
                 <span role="text">
                     <span class="h1_label">Team guide</span><span class="vh">, </span>
-                    <span>Talkback on Android testing steps</span>
+                    <span>TalkBack on Android testing steps</span>
                 </span>
             </h1>
 
-            <p>We’ll take you step by step through how to test a component or feature with Talkback screen reader on Android. Test with the latest version available.</p>
+            <p>We’ll take you step by step through how to test a component or feature with TalkBack screen reader on Android. Test with the latest version available.</p>
 
             <nav class="page-contents" role="navigation" aria-label="Page contents">
                 <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
                 <ol role="list">
-                    <li role="listitem"><a href="#how-to-turn-talkback-on-off">How to turn Talkback on / off</a></li>
+                    <li role="listitem"><a href="#how-to-turn-talkback-on-off">How to turn TalkBack on / off</a></li>
                     <li role="listitem"><a href="#its-speaking-too-fast">It's speaking too fast</a></li>
                     <li role="listitem"><a href="#testing-in-a-foreign-language">Testing in a foreign language</a></li>
                     <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
                 </ol>
             </nav>
 
-            <h2 id="how-to-turn-talkback-on-off" class="h2" tabindex="-1">How to turn Talkback on / off</h2>
+            <h2 id="how-to-turn-talkback-on-off" class="h2" tabindex="-1">How to turn TalkBack on / off</h2>
 
-            <p>Talkback screen reader for Android comes <b>already installed on some devices</b>. To check if you have Talkback already installed, go to 'Settings', within the 'Accessibility' menu you should see Talkback. If you can't see Talkback, go to Google Play and download the 'Android Accessibility Suite', this includes Talkback.</p> 
+            <p>TalkBack screen reader for Android comes <b>already installed on some devices</b>. To check if you have TalkBack already installed, go to 'Settings', within the 'Accessibility' menu you should see TalkBack. If you can't see TalkBack, go to the Google Play store and download the 'Android Accessibility Suite', this includes TalkBack.</p> 
 
-            <p>It's recommended to <b>use a shortcut</b> to turn Talkback on or off. Go to ‘Settings’, then within the ‘Accessibility’ menu look for Talkback, make sure the volume key shortcut is enabled. This shortcut will enable you to toggle Talkback on or off, from any screen or web page, at any time. Note, some devices may not offer a shortcut, in this case choose from one of the other <a href="https://support.google.com/accessibility/android/answer/6007100?hl=en&ref_topic=10601570">options for turning TalkBack on or off</a>.</p>
+            <p>It's recommended to use the <b>volume key shortcut</b> to turn TalkBack on or off. Go to ‘Settings’, then within the ‘Accessibility’ menu look for TalkBack, make sure the volume key shortcut is enabled here for TalkBack. If you can't see the shortcut here, you might find this directly within the ‘Accessibility’ menu or within 'Advanced settings' from the ‘Accessibility’ menu. Once enabled, this shortcut will give you the ability to toggle TalkBack on or off, from any screen or web page, at any time. Note, some devices may not offer this shortcut, in this case choose from one of the other <a href="https://support.google.com/accessibility/android/answer/6007100?hl=en&ref_topic=10601570">options for turning TalkBack on or off</a>.</p>
 
-            <p>With the volume key shortcut enabled, you will now be able to <b>press and hold both volume keys for three seconds to toggle Talkback on or off at any time</b>.</p>
+            <p>With the volume key shortcut enabled, you will now be able to <b>press and hold both volume keys for three seconds to toggle TalkBack on or off at any time</b>.</p>
 
-            <p>If at any time you would like to <b>stop Talkback while announcing something</b>, do a two-finger tap anywhere on the screen. Note, this gesture only works on Android version 9.1 or higher, <a href="https://support.google.com/android/answer/7680439">learn how to check your Android version</a>. To <b>activate an item</b>, once it has focus, double tap anywhere on the screen. There are many <a href="https://support.google.com/accessibility/android/answer/6151827">Talkback gestures</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below.</p>
+            <p>If at any time you would like to <b>stop TalkBack while announcing something</b>, do a two-finger tap anywhere on the screen. To <b>activate an item</b>, once it has focus, do a single-finger double tap anywhere on the screen. There are many <a href="https://support.google.com/accessibility/android/answer/6151827">TalkBack gestures</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below.</p>
 
             <a href="#page-contents" class="back-to">Back to page contents</a>
 
             <h2 id="its-speaking-too-fast" class="h2" tabindex="-1">It's speaking too fast</h2>
 
-            <p>If you are new to Talkback, you may find the rate in which announcements are made too quick to understand. To find a speech rate that you are comfortable with:</p>
+            <p>If you are new to TalkBack, you may find the rate in which announcements are made too quick to understand. To find a speech rate that you are comfortable with:</p>
 
             <ol class="body-copy-list ordered-list-steps" role="list">
-                <li role="listitem">Select ‘<b>Speech rate</b>’ in the <b>Reading controls</b> menu by swiping up then down until you hear ‘Speech rate’ announced</li>
+                <li role="listitem">Select ‘<b>Speech rate</b>’ in the <b>Reading controls</b> menu by swiping up then down until you hear ‘Speech rate’ announced. <a href="#gesture-doesnt-work">Gesture doesn't work?</a></li>
 
                 <li role="listitem">The speech rate can now be adjusted by swiping up or down</li>
 
@@ -72,7 +72,7 @@
 
             <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
 
-            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to use Talkback for the first time</b>.</p>
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to use TalkBack for the first time</b>.</p>
 
             <p>To become more familiar and proficient using assistive technology, resist the temptation to cheat, always try to navigate like a user would.</p>
 
@@ -85,7 +85,7 @@
             <ol role="list">
                 <li role="listitem"><a href="#step-1-open-chrome">1 - Open Chrome</a></li>
                 <li role="listitem"><a href="#step-2-go-to-the-testing-url">2 - Go to the testing url</a></li>
-                <li role="listitem"><a href="#step-3-turn-talkback-on">3 - Turn Talkback on</a></li>
+                <li role="listitem"><a href="#step-3-turn-talkback-on">3 - Turn TalkBack on</a></li>
                 <li role="listitem"><a href="#step-4-get-in-position-to-start-testing">4 - Get in position to start</a></li>
                 <li role="listitem"><a href="#step-5-navigate-through-all-items">5 - Navigate through all items</a></li>
                 <li role="listitem"><a href="#step-6-navigate-by-headings">6 - Navigate by headings</a></li>
@@ -100,9 +100,9 @@
         <div class="column-main">
             <h3 id="step-1-open-chrome" class="h3" tabindex="-1">Step 1 - Open Chrome</h3>
 
-            <p>Open Chrome, this is the most used browser by Talkback users.</p> 
+            <p>Open Chrome, this is the most used browser by TalkBack users.</p> 
 
-            <p>Note: While Talkback will work with other browsers you may encounter bugs which aren’t present in Chrome; the most used Talkback browser.</p>
+            <p>Note: While TalkBack will work with other browsers you may encounter bugs which aren’t present in Chrome; the most used TalkBack browser.</p>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to steps</a>
@@ -116,9 +116,9 @@
                 <a href="#steps" class="back-to">Back to steps</a>
             </div>
 
-            <h3 id="step-3-turn-talkback-on" class="h3" tabindex="-1">Step 3 - Turn Talkback on</h3>
+            <h3 id="step-3-turn-talkback-on" class="h3" tabindex="-1">Step 3 - Turn TalkBack on</h3>
         
-            <p>Press and hold both volume keys for three seconds to <a href="#how-to-turn-talkback-on-off">turn Talkback on</a> via the volume key shortcut.</p>
+            <p>Press and hold both volume keys for three seconds to <a href="#how-to-turn-talkback-on-off">turn TalkBack on</a> via the volume key shortcut.</p>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to steps</a>
@@ -147,15 +147,17 @@
             </details>
 
             <details class="details">
-                <summary>Testing a component in isolation</summary>
+                <summary id="testing-a-component-in-isolation">Testing a component in isolation</summary>
 
                 <p>If the component is in isolation, <b>ensure you are right at the top of the page</b>.</p>
 
                 <ol class="body-copy-list ordered-list-steps" role="list">
-                    <li role="listitem">To select the first item on the screen do a <b>TBC</b></li>
+                    <li role="listitem">Do a <b>three-finger tap</b> to open the TalkBack menu, swipe right to 'Read from top', then double tap to activate this selection. <a href="#gesture-doesnt-work">Gesture doesn't work?</a></li>
 
-                    <li role="listitem"><a href="#swiping-right-left">Swipe right</a> through the items in the address bar to the web page</li>
+                    <li role="listitem"><a href="#swiping-right-left">Swipe right</a> to skip ahead as TalkBack is reading through the items in the address bar to the web page.</li>
                 </ol>
+
+                <p>If doing this for the <b>first time</b>, you may need to add the 'Read from top' option to the TalkBack menu. <a href="#how-to-turn-talkback-on-off">Turn TalkBack off</a> and go to ‘Settings’, then within the ‘Accessibility’ menu look for 'TalkBack'. From here go to 'Settings', then 'Customise menus', then 'Customise TalkBack menu', under the ‘Reading’ heading check ‘Read from top’.</p>
             </details>
 
             <p id="swiping-right-left"><b>Swiping right</b> selects the next item, <b>swiping left</b> selects the previous item. You can swipe right or left anywhere on the screen. Ensure it’s a quick swipe, taking no more than a split second, otherwise what you have physically touched on the screen could be navigated to and read out instead.</p>
@@ -203,7 +205,7 @@
             <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Select ‘<b>Headings</b>’ in the <a href="#reading-controls-menu">Reading controls menu</a>.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through headings until you reach the last heading in the component before the one you're testing, or if testing in isolation (or there are no other headings) select the first item on the screen by doing TBC.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through headings until you reach the last heading in the component before the one you're testing, or if testing in isolation (or there are no other headings) ensure you are right at the top of the page by following the <a href="#testing-a-component-in-isolation">testing a component in isolation</a> steps.</li>
 
                 <li role="listitem">Swipe down to read the first heading in the component you're testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
@@ -215,23 +217,35 @@
             <details class="details">
                 <summary id="reading-controls-menu">Reading controls menu</summary>
 
-                <p>You can <b>select a method of navigation in the Reading controls menu for swiping up or swiping down</b>, by swiping up then down in one gesture. For example, if you select ‘Headings’ in the Reading controls menu by swiping up then down (in one gesture) until you hear ‘Headings’ announced, headings will now be selected as the method of navigation when swiping up or swiping down.</p>
+                <p>You can <b>select a method of navigation in the Reading controls menu for swiping up or swiping down</b>, by swiping up then down in one gesture. For example, if you select ‘Headings’ in the Reading controls menu by swiping up then down (in one gesture) until you hear ‘Headings’ announced, headings will now be selected as the method of navigation when swiping up or swiping down. <a href="#gesture-doesnt-work">Gesture doesn't work?</a></p>
 
                 <p>Adding items to the Reading controls menu:</p>
 
                 <ol class="body-copy-list ordered-list-steps" role="list">
-                    <li role="listitem">If Talkback is on, press and hold both volume keys for three seconds to toggle Talkback off</li>
+                    <li role="listitem">If TalkBack is on, press and hold both volume keys for three seconds to toggle TalkBack off</li>
 
                     <li role="listitem">Go to the ‘Accessibility’ menu in ‘Settings’</li>
 
-                    <li role="listitem">Within the 'Talkback' menu to go 'Customize menus', then go to 'Customize reading controls'</li>
+                    <li role="listitem">Within the 'TalkBack' menu to go 'Settings', then go to 'Customise menus, then 'Customise reading controls'</li>
 
-                    <li role="listitem">Check the desired item, such as 'Landmarks' or 'Tables' TBC</li>
+                    <li role="listitem">Check the desired item, such as 'Landmarks'</li>
 
                     <li role="listitem">Navigate back to your testing url</li>
 
-                    <li role="listitem">To resume testing, press and hold both volume keys for three seconds to toggle Talkback on</li>
+                    <li role="listitem">To resume testing, press and hold both volume keys for three seconds to toggle TalkBack on</li>
                 </ol>
+            </details>
+
+            <details class="details">
+                <summary id="gesture-doesnt-work">Gesture doesn't work?</summary>
+
+                <p>You can only navigate with some gestures including Reading Controls on TalkBack version 9.1 or higher, <a href="https://support.google.com/accessibility/android/answer/6006589">learn how to check your TalkBack version</a>. If gestures including the Reading Controls gestures don't work on your device, try using the local and global context menus instead.</p>
+
+                <ul class="body-copy-list" role="list">
+                    <li role="listitem"><strong>Local context menu</strong> - This menu contains navigation options relevant to the current context, such as options to navigate via headings, links and landmarks. <b>Swipe up then left</b> to open the local context menu, swipe right to make your selection from the menu, then double tap to activate your selection.</li>
+
+                    <li role="listitem"><strong>Global context menu</strong> - This menu contains wider options and settings, such as 'Read from top', 'Text-to-Speech' settings for adjusting the speech rate, and 'Languages' for when testing in a foreign language. <b>Swipe down then right</b> to open the global context menu, swipe right to make your selection from the menu, then double tap to activate your selection.</li>
+                </ul>
             </details>
 
             <details class="details">
@@ -257,7 +271,7 @@
             <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Select ‘<b>Links</b>’ in the <a href="#reading-controls-menu">Reading controls menu</a>.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through links until you reach the last link in the component before the one you're testing, or if testing in isolation (or there are no other links) select the first item on the screen by doing a TBC.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through links until you reach the last link in the component before the one you're testing, or if testing in isolation (or there are no other links) ensure you are right at the top of the page by following the <a href="#testing-a-component-in-isolation">testing a component in isolation</a> steps.</li>
 
                 <li role="listitem">Swipe down to read the first link in the component you're testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
@@ -291,7 +305,7 @@
             <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Select ‘<b>Landmarks</b>’ in the Reading controls menu. If that method of navigation isn't present, <a href="#reading-controls-menu">add it to the Reading controls menu</a>.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through landmarks until you reach a landmark in a component before the one you're testing, or if testing in isolation (or there are no other landmarks) select the first item on the screen by doing a TBC.</li>
+                <li role="listitem">Get in position to start testing, swipe up to navigate through landmarks until you reach a landmark in a component before the one you're testing, or if testing in isolation (or there are no other landmarks) ensure you are right at the top of the page by following the <a href="#testing-a-component-in-isolation">testing a component in isolation</a> steps.</li>
 
                 <li role="listitem">Swipe down to read the first landmark in the component you're testing. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
@@ -320,30 +334,30 @@
 
             <h3 id="step-9-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 9 - Accessibility acceptance criteria</h3>
 
-            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented screen reader UX, specific <a href="https://support.google.com/accessibility/android/answer/6151827">Talkback gestures</a> maybe needed.</p>
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented screen reader UX, specific <a href="https://support.google.com/accessibility/android/answer/6151827">TalkBack gestures</a> maybe needed.</p>
 
             <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
 
-                <li role="listitem">Check that any criteria that is specific to using a screen reader is met with Talkback on Android.</li>
+                <li role="listitem">Check that any criteria that is specific to using a screen reader is met with TalkBack on Android.</li>
             </ol>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to steps</a>
             </div>
 
-            <h3 id="step-10-components-with-a-table" class="h3" tabindex="-1">Step 10 - Components with a table TBC</h3>
+            <h3 id="step-10-components-with-a-table" class="h3" tabindex="-1">Step 10 - Components with a table</h3>
+
+            <p>Note, there aren't any specific methods for navigating and reading tables with TalkBack.</p>
 
             <ol class="body-copy-list ordered-list-steps" role="list">
-                <li role="listitem">Select ‘<b>Tables</b>’ in the Reading controls menu. If that method of navigation isn't present, <a href="#reading-controls-menu">add it to the Reading controls menu</a>.</li>
+                <li role="listitem">Get in position to start by following <a href="#step-4-get-in-position-to-start-testing">step 4</a>.</li>
 
-                <li role="listitem">Get in position to start testing, swipe up to navigate through tables until you reach a table in a component before the one you're testing, or if testing in isolation (or there are no other tables) select the first item on the screen by doing a TBC.</li>
+                <li role="listitem">Swipe right until you reach the first table in the component you're testing. Check that a table caption was announced if one was defined in the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If you need to hear what was announced again, swipe right to the previous item then swipe left.</li>
 
-                <li role="listitem">Swipe down to the first table in the component you're testing. Check that a table caption was announced if one was defined in the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If you need to hear what was announced again, swipe right to the previous item then swipe left.</li>
+                <li role="listitem">Swipe right to navigate through all table cells, for all rows and columns. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
-                <li role="listitem">Select ‘<b>Rows</b>’ in the Reading Controls menu, tables rows are now selected as the method of navigation when swiping up or down. Navigate all table rows. Swipe right or left to navigate through all table columns. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
-
-                <li role="listitem">Swipe down to go through all tables in the component, repeating the above steps, listening to what’s announced, until you reach the first table after the component you're testing, or the bottom of the page if testing in isolation (or there are no other tables).</li>
+                <li role="listitem">Swipe right to go through all tables in the component, listening to what’s announced, until you reach the <b>first item after the last table</b> you're testing, or the bottom of the page if testing in isolation.</li>
             </ol>
 
             <details class="details">
