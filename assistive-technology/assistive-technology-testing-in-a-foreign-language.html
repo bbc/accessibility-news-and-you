@@ -143,7 +143,15 @@
 
             <p>Testing in an unsupported language is better than not testing at all with assistive technology. While it's not recommended, if there are no other options, this can be done as a best efforts approach.</p>
 
-            <p>Examples of things you may observe when doing this:</p>
+            <p>Consider the following before testing in an unsupported language:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Component library</strong> - If the language or languages of your product are not ones that are unsupported by assistive technologies, do you have a component library in a language that is supported, can you use that for testing?</li>
+
+                <li role="listitem"><strong>Test content</strong> - Can you create some test content in a language that is supported? If doing this, make sure that the test page has the correct language code for the content. Language codes enable assistive technologies to announce content in the correct way, with the correct accent.</li>
+            </ul> 
+
+            <p>Examples of things you may observe when testing in an unsupported language:</p>
 
             <ul class="body-copy-list no-space" role="list">
                 <li role="listitem">The language code being announced alongside content. For example at the time of writing, if using Jaws on a page in the Pidgin language, as this language is not supported by this screen reader, the first time content is encounted on the page, this results in an announcement that includes the language code for Pidgin (PCM), alongside the content and semantics of the element. For example, '<b>PCM</b>, Sport, Heading level 2'.</li>
