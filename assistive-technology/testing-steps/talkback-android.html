@@ -254,11 +254,11 @@
                 <ul class="body-copy-list no-space" role="list">
                     <li role="listitem">You swipe down and nothing is announced</li>
 
-                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
-
                     <li role="listitem">A heading was announced and none were defined in the screen reader UX</li>
 
                     <li role="listitem">A heading is announced twice</li>
+
+                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
                 </ul>
             </details>
         
@@ -288,11 +288,11 @@
                 <ul class="body-copy-list no-space" role="list">
                     <li role="listitem">You swipe down and nothing is announced</li>
 
-                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
-
                     <li role="listitem">A link was announced and none were defined in the screen reader UX</li>
 
                     <li role="listitem">A link is announced twice</li>
+
+                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
                 </ul>
             </details>
         
@@ -320,11 +320,11 @@
                 <ul class="body-copy-list no-space" role="list">
                     <li role="listitem">You swipe down and nothing is announced</li>
 
-                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
-
                     <li role="listitem">A landmark was announced and none were defined in the screen reader UX</li>
 
                     <li role="listitem">A landmark was announced without a label</li>
+
+                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
                 </ul>
             </details>
         
@@ -353,7 +353,7 @@
             <ol class="body-copy-list ordered-list-steps" role="list">
                 <li role="listitem">Get in position to start by following <a href="#step-4-get-in-position-to-start-testing">step 4</a>.</li>
 
-                <li role="listitem">Swipe right until you reach the first table in the component you're testing. Check that a table caption was announced if one was defined in the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If you need to hear what was announced again, swipe right to the previous item then swipe left.</li>
+                <li role="listitem">Swipe right until you reach the first table in the component you're testing. Check that the number of rows and columns announced is correct, and that a table caption was announced if one was defined in the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>. If you need to hear what was announced again, swipe right to the previous item then swipe left.</li>
 
                 <li role="listitem">Swipe right to navigate through all table cells, for all rows and columns. Check that the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-5-define-native-semantic-roles">semantics</a> and <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html#step-6-define-the-announced-content">announced content</a> match the <a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">screen reader UX</a>.</li>
 
@@ -364,13 +364,15 @@
                 <summary>Navigating by tables bug examples</summary>
 
                 <ul class="body-copy-list no-space" role="list">
-                    <li role="listitem">You swipe down and nothing is announced</li>
+                    <li role="listitem">You swipe right and nothing is announced</li>
 
-                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
+                    <li role="listitem">Number of rows and columns announced isn't correct</li>
+
+                    <li role="listitem">A table was announced without a caption</li>
 
                     <li role="listitem">A table was announced and none where defined in the screen reader UX</li>
 
-                    <li role="listitem">A table was announced without a caption</li>
+                    <li role="listitem">What's announced doesn’t match the screen reader UX</li>
                 </ul>
             </details>
 
