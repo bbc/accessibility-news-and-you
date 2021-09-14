@@ -39,9 +39,9 @@
 
             <p>With the Voice Control shortcut enabled, on newer iPhones, you will now be able to <b>triple click the side button to toggle Voice Control on or off at any time</b>. With older style iPhones the shortcut is a triple click of the ‘home’ button.</p>
 
-            <p>When Voice Control is on and ready to use, a microphone will be dispalyed in the status bar at the top of the screen. If using Voice Control for the first time a required file will be download automatially. <b>You can tell Voice Control not to listen by saying 'Go to sleep'</b>, the microphone in the status bar indicates if Voice Control is listening or not.</p>
+            <p>When Voice Control is on and ready to use, a microphone will be dispalyed in the status bar at the top of the screen. If using Voice Control for the first time a required file will be downloaded automatially. <b>You can tell Voice Control not to listen by saying 'Go to sleep'</b>, the microphone in the status bar indicates if Voice Control is listening or not.</p>
 
-            <p>When Voice Control is on and listening, you can speak commands just like you would perform an action by touch. For example, you can say 'Swipe down' or 'Swipe up' to scroll a web page. To see a list of voice commands, go to the ‘Accessibility’ menu in ‘Settings’, then under the 'Voice Control' menu read 'Learn more' at the top. Only a few voice commands are needed to perform the testing steps, all of which are explained below.</p>
+            <p>When Voice Control is on and listening, you can speak commands just like you would perform an action by touch. For example, you can say 'Swipe down' or 'Swipe up' to scroll a web page. To see a list of voice commands, go to the ‘Accessibility’ menu in ‘Settings’, then under the 'Voice Control' menu read 'Learn more' at the top. There are many <a href="https://support.apple.com/en-gb/HT210417">Voice Control commands</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below.</p>
 
             <a href="#page-contents" class="back-to">Back to page contents</a>
 
@@ -128,7 +128,7 @@
 
                 <li role="listitem">If the element has <b>no visable text</b>, a visual affordance for the element should provide a clue to the name of the element. For example, if the element only has an icon, such as a menu icon, try saying 'Tap menu'.</li>
 
-                <li role="listitem">If you unable to activate the element by the above methods, say '<b>Show names</b>' or '<b>Show numbers</b>', you will now be presented with a name or number for each element. Say 'Tap' followed by the displayed name or number for the element, such as 'Tap Settings' or 'Tap 5'.</li>
+                <li role="listitem">If you are unable to activate the element by the above methods, say '<b>Show names</b>' or '<b>Show numbers</b>', you will now be presented with a name or number for each element. Say 'Tap' followed by the displayed name or number for the element, such as 'Tap Settings' or 'Tap 5'.</li>
 
                 <li role="listitem">If you are still unable to activate the element, say '<b>Show grid</b>', a numbered grid will now be displayed over the page. Locate the grid number where you would tap to activate the element, then say 'Tap' plus the grid number, for example 'Tap 3'. The central area of the grid square is used as the tap point, this needs to be over the element, if it is not, say the grid number, for example '3', you will then be presented with a smaller grid to select from.</li>
 
@@ -141,11 +141,11 @@
                 <summary>Actionable elements bug examples</summary>
 
                 <ul class="body-copy-list no-space" role="list">
-                    <li role="listitem">An element without visable text does not have a visual affordance giving a clue to the name of the element</li>
+                    <li role="listitem">A link or button with no visable text does not have a visual affordance giving a clue to the name of the element</li>
 
-                    <li role="listitem">An actionable element is not inlcuded when saying the voice command 'Show names' or 'Show numbers'</li>
+                    <li role="listitem">An actionable element does not have a displayed name or number when saying the voice command 'Show names' or 'Show numbers'</li>
 
-                    <li role="listitem">Actionable elements that expanded or show further content cannot be activated</li>
+                    <li role="listitem">A button that expands or shows further content cannot be activated</li>
 
                     <li role="listitem">An actionable element cannot be activated with a voice command</li>
 
@@ -187,7 +187,7 @@
 
                     <li role="listitem">You cannot return to the default view in the scrollable / swipeable area with voice commands</li>
 
-                    <li role="listitem">When a large scrollable or swipeable area is in view, I am not able to view content above / below this area</li>
+                    <li role="listitem">When a large scrollable or swipeable area is in view, you cannot view content above / below this area with voice commands</li>
                 </ul>
             </details>
 
@@ -204,6 +204,8 @@
 
                 <ul class="body-copy-list no-space" role="list">
                     <li role="listitem">You cannot enter the required text with voice commands</li>
+
+                    <li role="listitem">You cannot submit text entered with voice commands</li>
 
                     <li role="listitem">You cannot submit text entered with voice commands without getting a validation error</li>
                 </ul>
