@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Voice Access on Android testing steps - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - Voice Access on Android testing steps. We’ll take you step by step through how to test a component or feature.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>Voice Access on Android testing steps</span>
+                </span>
+            </h1>
+
+            <p>We’ll take you step by step through how to test a component or feature using your voice; with Voice Access, the speech recognition software on Android. Test with the latest version available.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#how-to-turn-voice-access-on-off">How to turn Voice Access on / off</a></li>
+                    <li role="listitem"><a href="#testing-in-a-foreign-language">Testing in a foreign language</a></li>
+                    <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="how-to-turn-voice-access-on-off" class="h2" tabindex="-1">How to turn Voice Access on / off</h2>
+
+            <p>Voice Access for Android comes <b>already installed on some devices</b>. To check if you have Voice Access already installed, go to 'Settings', within the 'Accessibility' menu you should see Voice Access. If you can't see Voice Access, go to the Google Play store and download 'Voice Access'. When the download is complete you will be prompted to open and set up Voice Access, follow the set up steps.</p>
+
+            <p><b>To turn Voice Access on or off</b>, go to 'Settings', then within the 'Accessibility' menu look for 'Voice Access', here you can turn Voice Access on or off. When Voice Access is on, a voice icon will be dispalyed in the status bar at the top of the screen.</p>
+
+            <p>Once on, to use voice commands you need to <b>tell Voice Access to listen</b>. In notifications, you can toggle listening on or off, from any screen or web page, at any time. In notifications, under Voice Access, look for 'Tap to start' to toggle listening on, or 'Tap to pause' to toggle listenening off. When Voice Access is listening, a listening icon will be dispalyed at the top of the screen.</p>
+
+            <p>When Voice Access is on and listening, you can speak commands just like you would perform an action by touch. For example, you can say 'Swipe down' or 'Swipe up' to scroll a web page. If using Voice Access for the first time, follow the tutorial, say 'Open tutorial'. To see a <b>list of voice commands</b>, say 'Help'. There are many <a href="https://support.google.com/accessibility/android/answer/6151854?hl=en&ref_topic=6151842#zippy=">Voice Access commands</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-in-a-foreign-language" class="h2" tabindex="-1">Testing in a foreign language</h2>
+
+            <p>When testing with assistive technology it's important to <b>test in a language that is supported</b> by the assistive technology, and with a <b>language that you can understand</b>. For further information see the <a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/assistive-technology-testing-in-a-foreign-language.html">assistive technology testing in a foreign language guide</a>.</p>
+
+            <p>You can speak Voice Access commands in English, Spanish, German, Italian, or French.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
+
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to use Voice Access for the first time</b>.</p>
+
+            <p>To become more familiar and proficient using assistive technology, resist the temptation to cheat, always try to navigate like a user would.</p>
+
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Testing steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-turn-voice-access-on">1 - Turn Voice Access on</a></li>
+                <li role="listitem"><a href="#step-2-open-chrome">2 - Open Chrome</a></li>
+                <li role="listitem"><a href="#step-3-go-to-the-testing-url">3 - Go to the testing url</a></li>
+                <li role="listitem"><a href="#step-4-toggle-listening-on">4 - Toggle listening on</a></li>
+                <li role="listitem"><a href="#step-5-get-in-position-to-start-testing">5 - Get in position to start</a></li>
+                <li role="listitem"><a href="#step-6-activate-all-actionable-elements">6 - Activate actionable elements</a></li>
+                <li role="listitem"><a href="#step-7-components-with-a-scrollable-or-swipeable-area">7 - Scrollable or swipeable areas</a></li>
+                <li role="listitem"><a href="#step-8-components-with-a-text-field">8 - Components with a text field</a></li>
+                <li role="listitem"><a href="#step-9-accessibility-acceptance-criteria">9 - Accessibility acceptance criteria</a></li>
+                <li role="listitem"><a href="#step-10-document-any-bugs">10 - Document any bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-turn-voice-access-on" class="h3" tabindex="-1">Step 1 - Turn Voice Access on</h3>
+
+            <p>To turn Voice Access on, go to 'Settings', then within the 'Accessibility' menu look for 'Voice Access', here you can turn Voice Access on. When Voice Access is on, a voice icon will be dispalyed in the status bar at the top of the screen.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-open-chrome" class="h3" tabindex="-1">Step 2 - Open Chrome</h3>
+
+            <p>Open Chrome, this is the most used browser by Voice Access users.</p> 
+
+            <p>Note: While Voice Access may work with other browsers, you may encounter bugs which aren’t present in Chrome; the default Voice Access browser.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-go-to-the-testing-url" class="h3" tabindex="-1">Step 3 - Go to the testing url</h3>
+
+            <p>Navigate to or type in the testing url.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-toggle-listening-on" class="h3" tabindex="-1">Step 4 - Toggle listening on</h3>
+        
+            <p>To use voice commands tell Voice Access to listen. In notifications, under Voice Access, look for 'Tap to start' to toggle listening on. When Voice Access is listening, a listening icon will be dispalyed at the top of the screen.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-get-in-position-to-start-testing" class="h3" tabindex="-1">Step 5 - Get in position to start testing</h3>
+
+            <p>First check Voice Access is working ok by saying 'Swipe up', the web page should scroll down. Next, get in position to start testing by saying 'Swipe up' or 'Swipe down' until you can see the start of the component you're going to test.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-activate-all-actionable-elements" class="h3" tabindex="-1">Step 6 - Activate all actionable elements</h3>
+
+            <p>You are now ready to start testing.</p>
+
+            <p>All actionable elements, such as links, buttons and form elements, should be able to be used with a voice command. Go through each actionable element in turn:</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">If the element has some <b>visable text</b>, say 'Tap' followed by the text you can see. For example, to activate a link with text of 'Powerful earthquake hits coast' say 'Tap Powerful earthquake hits coast', or just say the first few words of the text. If there is more than one link on screen with the same text you will now be presented with a number for each element, say the number of the element you wish to activate, such as '2'.</li>
+
+                <li role="listitem">If the element has <b>no visable text</b>, a visual affordance for the element should provide a clue to the name of the element. For example, if the element only has an icon, such as a menu icon, try saying 'Tap menu'.</li>
+
+                <li role="listitem">If you are unable to activate the element by the above methods, say '<b>Show labels</b>' or '<b>Show numbers</b>', you will now be presented with a label or number for each element. Say 'Tap' followed by the displayed label or number for the element, such as 'Tap Settings' or 'Tap 5'.</li>
+
+                <li role="listitem">If you are still unable to activate the element, say '<b>Show grid</b>', a numbered grid will now be displayed over the page. Locate the grid number where you would tap to activate the element, then say 'Tap' plus the grid number, for example 'Tap 3'. The central area of the grid square is used as the tap point, this needs to be over the element, if it is not, say the grid number, for example '3', you will then be presented with a smaller grid to select from. To hide the grid, say 'Hide grid'.</li>
+
+                <li role="listitem">Go through all actionable elements in the component including those within expandable or popup content, activating each element in turn, until you reach the end of the component you're testing.</li>
+            </ol>
+
+            <p>After activating a link, <b>to go back</b> to the component you're testing, say 'Tap back' or 'Go back'.</p>
+
+            <details class="details">
+                <summary>Actionable elements bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">A link or button with no visable text does not have a visual affordance giving a clue to the name of the element</li>
+
+                    <li role="listitem">An actionable element does not have a displayed label or number when saying the voice command 'Show labels' or 'Show numbers'</li>
+
+                    <li role="listitem">A button that expands or shows further content cannot be activated</li>
+
+                    <li role="listitem">An actionable element cannot be activated with a voice command</li>
+
+                    <li role="listitem">The label of an actionable element doesn’t match the documented UX</li>
+                </ul>
+            </details>
+        
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-components-with-a-scrollable-or-swipeable-area" class="h3" tabindex="-1">Step 7 - Components with a scrollable or swipeable area</h3>
+
+            <p>If the component has a <b>horizontal scrollable area</b>, or a <b>horizontal swipeable area such as a carousel</b>, ensure you can view all the content in this area.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Say 'Show grid', a numbered grid will now be displayed over the page.</li>
+
+                <li role="listitem">Locate the grid number where you would swipe from by touch to scroll the area, then say 'Swipe right' or 'Swipe left' plus the grid number, for example 'Swipe right 3'. The central area of the grid square is used as the swipe point, this needs to be over the element, if it is not, say the grid number, for example '3', you will then be presented with a smaller grid to select from.</li>
+
+                <li role="listitem">Ensure you can view all content in the scrollable / swipeable area.</li>
+
+                <li role="listitem">Go through all actionable elements in the scrollable / swipeable area, activating each element in turn, until you reach the end of the scrollable / swipeable area.</li>
+
+                <li role="listitem">Follow the steps above to return to the default view of the scrollable / swipeable area.</li>
+            </ol>
+
+            <p>If the component has any scrollable / swipeable areas which can <b>be navigated vertically</b>, such as an embedded map, follow the steps above replacing 'Swipe right' or 'Swipe left' with 'Swipe up' or 'Swipe down'.</p>
+
+            <p>In addition, if the component has a <b>large scrollable or swipeable area</b>, when in view ensure that this area does not interfer with the ability to view content above or below the area. For example, if a scrollable map fills the majority of the viewport, when this is in view can you navigate to the content below this with a voice command? With the large scrollable or swipeable area in view, say 'Swipe up' and 'Swipe down' checking that you can view content above and below any such areas in the component.</p>
+                
+            <details class="details">
+                <summary>Scrollable or swipeable area bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">You cannot view all content in a scrollable / swipeable area with voice commands</li>
+
+                    <li role="listitem">Actionable elements within a scrollable / swipeable area, such as links and buttons, cannot be activated with voice commands</li>
+
+                    <li role="listitem">You cannot return to the default view in the scrollable / swipeable area with voice commands</li>
+
+                    <li role="listitem">When a large scrollable or swipeable area is in view, you cannot view content above / below this area with voice commands</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-8-components-with-a-text-field" class="h3" tabindex="-1">Step 8 - Components with a text field</h3>
+
+            <p>Check any text fields can be completed and then submitted without any validation errors. To see a list of commands you can say to dictate and edit text, say 'Show all commands', then say 'Text editing' to choose this category and see the commands.</p>
+
+            <details class="details">
+                <summary>Text field bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">You cannot enter the required text with voice commands</li>
+
+                    <li role="listitem">You cannot submit text entered with voice commands</li>
+
+                    <li role="listitem">You cannot submit text entered with voice commands without getting a validation error</li>
+                </ul>
+            </details>
+        
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-9-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 9 - Accessibility acceptance criteria</h3>
+
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented UX, specific <a href="https://support.google.com/accessibility/android/answer/6151854?hl=en&ref_topic=6151842#zippy=">Voice Access commands</a> maybe needed.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
+
+                <li role="listitem">Check that any criteria that is specific to using speech recognition software is met with Voice Access on Android.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-10-document-any-bugs" class="h3" tabindex="-1">Step 10 - Document any bugs</h3>
+
+            <p>Document any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">accessibility bugs</a> found, include as much information as you can, including information on how to replicate the issue and the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html#how-to-categorise-bugs">bug priority level</a>.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2021 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
