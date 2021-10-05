@@ -19,6 +19,7 @@ If you have any questions ask one of the Accessibility Champions around the depa
 
 - [Accessibility bugs](/accessibility-news-and-you/guides/accessibility-bugs.html)
 - [Testing with assistive technology](/accessibility-news-and-you/assistive-technology/testing.html)
+- [Assistive technology testing in a foreign language](/accessibility-news-and-you/assistive-technology/assistive-technology-testing-in-a-foreign-language.html)
 - [Accessibility Design Review](/accessibility-news-and-you/guides/accessibility-design-review.html)
 - [Accessibility Swarms](/accessibility-news-and-you/guides/accessibility-swarms.html)
 - [How to write accessibility acceptance criteria](/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html)
