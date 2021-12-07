@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Dragon for Windows testing steps - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - Dragon for Windows testing steps. We’ll take you step by step through how to test a component or feature.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>Dragon for Windows testing steps</span>
+                </span>
+            </h1>
+
+            <p>We’ll take you step by step through how to test a component or feature using your voice; with Dragon, speech recognition software for Windows by Nuance. Test with the latest version available.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#how-to-turn-dragon-on-off">How to turn Dragon on / off</a></li>
+                    <li role="listitem"><a href="#testing-in-a-foreign-language">Testing in a foreign language</a></li>
+                    <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="how-to-turn-dragon-on-off" class="h2" tabindex="-1">How to turn Dragon on / off</h2>
+
+            <p>Dragon is <b>not installed on Windows devices by default</b>.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">To check if you have Dragon already installed on your device, <b>go to the taskbar and search for 'Dragon'</b>, you should see the Dragon app listed in the search results, here you can open Dragon.</li>
+
+                <li role="listitem">If you can't see Dragon, request this from IT. After download, when opening the app for the first time, follow the set up steps.</li>
+
+                <li role="listitem">When Dragon is open, <b>the Dragon Bar will be displayed on screen</b>, usually at the top in the middle.</li>
+
+                <li role="listitem"><b>Check your user profile is being used</b>. It's important to always use your own user profile, this enables the software to work well for you, with your ascent and voice. In the Dragon Bar, <b>go to 'Settings', then under 'Profile', select 'Open user profile'</b>. If you've just followed the set up steps, your user profile will of been created and be selected.</li>
+
+                <li role="listitem">Before you can use voice commands you need to <b>switch the microphone on</b>, this allows Dragon to listen. In the Dragon Bar, look for the microphone button.</li>
+
+                <li role="listitem">With the microphone on, you can toggle listening on or off, at any time. <b>Say 'Go to sleep' to toggle listening off</b>. When Dragon is asleep and not listening, the microphone button will be dispalyed blue with a night icon. Say <b>'Wake up' to toggle listening on</b>. When Dragon is awake and listening, the microphone button will be displayed green with a listening affordance.</li>
+
+                <li role="listitem">When Dragon is listening, <b>you can speak commands just like you would perform an action by mouse</b>. For example, you can say 'Scroll down' or 'Scroll up' to scroll a web page.</li>
+
+                <li role="listitem">To see a list of voice commands, say 'What can I say'. For web specific commands see <a href="https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Web/web_basics.htm">web browser basics</a> and <a href="https://www.nuance.com/products/help/dragon/dragon-for-pc/enx/professionalgroup/main/Content/Web/working_with_chrome.htm">working with Chrome</a>. There are many <a href="https://www.nuance.com/content/dam/nuance/en_uk/collateral/dragon/command-cheat-sheet/ct-dragon-professional-individual-en-uk.pdf">Dragon commands</a> that you can use, though only a few are needed to perform the testing steps, all of which are explained below.</li>
+
+                <li role="listitem">If using Dragon for the first time, follow the interactive tutorial, say 'Open tutorial'.</li>
+
+                <li role="listitem"><b>To exit and close Dragon</b>, in the Dragon Bar, go to 'Tools', then select 'Exit Dragon'. Alternatively, you can right click the 'Dragon' app in the taskbar, then click the close icon.</li>
+
+                <li role="listitem">If you find Dragon is <b>having difficulty understanding your voice commands</b>, try speaking slower and as clearly as possible. Also make sure there is no background noise, to reduce this, you could use headphones with a microphone.</li>
+            </ol>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-in-a-foreign-language" class="h2" tabindex="-1">Testing in a foreign language</h2>
+
+            <p>When testing with assistive technology it's important to test with <b>content in a language that you can understand</b> and with <b>a language that is supported</b> by the assistive technology. For further information see the <a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/assistive-technology-testing-in-a-foreign-language.html">assistive technology testing in a foreign language guide</a>.</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Dragon is not supported for all languages</li>
+
+                <li role="listitem">Speak voice commands in the OS language</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
+
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to use Dragon for the first time</b>.</p>
+
+            <p>To become more familiar and proficient using assistive technology, resist the temptation to cheat, always try to navigate like a user would.</p>
+
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Testing steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-turn-dragon-on">1 - Turn Dragon on</a></li>
+                <li role="listitem"><a href="#step-2-open-chrome">2 - Open Chrome</a></li>
+                <li role="listitem"><a href="#step-3-go-to-the-testing-url">3 - Go to the testing url</a></li>
+                <li role="listitem"><a href="#step-4-get-in-position-to-start-testing">4 - Get in position to start</a></li>
+                <li role="listitem"><a href="#step-5-activate-all-actionable-elements">5 - Activate actionable elements</a></li>
+                <li role="listitem"><a href="#step-6-components-with-a-scrollable-area">6 - Scrollable areas</a></li>
+                <li role="listitem"><a href="#step-7-components-with-a-text-field">7 - Components with a text field</a></li>
+                <li role="listitem"><a href="#step-8-accessibility-acceptance-criteria">8 - Accessibility acceptance criteria</a></li>
+                <li role="listitem"><a href="#step-9-document-any-bugs">9 - Document any bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-turn-dragon-on" class="h3" tabindex="-1">Step 1 - Turn Dragon on</h3>
+        
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Open the Dragon app.</li>
+                <li role="listitem">In the Dragon Bar, switch the microphone on.</li>
+            </ol>
+
+            <p>See <a href="#how-to-turn-dragon-on-off">How to turn Dragon on / off </a> for more detailed instructions.</p> 
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-open-chrome" class="h3" tabindex="-1">Step 2 - Open Chrome</h3>
+
+            <p>Open Chrome, this is the most used browser by Dragon users.</p> 
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Say '<b>Open Google Chrome</b>'.</li>
+                <li role="listitem">If opening Chrome for the first time with Dragon, you will be prompted to install a Dragon web extension, this enables Dragon to work well with Chrome.</li>
+            </ol>
+
+            <p>Note: Dragon will work with other browsers, such as FireFox and Internet Explorer, though always test in the most used browser.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-go-to-the-testing-url" class="h3" tabindex="-1">Step 3 - Go to the testing url</h3>
+
+            <p>Say or type in the testing url.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">If the address bar is not focused, say the keyboard shortcut to move to the address bar '<b>Press alt D</b>'.</li>
+                <li role="listitem">Now, say the testing url. If you make a mistake, say 'delete line' to start again. There are many <a href="https://www.nuance.com/content/dam/nuance/en_uk/collateral/dragon/command-cheat-sheet/ct-dragon-professional-individual-en-uk.pdf">commands you can say to dictate and edit text</a>.</li>
+                <li role="listitem">Then say 'Press Enter'.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-get-in-position-to-start-testing" class="h3" tabindex="-1">Step 4 - Get in position to start testing</h3>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">First check Dragon is working ok by saying 'Page down', the web page should scroll down.</li>
+                <li role="listitem">Next, get in position to start testing by saying '<b>Page down</b>' or '<b>Page up</b>' until you can see the start of the component you're going to test. To move the page down by a few lines say '<b>Line down</b>', to move the page up by a few lines say '<b>Line up</b>'.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-activate-all-actionable-elements" class="h3" tabindex="-1">Step 5 - Activate all actionable elements</h3>
+
+            <p>You are now ready to start testing.</p>
+
+            <p>All actionable elements, such as links, buttons and form elements, should be able to be used with a voice command. Go through each actionable element in turn:</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">If the element has some <b>visible text</b>, say 'Click' followed by the text you can see. For example, to activate a link with text of 'Powerful earthquake hits coast' say '<b>Click Powerful earthquake hits coast</b>' or you can just say the first few words, such as 'Click Powerful earthquake'. If there is more than one link on screen with the same text you will now be presented with a number for each element, say 'Choose' along with the number of the element you wish to activate, such as 'Choose 2'.</li>
+
+                <li role="listitem">If the element has <b>no visible text</b>, a visual affordance for the element should provide a clue to the name of the element. For example, if the element only has an icon, such as a menu icon, try saying 'Click menu'.</li>
+
+                <li role="listitem">If you are unable to activate the element by the above methods, say 'Click' followed by the element type such as '<b>Click link</b>' or '<b>Click button</b>', you will now be presented with a number for each element of that type on screen. Say 'Choose' followed by the displayed number for the element, such as '<b>Choose 5</b>'.</li>
+
+                <li role="listitem">If you are still unable to activate the element, say '<b>Mouse grid</b>', a numbered grid will now be displayed over the page. Identify the grid number the element is located in, then say the grid number, for example '3'. You will then be presented with a smaller grid to select from. <b>Keep saying the grid number until the grid is a similar size to the element</b>, the mouse cursor will change to a hand pointer,  you can then say '<b>Mouse click</b>' to click the element. To hide the Mouse Grid, say '<b>Cancel</b>'.</li>
+
+                <li role="listitem">Go through all actionable elements in the component including those within expandable or popup content, activating each element in turn, until you reach the end of the component you're testing.</li>
+            </ol>
+
+            <p>After activating a link, <b>to go back</b> to the component you're testing, say the keyboard shortcut to go back '<b>Press alt left arrow</b>'.</p>
+
+            <details class="details">
+                <summary>Actionable elements bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">A link or button with no visible text does not have a visual affordance giving a clue to the name of the element</li>
+
+                    <li role="listitem">An actionable element does not have a displayed number when saying 'Click' followed by the element type such as 'Click link' or 'Click button'</li>
+
+                    <li role="listitem">A button that expands or shows further content cannot be activated</li>
+
+                    <li role="listitem">An actionable element cannot be activated with a voice command</li>
+
+                    <li role="listitem">The name of an actionable element doesn’t match the documented UX</li>
+                </ul>
+            </details>
+        
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-components-with-a-scrollable-area" class="h3" tabindex="-1">Step 6 - Components with a scrollable area</h3>
+
+            <p>If the component has a <b>horizontal scrollable area such as a carousel</b>, or if the component has any scrollable areas which can <b>be navigated vertically</b>, such as an embedded map:</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Ensure you can view all content in the area by activating the button controls, such as a left or right arrow button, with voice commands.</li>
+
+                <li role="listitem">Ensure you can activate all other control buttons with voice commands.</li>
+
+                <li role="listitem">Go through all actionable elements within in the scrollable area, activating each element in turn, until you reach the end of the content within the scrollable area.</li>
+
+                <li role="listitem">Return to the default view of the scrollable area by activating the button controls.</li>
+            </ol>
+                
+            <details class="details">
+                <summary>Scrollable area bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">You cannot view all content in a scrollable area with voice commands</li>
+
+                    <li role="listitem">You cannot activate all control buttons with voice commands</li>
+
+                    <li role="listitem">Actionable elements within a scrollable area, such as links and buttons, cannot be activated with voice commands</li>
+
+                    <li role="listitem">You cannot return to the default view of the scrollable area with voice commands</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-components-with-a-text-field" class="h3" tabindex="-1">Step 7 - Components with a text field</h3>
+
+            <p>Check any text fields can be completed and then submitted without any validation errors.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Say 'Click text field'. If there is more than one text field on screen, you will now be presented with a number for each text field on screen. Say 'Choose' along with the number of the text field, such as 'Choose 1'.</li>
+
+                <li role="listitem">Complete the field by saying the text you are required to enter. If you make a mistake, say 'delete line' to start again. There are many <a href="https://www.nuance.com/content/dam/nuance/en_uk/collateral/dragon/command-cheat-sheet/ct-dragon-professional-individual-en-uk.pdf">commands you can say to dictate and edit text</a>.</li>
+
+                <li role="listitem">Go through all text fields in the component, completing each in turn, before then acivating the submit button with a voice command, such as 'Click sign in'.</li>
+            </ol>
+
+            <details class="details">
+                <summary>Text field bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">You cannot enter the required text with voice commands</li>
+
+                    <li role="listitem">You cannot submit text entered with voice commands</li>
+
+                    <li role="listitem">You cannot submit text entered with voice commands without getting a validation error</li>
+                </ul>
+            </details>
+        
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-8-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 8 - Accessibility acceptance criteria</h3>
+
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented UX, specific <a href="https://www.nuance.com/content/dam/nuance/en_uk/collateral/dragon/command-cheat-sheet/ct-dragon-professional-individual-en-uk.pdf">Dragon commands</a> maybe needed.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
+
+                <li role="listitem">Check that any criteria that is specific to using speech recognition software is met with Dragon for Windows.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-9-document-any-bugs" class="h3" tabindex="-1">Step 9 - Document any bugs</h3>
+
+            <p>Document any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">accessibility bugs</a> found, include as much information as you can, including information on how to replicate the issue and the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html#how-to-categorise-bugs">bug priority level</a>.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2021 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
