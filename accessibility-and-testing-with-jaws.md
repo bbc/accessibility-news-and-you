@@ -5,7 +5,7 @@ title: Accessibility and Testing with Jaws
 
 Jaws is a screen reader for **PC** desktop devices. 
 
-Jaws should be tested with **Internet Explorer 11**. Test using an actual device if possible.
+Jaws should be tested with **Chrome**. Test using an actual device if possible.
 
 ## What should I test?
 0. Test the feature by reading every element.
@@ -20,7 +20,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 ### General
 
-0. Open **Internet Explorer 11**.
+0. Open **Chrome**.
 1. Go to the **testing url**.
 2. **Turn Jaws on**. 
 3. Navigate to the last element in the feature before the feature to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the feature. Then use 'Down arrow' to read **through each element** in the feature (if you need to go back, 'Up arrow'). 
@@ -43,7 +43,7 @@ The accessibility acceptance criteria can be used for additional manual testing 
 
 ### Tables
 
-0. Open **Internet Explorer 11**.
+0. Open **Chrome**.
 1. Go to the **testing url**.
 2. **Turn Jaws on**. 
 3. Navigate to the last visible element before the table to be tested, this will ensure you don't miss any visually hidden/off screen text at the beginning of the table. Then use all the [table keyboard shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts#id384_tables) (with exception to those that use the num pad keys if using a laptop), to go **through each element** in the table.
