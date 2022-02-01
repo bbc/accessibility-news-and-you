@@ -356,7 +356,7 @@ ul.body-copy-list li:before {
 }
 
 @media (prefers-color-scheme: dark) {
-  .body-copy-list li:before {
+  ul.body-copy-list li:before {
     border-color: #fdfdfd;
   }
 }
