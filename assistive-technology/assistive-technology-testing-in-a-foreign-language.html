@@ -52,7 +52,7 @@
 
                 <li role="listitem"><strong>Ask someone who does understand</strong> - Ask another team member who does understand the language to test with you.</li>
 
-                <li role="listitem"><strong>Languages you can read</strong> - If testing can’t be done in a language you or a team member understands, test with a font you can read even if you can't understand it. For example, if your first language is english, test with a latin font over a script font.</li>
+                <li role="listitem"><strong>Languages you can read</strong> - If testing can’t be done in a language you or a team member understands, test with a font you can read even if you can't understand it. For example, if your first language is english, test with a latin font over a script font. If using a screen reader, having the semantics announced in your OS language will also make testing easier. For <b>VoiceOver on iPhone</b> make sure 'Detect languages' is off, go to ‘Settings’, then within the ‘Accessibility’ menu look for ‘VoiceOver’, go to 'Speech' and check 'Detect languages' is toggled off. Note not all screen readers have this level of customisation.</li>
 
                 <li role="listitem"><strong>Languages you can't read</strong> - Screen reader caption panels display in text format on screen, what is being announced at any given time. If you can't read the language, at a minimum you will be able to check the text in the caption panel, against what can be seen on screen, and the documented screen reader UX. Note not all screen readers have a caption panel, and some may require you to enable the caption panel. To turn the ‘Caption Panel’ on for <b>VoiceOver on iPhone</b>, within ‘Settings’ go to the ‘Accessibility’ menu, then under 'VoiceOver' look for 'Caption Panel'.</li>
             </ol>          
@@ -153,7 +153,7 @@
                 <li role="listitem"><strong>Test content</strong> - Can you create some test content in a language that is supported? If doing this, make sure that the test page has the correct language code for the content. Language codes enable assistive technologies to announce content in the correct way, with the correct accent.</li>
             </ul> 
 
-            <p>Examples of things you may observe when testing in an unsupported language:</p>
+            <p>Examples of things you may observe when testing with a screen reader in an unsupported language:</p>
 
             <ul class="body-copy-list no-space" role="list">
                 <li role="listitem">The language code being announced alongside content. For example at the time of writing, if using Jaws on a page in the Pidgin language, as this language is not supported by this screen reader, the first time content is encounted on the page, this results in an announcement that includes the language code for Pidgin (PCM), alongside the content and semantics of the element. For example, '<b>PCM</b>, Sport, Heading level 2'.</li>
