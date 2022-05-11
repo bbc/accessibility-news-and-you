@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>Customised colours in Firefox testing steps - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Testing steps - Customised colours in Firefox. We’ll take you step by step through how to test a component or feature.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Testing steps</span><span class="vh">, </span>
+                    <span>Customised colours in Firefox</span>
+                </span>
+            </h1>
+
+            <p>We’ll take you step by step through how to test a component or feature with customised colours, using a Firefox preference, that makes content easier to read by using preferred colours.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#how-to-turn-customised-colours-on-off">How to turn customised colours on / off</a></li>
+                    <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="how-to-turn-customised-colours-on-off" class="h2" tabindex="-1">How to turn customised colours on / off</h2>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">In the Firefox menu, open 'Preferences' (Mac) or 'Settings' (Windows), under 'General' look for 'Language and Appearance', then open 'Colours'.</li>
+
+                <li role="listitem">In the settings, you can select from <b>four colour options, such as 'Text', to customise</b> with colours of your choice.</li>
+
+                <li role="listitem">When all colours are customised, in the dropdown choose '<b>Always</b>', then select 'OK'. You will see web pages colours change to reflect your customised colours.</li>
+
+                <li role="listitem">To <b>turn off customised colours and restore default colours</b>, in the Firefox address bar type 'about:config', accept the risk, search for 'browser*color', then reset the modified colour preferences. You will see web pages colours change back to reflect the default colours.</li>
+            </ol>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
+
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to customise colours in Firefox for the first time</b>.</p>
+
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Testing steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-open-firefox">1 - Open Firefox</a></li>
+                <li role="listitem"><a href="#step-2-go-to-the-testing-url">2 - Go to the testing url</a></li>
+                <li role="listitem"><a href="#step-3-open-the-colour-preferences">3 - Open the colour preferences</a></li>
+                <li role="listitem"><a href="#step-4-customise-the-colours">4 - Customise the colours</a></li>
+                <li role="listitem"><a href="#step-5-view-the-component">5 - View the component</a></li>
+                <li role="listitem"><a href="#step-6-accessibility-acceptance-criteria">6 - Accessibility acceptance criteria</a></li>
+                <li role="listitem"><a href="#step-7-document-any-bugs">7 - Document any bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-open-firefox" class="h3" tabindex="-1">Step 1 - Open Firefox</h3>
+
+            <p>Open Firefox, this is the default browser for customising colours.</p>
+
+            <p>Note: there are other ways of customising colours, though always test with the most commonly used method.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-go-to-the-testing-url" class="h3" tabindex="-1">Step 2 - Go to the testing url</h3>
+
+            <p>Navigate to or type in the testing url.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-open-the-colour-preferences" class="h3" tabindex="-1">Step 3 - Open the colour preferences</h3>
+
+            <p>In the Firefox menu, open 'Preferences' (Mac) or 'Settings' (Windows), under 'General' look for 'Language and Appearance', then open 'Colours'.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-customise-the-colours" class="h3" tabindex="-1">Step 4 - Customise the colours</h3>
+
+            <p>Using colours that are distinctly different colours to the default design will make it easier to see if there is a bug.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">In the colour settings, select one of the four colour options, such as 'Text'.</li>
+                <li role="listitem">Customise the colour, choose a colour which is <b>distinctly different from the design</b> of the component or feature.</li>
+                <li role="listitem">In turn go through all options, until all colours are customised, including text, background, unvisited links and visited links.</li>
+                <li role="listitem">In the dropdown choose 'Always', then select 'OK'. You will see colours change on web pages to reflect your customised colours.</li>
+            </ol>
+
+            <p>If you are having <b>difficulty changing a colour on Mac</b>, when you select one of the four colour options, such as 'Text', before trying to change the colour, check that the current colour is selected in the 'Choose a colour window'. If the current colour is not selected, try selecting the colour option, such as 'Text', again with a double click. If you are still having difficulty, try closing and reopening the colour preferences.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-view-the-component" class="h3" tabindex="-1">Step 5 - View the component</h3>
+
+            <p>Users should be able to select any colours of their choice in the colour preferences, and have the content relect this, even if this is pink text on a purple background.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Check all colours have changed to reflect your customised colours.</li>
+
+                <li role="listitem">Check that no other colours (other than your customised colours) can be seen. This should apply to all elements <b>except buttons and images</b>.</li> 
+
+                <li role="listitem">Check that the colours of icons and graphics reflect those of your customised colours. Note, colours cannot be changed with some icon and graphic image formats, such as jpeg, png or gif, use SVGs if possible.</li>
+
+                <li role="listitem">Check that the visual design is equivalent to that viewed without customised colours. For example, have any design affordances been lost, such as background colours, is the layout still clear? Note in this mode, container background colours will likely be removed. If required, borders can be added specifically to be seen only in this mode to help with lost design affordances.</li>
+            </ol>
+
+            <details class="details">
+                <summary>Bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Content is in a colour other than those of your customised colours.</li>
+
+                    <li role="listitem">Colours of icons or graphics do not reflect those of your customised colours. Note, for SVGs with more than one colour, only some customisation maybe possible.</li>
+
+                    <li role="listitem">The visual design isn't equivalent to that viewed without customised colours, such as background colours are removed so much so that the layout is no longer clear.</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 6 - Accessibility acceptance criteria</h3>
+
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented UX.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
+
+                <li role="listitem">Check that any criteria that is specific to using customised colours is met with Firefox.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-document-any-bugs" class="h3" tabindex="-1">Step 7 - Document any bugs</h3>
+
+            <p>Document any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">accessibility bugs</a> found, include as much information as you can, including information on how to replicate the issue and the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html#how-to-categorise-bugs">bug priority level</a>.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2022 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>

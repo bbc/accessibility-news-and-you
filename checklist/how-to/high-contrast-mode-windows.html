@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>High contrast mode on Windows testing steps - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Testing steps - High contrast mode on Windows testing steps. We’ll take you step by step through how to test a component or feature.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Testing steps</span><span class="vh">, </span>
+                    <span>High contrast mode on Windows</span>
+                </span>
+            </h1>
+
+            <p>We’ll take you step by step through how to test a component or feature in high contrast mode, a Windows 10 setting, that makes content easier to see by using distinct colours.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#how-to-turn-high-contrast-mode-on-off">How to turn high contrast mode on / off</a></li>
+                    <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="how-to-turn-high-contrast-mode-on-off" class="h2" tabindex="-1">How to turn high contrast mode on / off</h2>
+
+            <p>High contrast is a system setting found on Windows 10.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">To turn high contrast mode on, <b>go to the taskbar and search for 'turn high contrast on'</b>, you should see the high contrast setting listed in the search results, here you can open the high contrast settings.</li>
+
+                <li role="listitem">In the settings, toggle high contrast on. You will see colours change to reflect that of the selected theme.</li>
+
+                <li role="listitem">You can select from four <b>default colour themes or create your own customised theme</b> with colours of your choice.</li>
+
+                <li role="listitem">To exit and close high contrast mode, go to the taskbar and search for 'turn high contrast on', you should see the high contrast setting listed in the search results, here you can open the high contrast settings and toggle high contrast off.</li>
+            </ol>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
+
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to use high contrast mode for the first time</b>.</p>
+
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Testing steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-turn-high-contrast-mode-on">1 - Turn high contrast mode on</a></li>
+                <li role="listitem"><a href="#step-2-create-your-own-customised-colour-theme">2 - Create your own theme</a></li>
+                <li role="listitem"><a href="#step-3-open-edge">3 - Open Edge</a></li>
+                <li role="listitem"><a href="#step-4-go-to-the-testing-url">4 - Go to the testing url</a></li>
+                <li role="listitem"><a href="#step-5-view-the-component">5 - View the component</a></li>
+                <li role="listitem"><a href="#step-6-accessibility-acceptance-criteria">6 - Accessibility acceptance criteria</a></li>
+                <li role="listitem"><a href="#step-7-document-any-bugs">7 - Document any bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-turn-high-contrast-mode-on" class="h3" tabindex="-1">Step 1 - Turn high contrast mode on</h3>
+
+            <p><a href="#how-to-turn-high-contrast-mode-on-off">Toggle the high contrast setting on</a>, this is the most used high contrast mode.</p>
+
+            <p>Note: There are other forms of high contrast modes, though always test in the most used mode.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-create-your-own-customised-colour-theme" class="h3" tabindex="-1">Step 2 - Create your own customised colour theme</h3>
+
+            <p>Using a theme that has distinctly different colours to the default design will make it easier to see if there is a bug.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">In the high contrast settings, select one of the four default colour themes, such as 'High contrast black'.</li>
+                <li role="listitem">Using colours which are <b>distinctly different from the design</b> of the component or feature, and also <b>distinctly different from the selected default theme</b>, customise each of the colours by clicking or double clicking on the colour.</li>
+                <li role="listitem">In turn go through all options, until all colours are customised, including text, hyperlinks, disabled text, selected text, button text and background.</li>
+                <li role="listitem">Select 'Apply' and name your customised theme. You will see colours change to reflect your customised theme.</li>
+            </ol>
+
+            <p>If you are having <b>difficulty selecting a colour other than black or white</b> in the colour picker box, check the 'value' slider is set to 100, then try selecting a colour in the colour picker box again. Still having difficulty, try entering a number into the 'Red' field, then try selecting a colour in the colour picker box again.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-open-edge" class="h3" tabindex="-1">Step 3 - Open Edge</h3>
+
+            <p>Open Edge, this is the default Windows 10 browser.</p>
+
+            <p>Note: high contrast is a Windows setting built primarily for other Microsoft products such as Edge, while the high contrast setting will work with other browsers you may encounter bugs which aren’t present in Edge; the default high contrast mode browser.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-go-to-the-testing-url" class="h3" tabindex="-1">Step 4 - Go to the testing url</h3>
+
+            <p>Navigate to or type in the testing url.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-view-the-component" class="h3" tabindex="-1">Step 5 - View the component</h3>
+
+            <p>Users should be able to select any colours of their choice in the high contrast settings, and have the content relect this, even if this is pink text on a purple background.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Check all colours have changed to reflect that of your customised colour theme.</li>
+
+                <li role="listitem">Check that no other colours (other than those of your customised theme) can be seen. This should apply to all elements <b>except images</b>.</li> 
+
+                <li role="listitem">Check that the colours of icons and graphics reflect those of your customised theme. Note, colours cannot be changed with some icon and graphic image formats, such as jpeg, png or gif, use SVGs if possible.</li>
+
+                <li role="listitem">Check that the visual design is equivalent to that viewed without high contrast. For example, have any design affordances been lost, such as background colours, is the layout still clear? Note, in this mode container background colours will likely be removed. If required, borders can be added specifically to be seen only in this mode to help with lost design affordances.</li>
+            </ol>
+
+            <details class="details">
+                <summary>Bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Content is in a colour other than those of your customised theme.</li>
+
+                    <li role="listitem">Colours of icons or graphics do not reflect those of your customised theme. Note, for SVGs with more than one colour, only some customisation maybe possible.</li>
+
+                    <li role="listitem">The visual design isn't equivalent to that viewed without high contrast, such as background colours are removed so much so that the layout is no longer clear.</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 6 - Accessibility acceptance criteria</h3>
+
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented UX.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team's business analyst for the criteria before continuing.</li>
+
+                <li role="listitem">Check that any criteria that is specific to using high contrast mode is met with Edge on Windows.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-document-any-bugs" class="h3" tabindex="-1">Step 7 - Document any bugs</h3>
+
+            <p>Document any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">accessibility bugs</a> found, include as much information as you can, including information on how to replicate the issue and the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html#how-to-categorise-bugs">bug priority level</a>.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2022 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
