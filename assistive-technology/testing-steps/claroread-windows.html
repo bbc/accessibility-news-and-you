@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>ClaroRead for Windows testing steps - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Team guide - ClaroRead for Windows testing steps. We’ll take you step by step through how to test a component or feature.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Team guide</span><span class="vh">, </span>
+                    <span>ClaroRead for Windows testing steps</span>
+                </span>
+            </h1>
+
+            <p>We’ll take you step by step through how to test a component or feature with ClaroRead reading solution for Windows. Test with the latest version available.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#how-to-turn-claroread-on-off">How to turn ClaroRead on / off</a></li>
+                    <li role="listitem"><a href="#testing-in-a-foreign-language">Testing in a foreign language</a></li>
+                    <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="how-to-turn-claroread-on-off" class="h2" tabindex="-1">How to turn ClaroRead on / off</h2>
+
+            <p>To test with ClaroRead, use the 'ClaroRead Chrome' web extension, this enables ClaroRead to work well when reading web content in Chrome. This is not installed by default.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">To check if you have the 'ClaroRead Chrome' extension already installed on your device, in Chrome <b>go to 'Settings', then under 'Extensions', look for 'ClaroRead Chrome'</b>, you should see the extension, make sure it's turned on.</li>
+
+                <li role="listitem">If you can't see the extension, download 'ClaroRead Chrome' from the <a href="https://chrome.google.com/webstore">Chrome Web Store</a>. After download, check the extension is turned on, go to 'Settings', then 'Extensions'.</li>
+
+                <li role="listitem">To start using ClaroRead, in the <b>extensions menu</b> (to the right of the address bar), <b>click 'ClaroRead Chrome'</b>. When ClaroRead is open, the ClaroRead <b>toolbar will be displayed on screen</b>.</li>
+
+                <li role="listitem">To exit and close ClaroRead, in the ClaroRead toolbar, click 'Close'.</li>
+            </ol>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-in-a-foreign-language" class="h2" tabindex="-1">Testing in a foreign language</h2>
+
+            <p>When testing with assistive technology it's important to test with <b>content in a language that you can understand</b> and with <b>a language that is supported</b> by the assistive technology. For further information see the <a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/assistive-technology-testing-in-a-foreign-language.html">assistive technology testing in a foreign language guide</a>.</p>
+
+            <p><a href="https://www.clarosoftware.com/support/voices/">ClaroRead supports 30 languages</a>, to select a foreign language voice:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">In the ClaroRead toolbar, go to 'Settings'.</li>
+                <li role="listitem">Under 'Speech' select a foreign language voice that matches that of the content you are testing.</li>
+                <li>If the language you are testing is not supported, see <a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/assistive-technology-testing-in-a-foreign-language.html#testing-in-an-unsupported-language">testing in an unsupported language</a>.</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
+
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to use ClaroRead for the first time</b>.</p>
+
+            <p>To become more familiar and proficient using assistive technology, resist the temptation to cheat, always try to navigate like a user would.</p>
+
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Testing steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-open-chrome">1 - Open Chrome</a></li>
+                <li role="listitem"><a href="#step-2-go-to-the-testing-url">2 - Go to the testing url</a></li>
+                <li role="listitem"><a href="#step-3-turn-claroread-on">3 - Turn ClaroRead on</a></li>
+                <li role="listitem"><a href="#step-4-promo-components">4 - Promo components</a></li>
+                <li role="listitem"><a href="#step-5-other-components">5 - Other components</a></li>
+                <li role="listitem"><a href="#step-6-document-any-bugs">6 - Document any bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-open-chrome" class="h3" tabindex="-1">Step 1 - Open Chrome</h3>
+
+            <p>Open Chrome, this is the most used browser by ClaroRead users.</p> 
+
+            <p>Note: ClaroRead will work with other browsers, such as Firefox, though always test in the most used browser.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-go-to-the-testing-url" class="h3" tabindex="-1">Step 2 - Go to the testing url</h3>
+
+            <p>Navigate to or type in the testing url, then scroll the page until you can see the component you're going to test.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-turn-claroread-on" class="h3" tabindex="-1">Step 3 - Turn ClaroRead on</h3>
+        
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Open the ClaroRead extension.</li>
+                <li role="listitem">The ClaroRead toolbar will be displayed on screen.</li>
+                <li role="listitem">If testing in a foreign language, <a href="#testing-in-a-foreign-language">select a foreign language voice</a>.</li>
+            </ol>
+
+            <p>See <a href="#how-to-turn-claroread-on-off">how to turn ClaroRead on / off</a> for more detailed instructions.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-promo-components" class="h3" tabindex="-1">Step 4 - Promo components</h3>
+
+            <p>Promo's usually have a large clickable area, this can sometimes make selecting content to read aloud difficult. Check the content can be read aloud using both of the following methods:</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem"><b>Hover to read</b>: In the toolbar, go to 'Setting', then under 'Speech', check 'Speak under mouse' is selected. Now hover the mouse cursor over the promo content and hear it read aloud. Check all content is read aloud, such as <b>links, text and images</b>. Note, if the promo is comprised of more elements than a text link, such as an image or timestamp, <b>if the link text is the only content to be read aloud</b>, this is likely due to the way that the code that is used to create the large clickable area works. This is acceptable when hovering to read, for this type of content, as this tool is primarily used for reading long form content e.g. paragraphs of text.</li>
+
+                <li role="listitem"><b>Click and read</b>: Click the mouse cursor just before the component starts, then click the ‘Play’ button in the toolbar to hear it read aloud. ClaroRead will carry on reading until you click the ‘Stop’ button in the toolbar. Check all content is read aloud, such as <b>links, text and images</b>.</li>
+            </ol>
+
+            <details class="details">
+                <summary>Promo components bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">                    
+                    <li role="listitem">Link text is not read aloud when I hover the mouse cursor over it.</li>
+
+                    <li role="listitem">Nothing is read aloud when I hover the mouse cursor over content.</li>
+
+                    <li role="listitem">Link text is not read aloud when I click to read just before the component starts.</li>
+
+                    <li role="listitem">No content in the component is read aloud when I click to read just before the component starts.</li>
+
+                    <li role="listitem">Content I can't see is read aloud. This tool will read content that is hidden, such as visually hidden text for screen reader users, this maybe more noticable with 'click and read'. If this happens, verify if hidden content is being read by inspecting the code and looking at the component's HTML. If you can see the hidden content that was read aloud, this is acceptable.</li>
+
+                    <li role="listitem">Non text content, such as an icon, is not read aloud. Use your judgement to decide if it's acceptable if non text content isn't read aloud. Images with alt text are expected to be read, though note this tool is primarily used for reading long form content e.g. paragraphs of text.</li>
+                </ul>
+            </details>
+        
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-other-components" class="h3" tabindex="-1">Step 5 - Other components</h3>
+
+            <p>Check the content can be read aloud using both of the following methods:</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem"><b>Select to read</b>: Select text or other types of content such as images, and hear it read aloud. Check all content is read aloud, such as <b>links, text and images</b>.</li>
+
+                <li role="listitem"><b>Click and read</b>: Click the mouse cursor just before the component starts, then click the ‘Play’ button in the toolbar to hear it read aloud. ClaroRead will carry on reading until you click the ‘Stop’ button in the toolbar. Check all content is read aloud, such as <b>links, text and images</b>.</li>
+            </ol>
+                
+            <details class="details">
+                <summary>Other components bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Nothing is read aloud when I select an element.</li>
+
+                    <li role="listitem">Link text is not read aloud when I click to read just before the component starts.</li>
+
+                    <li role="listitem">No content in the component is read aloud when I click to read just before the component starts.</li>
+
+                    <li role="listitem">Content I can't see is read aloud. This tool will read content that is hidden, such as visually hidden text for screen reader users, this maybe more noticable with 'click and read'. If this happens, verify if hidden content is being read by inspecting the code and looking at the component's HTML. If you can see the hidden content that was read aloud, this is acceptable.</li>
+
+                    <li role="listitem">Non text content, such as an icon, is not read aloud. Use your judgement to decide if it's acceptable if non text content isn't read aloud. Images with alt text are expected to be read, though note this tool is primarily used for reading long form content e.g. paragraphs of text.</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-document-any-bugs" class="h3" tabindex="-1">Step 6 - Document any bugs</h3>
+
+            <p>Document any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">accessibility bugs</a> found, include as much information as you can, including information on how to replicate the issue and the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html#how-to-categorise-bugs">bug priority level</a>.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2022 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
