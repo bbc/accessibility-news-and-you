@@ -6,15 +6,6 @@ We want to be the most accessible news website in the world. You can help us ach
 
 If you have any questions ask one of the Accessibility Champions around the department.
 
-## What is your role?
-
-- [Business Analyst](accessibility-news-and-business-analysts)
-- [Designer](accessibility-news-and-designers)
-- [Developer](accessibility-news-and-developers)
-- [Product Owner](accessibility-news-and-product-owners)
-- [Project Manager](accessibility-news-and-project-managers)
-- [Tester](accessibility-news-and-testers)
-
 ## Guides
 
 - [Accessibility bugs](/accessibility-news-and-you/guides/accessibility-bugs.html)
@@ -25,3 +16,12 @@ If you have any questions ask one of the Accessibility Champions around the depa
 - [How to write accessibility acceptance criteria](/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html)
 - [How to document the screen reader user experience](/accessibility-news-and-you/guides/screen-reader-ux.html)
 - [Our development approach for accessible front-end code](/accessibility-news-and-you/guides/development-approach-for-accessible-front-end-code.html)
+
+## What is your role?
+
+- [Business Analyst](accessibility-news-and-business-analysts)
+- [Designer](accessibility-news-and-designers)
+- [Developer](accessibility-news-and-developers)
+- [Product Owner](accessibility-news-and-product-owners)
+- [Project Manager](accessibility-news-and-project-managers)
+- [Tester](accessibility-news-and-testers)
