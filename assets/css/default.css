@@ -313,6 +313,13 @@ figure.poster > a > img {
   padding-top: 1.5rem;
 }
 
+.page-contents_h2 {
+  font-size: 100%;
+  line-height: 1.15;
+  margin-bottom: 1rem; 
+  padding-top: 1.5rem;
+}
+
 .page-contents li {
   border-left: 0.0625rem solid #3f3f42; /* 1px */
   padding-bottom: .5rem;
