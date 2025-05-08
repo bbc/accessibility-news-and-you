@@ -214,6 +214,10 @@ figure.poster > a:focus {
   margin: 0 0 1.5rem;
 }
 
+.main p.no-space {
+  margin: 0;
+}
+
 .footer p {
   margin: 0;
 }
