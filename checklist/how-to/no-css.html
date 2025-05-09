@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <title>No CSS testing steps - Accessibility, Your Team and You</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Testing steps - No CSS. We’ll take you step by step through how to test a component or feature.">
+    <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="column-header">
+            <a href="https://bbc.github.io/accessibility-news-and-you">Accessibility, Your Team and You</a>
+        </div>
+    </header>
+    <main role="main" class="main">
+        <div class="column-main">
+            <h1 id="content" class="h1" tabindex="-1">
+                <span role="text">
+                    <span class="h1_label">Testing steps</span><span class="vh">, </span>
+                    <span>No CSS</span>
+                </span>
+            </h1>
+
+            <p>Semantic HTML is the foundation of accessible user experience on the web. When HTML is viewed in the browser without styling, this is the ‘no CSS’ experience, and this can be presented to users at times; in which case core content should be accessible and readable.</p>
+
+            <p>We’ll take you step by step through how to test a component or feature with no CSS, using a browser setting or third party tool.</p>
+
+            <nav class="page-contents" role="navigation" aria-label="Page contents">
+                <strong id="page-contents" class="page-contents_strong" tabindex="-1">Page contents</strong>
+                <ol role="list">
+                    <li role="listitem"><a href="#why no-css">Why no CSS?</a></li>
+                    <li role="listitem"><a href="#what-is-core-content">What is core content?</a></li>
+                    <li role="listitem"><a href="#how-to-turn-css-off">How to turn CSS off</a></li>
+                    <li role="listitem"><a href="#which browser-tool">Which browser / tool?</a></li>
+                    <li role="listitem"><a href="#testing-steps">Testing steps</a></li>
+                </ol>
+            </nav>
+
+            <h2 id="why no-css" class="h2" tabindex="-1">Why no CSS?</h2>
+
+            <p>Viewing the ‘no CSS’ experience is one of the practices that helps us meet the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/">BBC Mobile Accessibility Guidelines</a> and recommendations in the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/">BBC Guide to Accessible HTML Documents</a>, specifically:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/styling-and-readability">Styling and readability guideline</a></li>
+
+                <li role="listitem"><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/core-purpose/">Core purpose guide</a></li>
+
+                <li role="listitem"><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/progressive-enhancement">Progressive enhancement guide</a></li>
+            </ul>
+
+            <p>Don’t leave it to chance:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Technology</strong> - The no CSS experience provides a baseline core experience, dependent on minimum technology. By it’s nature this offers multiple ways for users to consume content. It allows users to choose software and use devices that work best for them, in a broad range of situations and circumstances.</li>
+
+                <li role="listitem"><strong>Foundation</strong> - The no CSS experience is the foundation upon which accessible user experiences are enhanced (with CSS and JavaScript).</li>
+
+                <li role="listitem"><strong>Suporting users</strong> - A good no CSS user experience supports users who change styling settings (to adapt the appearance of pages). For example by using a custom style sheet, to suit specific user needs for reading content and using web pages.</li>
+
+                <li role="listitem"><strong>Chance</strong> - A no CSS experience gives our content more chance of being consumed. For example if viewing on an older device or browser, with limited support, robust content that minimises dependencies is more likely to succeed. "The minimum dependency for a web site should be an internet connection and the ability to parse HTML." (<a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/progressive-enhancement">Progressive enhancement guide</a>)</li>
+
+                <li role="listitem"><strong>Access</strong> - No CSS might not always be the users choice. When it isn’t we want to give users the best chance of accessing news, and for the experience to be as good as it can be. For example, in disaster scenarios, when data maybe scace, it’s imperative to be able to access news if needed.</li>
+            </ul>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="what-is-core-content" class="h2" tabindex="-1">What is core content?</h2>
+
+            <p>Core content are the elements that fulfill the core purpose of a page. For example, the core content of a news article page, are the elements that form the story itself. The onwards jouneys on a news article page are not core content, though the accessibility of non-core page elements still matters.</p>
+
+            <details class="details">
+                <summary>Other examples of core content</summary>
+
+                 <p><strong>Live pages</strong> - A ‘Live’ page has a core purpose to provide the newest information about an event to the users. The core content includes the newest information at the time of a page request. The experience is enhanced when JavaScript automatically updates this content without a user having to take action. (<a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/progressive-enhancement">Progressive enhancement guide</a>)</p>
+
+                 <p><strong>Media pages</strong> - If the primary content of a page is dynamic with additional dependencies, such as a video or game, then the core purpose could be to provide a context from which to launch that content... This might include information on the technology dependency required and links to alternative content. (<a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/progressive-enhancement">Progressive enhancement guide</a>)</p>
+            </details>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="how-to-turn-css-off" class="h2" tabindex="-1">How to turn CSS off</h2>
+
+            <p>Some browsers have built in settings which enable you to easily turn off / disable CSS. With browsers that don’t offer these settings, you can use a third party tool.</p>
+
+            <p class="no-space"><strong>Firefox</strong></p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Built in setting: Go to the toolbar and choose: 'View', then 'Page Style', then 'No Style'.</li>
+
+                <li role="listitem">Third party tool: Open <a href="https://chrispederick.com/work/web-developer/">Web Developer browser extension</a> and choose: 'CSS', then 'Disable All Styles'. Note, this tool does not disable styles in <a href="#shadow-dom-content">shadow DOM content</a>.</li>
+            </ul>
+
+            <p class="no-space"><strong>Chrome</strong></p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Third party tool: Open <a href="https://chrispederick.com/work/web-developer/">Web Developer browser extension</a> and choose: 'CSS', then 'Disable All Styles'. Note, this tool does not disable styles in <a href="#shadow-dom-content">shadow DOM content</a>.</li>
+            </ul>
+
+            <p class="no-space"><strong>Safari</strong></p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">Built in setting: Go to the toolbar, if you don't see 'Develop',  go to 'Settings' in the 'Safari' menu, then 'Advanced', then check 'Show features for web developers'. You should now see 'Develop' in the toolbar, from here choose 'Show Web Inspector'. Within the Web Inspector toolbar choose: 'Device Settings', then 'Core Features', then 'Disable CSS'.</li>
+            </ul>
+
+            <p>Note, this guide takes one approach, there are other ways you could do this, such as by directly removing CSS via a web inspector browser tool.</p>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="which browser-tool" class="h2" tabindex="-1">Which browser / tool should you use?</h2>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Product</strong> - Take into account your product <b>browser stats</b>, and also <b>no css and accessiblity features offered by a browser</b>. For example, your product may have the most users in one browser, if that browser has no or limited, no css and accessibility features built in, you may wish to also check no css in a browser that offers wider built in no css and accessiblity settings to users.</li>
+
+                <li role="listitem"><strong>The code</strong> - Also, take into account the way the page you are viewing is constructed in the DOM, for example if it contains <a href="#shadow-dom-content">shadow DOM content</a>.</li>
+
+                <li role="listitem"><strong>Browser setting</strong> - If a built a browser setting is available, use this over a third party tool.</li>
+            </ul>
+
+            <details class="details">
+                <summary id="shadow-dom-content">Shadow DOM content</summary>
+
+                 <p>Shadow DOM content is encapsulated, this means it contains it’s own CSS seperate from the main page. CSS for this type of content may not ‘turn off’ with all browser settings / tools. This could be dependent on a number of factors, for example, the way the browser / tool was designed, page load speeds or component loading methods; such as if the component is loaded by a user action.</p>
+
+                <p>Encapsulated content is typically content that remains meaningful when separated from the main content, perphas of a more complex nature, supplied by a different team or third party, such as a media player, map or graphical visualisation.</p>
+            </details>
+
+            <a href="#page-contents" class="back-to">Back to page contents</a>
+
+            <h2 id="testing-steps" class="h2" tabindex="-1">Testing steps</h2>
+
+            <p>We’ll take you step by step through how to test a component or feature. <b>Following the same steps every time</b>, ensures that everyone is testing using the same methods and using the most common techniques. The steps also <b>enable anyone, in any role, to test a component or feature with no CSS, for the first time</b>.</p>
+
+            <p>As you go, <b>make notes</b> of any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">bugs</a> you find.</p>
+        </div>
+        
+        <nav class="page-contents column-nav" role="navigation" aria-label="Testing steps">
+            <strong id="steps" class="page-contents_strong" tabindex="-1">Testing steps</strong>
+
+            <ol role="list">
+                <li role="listitem"><a href="#step-1-open-browser">1 - Open browser</a></li>
+                <li role="listitem"><a href="#step-2-go-to-the-testing-url">2 - Go to the testing url</a></li>
+                <li role="listitem"><a href="#step-3-turn-off-css">3 - Turn off CSS</a></li>
+                <li role="listitem"><a href="#step-4-accessible">4 - Accessible</a></li>
+                <li role="listitem"><a href="#step-5-readable">5 - Readable</a></li>
+                <li role="listitem"><a href="#step-6-core-content">6 - Core content</a></li>
+                <li role="listitem"><a href="#step-7-ux">7 - UX</a></li>
+                <li role="listitem"><a href="#step-8-accessibility-acceptance-criteria">8 - Accessibility acceptance criteria</a></li>
+                <li role="listitem"><a href="#step-9-document-any-bugs">9 - Document any bugs</a></li>
+            </ol>
+        </nav>
+
+        <div class="column-main">
+            <h3 id="step-1-open-browser" class="h3" tabindex="-1">Step 1 - Open browser</h3>
+
+            <p>Consider <a href="#which browser-tool">which browser to use</a>, then open the browser.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-2-go-to-the-testing-url" class="h3" tabindex="-1">Step 2 - Go to the testing url</h3>
+
+            <p>Navigate to or type in the testing url.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-3-turn-off-css" class="h3" tabindex="-1">Step 3 - Turn off CSS</h3>
+
+            <p>Consider <a href="#how-to-turn-css-off">which method to use to turn CSS off</a>, then turn off CSS.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-4-accessible" class="h3" tabindex="-1">Step 4 - Accessible</h3>
+
+            <p>View the component and check content is accessible and readable. In particular, check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><strong>Semantic HTML</strong> - Is heirachy and meaning provided by semantic HTML? For example, do headings have a bold weight and a text size bigger than that of surronding text, does list content have bullet points?</li>
+
+                <li role="listitem"><strong>Links</strong> - Do links have an affordance that provides a visual clue for sighted users that they are actionable, do they look like links?</li>
+
+                <li role="listitem"><strong>Buttons</strong> - Do buttons look like buttons?</li>
+
+                <li role="listitem"><strong>SVGs</strong> - Check icons / graphics / logos that are displayed as white when the user has CSS, can be seen when there is no CSS. For example, the BBC logo is white in colour when the user has CSS, when there is no CSS, web pages have a white background, the logo wouldn’t be perceivable. Inorder for the logo to be seen on a white background when there is no CSS, it needs to use a perceivable colour, such as black. This is especially important for icons that provide meaning. Note, colours cannot be changed with some image formats, such as jpeg, png or gif, use SVGs if possible. Also note that this maybe more difficut to acheive if SVG’s use more than one colour.</li>
+            </ul>
+
+            <details class="details">
+                <summary>Bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Content has no heirachy or meaning.</li>
+                    <li role="listitem">Links have the affordance of a button.</li>
+                    <li role="listitem">Buttons have the affordance of a link.</li>
+                    <li role="listitem">Core white icons or graphics can’t be perceived. For example, a white BBC logo can’t be perceived on a white page background. Note, for SVGs with more than one colour, only some customisation maybe possible.</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-5-readable" class="h3" tabindex="-1">Step 5 - Readable</h3>
+
+            <p>View the component and check content is accessible and readable. In particular, check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><strong>Reading experience</strong> - Is the reading experience is as good as it can be?</li>
+                <li role="listitem"><strong>Spaces</strong> - Are there spaces between all words?</li>
+                <li role="listitem"><strong>Formatting</strong> - Are words formatted correctly, do use they corrrect capatilastion and grammer?</li>
+            </ul>
+
+            <details class="details">
+                <summary>Bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Words have no seperation between them</li>
+                    <li role="listitem">Words aren’t formatted correctly, they use incorrrect capatilastion or grammer.</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-6-core-content" class="h3" tabindex="-1">Step 6 - Core content</h3>
+
+            <p>View the component and check content is accessible and readable. In particular, check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><strong>Missing</strong> - Are elements or features missing? If so, is the <a href="#what-is-core-content">core pursose</a> of the component or feature still fullfilled?</li>
+                <li role="listitem"><strong>Not equivalent</strong> - If the component or features aren’t equivalent to that viewed with CSS, does the component or feature still make sense?</li>
+                <li role="listitem"><strong>Functional</strong> - Is the component or feature still functional / useable?</li>
+            </ul>
+
+            <details class="details">
+                <summary>Bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Core purpose isn’t fullfilled as <a href="#what-is-core-content">core content</a> is missing</li>
+                    <li role="listitem">The feature or component doesn’t make sense</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-7-ux" class="h3" tabindex="-1">Step 7 - UX</h3>
+
+            <p>View the component and check content is accessible and readable. In particular, check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><strong>Sized in proportion</strong> - The user experience is enhanced, and components are more usable, when non-text content (such as icons, graphics, images etc) is sized in proportion with text content.</li>
+                <li role="listitem"><strong>Perfect</strong> - It’s ok if it’s not perfect, some content maybe repeated (due to the way a component or feature is built). Ask an engineer if you aren’t sure.</li>
+            </ul>
+
+            <details class="details">
+                <summary>Bug examples</summary>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Non-text content is not sized in proportion with text content</li>
+                </ul>
+            </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-8-accessibility-acceptance-criteria" class="h3" tabindex="-1">Step 8 - Accessibility acceptance criteria</h3>
+
+            <p><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-acceptance-criteria.html">Accessibility acceptance criteria</a> can be used for additional manual testing steps specific to your component and documented UX.</p>
+
+            <ol class="body-copy-list ordered-list-steps" role="list">
+                <li role="listitem">Read the accessibility acceptance criteria. If the accessibility acceptance criteria is missing, ask your team for the criteria before continuing.</li>
+
+                <li role="listitem">Check that any criteria that is specific to no CSS is met.</li>
+            </ol>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to steps</a>
+            </div>
+
+            <h3 id="step-9-document-any-bugs" class="h3" tabindex="-1">Step 9 - Document any bugs</h3>
+
+            <p>Document any <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html">accessibility bugs</a> found, include as much information as you can, including information on how to replicate the issue and the <a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-bugs.html#how-to-prioritise-bugs">bug priority level</a>.</p>
+
+            <small class="note">Note, this guide takes one approach, there are other ways you could do this.</small>
+
+            <a href="#content" class="back-to">Back to top</a>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="column-footer">
+            <p>We want to be the most accessible news website in the world, this is how.</p>
+
+            <p>&copy; 2022 BBC. This content is published under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence</a> unless otherwise stated. <a href="https://github.com/bbc/accessibility-news-and-you">Help improve this documentation</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
