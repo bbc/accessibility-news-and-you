@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="description" content="Checklist - Accessibility swarm. Use this checklist to carry out an accessibility swarm.">
     <link rel="stylesheet" href="/accessibility-news-and-you/assets/css/default.css"/>
-    <link rel="stylesheet" href="/../../assets/css/default.css"/>
 </head>
 <body>
     <header class="header" role="banner">
@@ -42,6 +41,7 @@
                 <li role="listitem"><a href="#6-customised-colours">6 - Customised colours</a></li>
                 <li role="listitem"><a href="#7-high-contrast-mode">7 - High contrast mode</a></li>
                 <li role="listitem"><a href="#13-no-css">13 - No CSS</a></li>
+                <li role="listitem"><a href="#14-no-js">14 - No JS</a></li>
                 <li role="listitem"><a href="#15-test-with-assistive-technology">15 - Test with assistive technology</a></li>
             </ol>
         </nav>
@@ -191,9 +191,59 @@
 
             <h2 id="13-no-css" class="h3" tabindex="-1">13) No CSS</h2>
 
-            <p>Semantic HTML is the foundation of accessible user experience on the web. When HTML is viewed in the browser without styling, this is the ‘no CSS’ experience, and this can be presented to users at times; in which case core content should be accessible and readable.</p>
+            <p>Semantic HTML is the foundation of accessible user experience on the web. When HTML is viewed in the browser without styling, this is referred to as the ‘no CSS’ experience, and this can be presented to users at times; in which case <b>core content should be accessible and readable</b>.</p>
 
             <p><b>Follow the <a href="https://bbc.github.io/accessibility-news-and-you/checklist/how-to/no-css.html">testing steps for no CSS</a></b>.</p>
+
+            <h2 id="14-no-js" class="h3" tabindex="-1">14) No JavaScript</h2>
+
+            <p>The no JS (JavaScript) experience isn't an accessibility concern, though it often gets thrown into this bucket, to ensure this hasn't been forgotten about check it now.</p>
+
+            <p>When HTML and CSS are viewed in the browser, and JavaScript is missing, this is referred to as the ‘no JS’ experience, and this can be presented to users at times; in which case <b><a href="https://bbc.github.io/accessibility-news-and-you/checklist/how-to/no-css.html#what-is-core-content">core content</a> should be functional</b>. For example, when JavaScript is missing for content such as a video player, which uses JavaScript to play the video, users should instead be presented with information about why the video isn’t available and / or alternative content such as a transcript.</p>
+
+            <p><b><a href="#how-to-turn-js-off">Turn JavaScript off</a></b>, then view the component and check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><strong>Missing</strong> - Is content or functionality missing? If so, is the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/core-purpose/">core purpose</a> of the component or feature still fullfilled?</li>
+                <li role="listitem"><strong>Not equivalent</strong> - If the content or functionality isn't equivalent to that viewed with JS, does the component or feature still make sense?</li>
+                <li role="listitem"><strong>Functional</strong> - Is information provided about why content isn’t available and / or alternative content available?</li>
+            </ul>
+
+            <details class="details">
+                <summary>JavaScript</summary>
+
+                 <p>JavaScript can be used to enhance the semantic HTML and CSS foundation of accessible web pages, enabling greater interactivity and adding dynamic behaviour to experiences on the web. Web pages should be built to work in a progressive manner, ensuring a functional experience without JavaScript.</p>
+
+                 <p>For more information see the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/progressive-functionality/">progressive functionality guideline</a>.</p>
+            </details>
+
+            <details class="details">
+                <summary id="how-to-turn-js-off">How to turn Javascript off</summary>
+
+                <p>Some browsers have built in settings which enable you to easily turn off / disable JavaScript. With browsers that don’t offer these settings, you can use a third party tool.</p>
+
+                <p class="no-space"><strong>Chrome</strong></p>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Built in setting: In the 'Chrome' menu go to 'Settings', then under 'Privacy and security', choose 'Site settings', under 'Content' choose 'JavaScript', then select 'Don't allow sites to use JavaScript'.</li>
+                    <li role="listitem">Third party tool: Open <a href="https://chrispederick.com/work/web-developer/">Web Developer browser extension</a> and choose: 'Disable', then 'Disable JavaScript'.</li>
+                </ul>
+
+                <p class="no-space"><strong>Firefox</strong></p>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Built in setting: Go to 'Tools', 'Browser tools', then 'Web developer tools'. In the 'Web developer tools' go to 'Settings' (found under the 3 dot menu), then under 'Advanced settings' check 'Disable JavaScript'.</li>
+                </ul>
+
+                <p class="no-space"><strong>Safari</strong></p>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li role="listitem">Built in setting: In the 'Safari' menu go to 'Settings', then under 'Security' uncheck 'Enable JavaScript' for 'Web content'.</li>
+                </ul>
+
+                <p>Note, this guide takes one approach, there are other ways you could do this.</p>
+
+            </details>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to checklist</a>
