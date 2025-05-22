@@ -40,6 +40,7 @@
                 <li role="listitem"><a href="#5-colour-blindness">5 - Colour blindness</a></li>
                 <li role="listitem"><a href="#6-customised-colours">6 - Customised colours</a></li>
                 <li role="listitem"><a href="#7-high-contrast-mode">7 - High contrast mode</a></li>
+                <li role="listitem"><a href="#10-heading-structure">10 - Heading structure</a></li>
                 <li role="listitem"><a href="#13-no-css">13 - No CSS</a></li>
                 <li role="listitem"><a href="#14-no-js">14 - No JS</a></li>
                 <li role="listitem"><a href="#15-test-with-assistive-technology">15 - Test with assistive technology</a></li>
@@ -184,6 +185,59 @@
             <p>High contrast mode is a Windows setting, that makes content easier to see by using distinct colours.</p>
 
             <p><b>Follow the <a href="https://bbc.github.io/accessibility-news-and-you/checklist/how-to/high-contrast-mode-windows.html">testing steps for high contrast mode on Windows</a></b>.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to checklist</a>
+            </div>
+
+            <h2 id="10-heading-structure" class="h3" tabindex="-1">10) Heading structure</h2>            
+
+            <p>Good heading structure enables more people to consume our content. This is particularly important to users of assistive technology, such as a screen reader, for which headings and good heading structure is essential to navigating and understanding web pages and content.</p>
+
+            <p>View the component or feature in the browser, <a href="#how-to-view-the-heading-structure">view the heading structure</a> and check the following:</p>
+            
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Logical</strong> - Is the heading structure logical, does it make sense? Headings should represent sections and subsections of content.</li>
+
+                <li role="listitem"><strong>Levels</strong> - Check each heading level 2 (H2) is a subheading of a heading level 1 (H1), and that each heading level 3 (H3) a subheading of a heading level (H2), and so forth.</li>
+
+                <li role="listitem"><strong>Missing</strong> - Are any heading levels missing or skipped? If viewing a component or feature in isolation, you may not have all heading levels. Headings should however, always be sequential and hierarchical, if they aren't this can cause confusion for a screen reader user; and make it harder to navigate and find content.</li>
+
+                <li role="listitem"><strong>Heading level 1</strong> - Check there is <b>no more than one heading level 1</b> (H1). Pages should have only one primary subject, while the HTML standard permits more than one heading level 1, this is not supported with assistive technology such as a screen reader.</li>
+
+                <li role="listitem"><strong>Main landmark</strong> - Check that the H1 is the first content within the main landmark, this will ensure that screen reader users who navigate via headings don’t miss content.</li>
+
+                <li role="listitem"><strong>Related content</strong> - Ensure headings are followed by content. A heading should always label a portion of content, they should be followed by either non-heading content such as a paragraph or time element, or the next sequential hierarchical sub-heading. For example, a H3 should not be followed directly by another H3, as it would not be labelling a portion of content.</li>
+
+                <li role="listitem"><strong>Presentation</strong> - Check that heading elements are not being used soley to achieve presentation. Heading elements should not be used to make text bold or larger, when there is no semantic meaning of heading for the content.</li>
+
+                <li role="listitem"><strong>Foreign language</strong> - If working with foreign language content, translate heading text and check each heading is an appropriate label for the portion of content which follows it.</li>
+                
+                <li role="listitem"><strong>Isolation</strong> - If viewing a component or feature in isolation, check if the heading structure is correct for the component or features intended use within a page. Check again that the page will only include one heading level 1.</li>
+            </ul>
+
+            <p>For more information on heading structure see:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem"><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/headings/">Headings guideline from BBC Mobile Accessibility Guidelines</a></li>
+
+                <li role="listitem"><a href="https://www.bbc.co.uk/accessibility/forproducts/guides/html/headings/">Heading guide from BBC Guide to Accessible HTML Documents</a></li>
+            </ul>
+
+            <details class="details">
+                <summary id="how-to-view-the-heading-structure">How to view the heading structure</summary>
+
+                <p>Use a third party tool such as <a href="https://chrispederick.com/work/web-developer/">Web Developer browser extension</a> to view the heading structure.</p>
+
+                <ul class="body-copy-list no-space" role="list">
+                    <li>View the component or feature in <b>Chrome</b> or <b>Firefox</b> browser</li>
+                    <li role="listitem">Open <a href="https://chrispederick.com/work/web-developer/">Web Developer browser extension</a></li>
+                    <li role="listitem">From the extension menu choose: 'Information'</li>
+                    <li role="listitem">Then choose: 'View document outline'</li>
+                </ul>
+
+                <p>Note, this guide takes one approach, there are other ways you could do this.</p>
+            </details>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to checklist</a>
