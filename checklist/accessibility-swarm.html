@@ -40,7 +40,11 @@
                 <li role="listitem"><a href="#5-colour-blindness">5 - Colour blindness</a></li>
                 <li role="listitem"><a href="#6-customised-colours">6 - Customised colours</a></li>
                 <li role="listitem"><a href="#7-high-contrast-mode">7 - High contrast mode</a></li>
+                <li role="listitem"><a href="#8-content-resizing-font-size">8 - Content resizing - Font size</a></li>
+                <li role="listitem"><a href="#8-content-resizing-zoom">9 - Content resizing - Zoom</a></li>
                 <li role="listitem"><a href="#10-heading-structure">10 - Heading structure</a></li>
+                <li role="listitem"><a href="#11-standards-check">11 - Standards check</a></li>
+                <li role="listitem"><a href="#12-keyboard-only">12 - Keyboard only</a></li>
                 <li role="listitem"><a href="#13-no-css">13 - No CSS</a></li>
                 <li role="listitem"><a href="#14-no-js">14 - No JS</a></li>
                 <li role="listitem"><a href="#15-test-with-assistive-technology">15 - Test with assistive technology</a></li>
@@ -76,6 +80,7 @@
                 <li role="listitem">Open the documented screen reader UX to review against.</li>
                 <li role="listitem">In a web browser, inspect the code for the component or feature. Not sure how, ask an engineer to show you.</li>
                 <li role="listitem">Check that the code matches what is documented in the screen reader UX. Within the  HTML you might see a number of additional div or span elements, these elements are mainly used to achieve layout and visual styling with CSS. By default, no semantics will be announced from either div or span elements.</li>
+                <li role="listitem">If the visual design includes <b>graphical elements</b> which provide meanning, such as an <b>icon</b>, check these elements have a <b>textual alternative, if meaning isn't conveyed via associated displayed text within the same semantic element</b>. For example, a button that contains soley a cog icon, would require a textual alternative for the icon to provide meaning, a button that contains a cog icon and the text 'Account settings', does not require a textual alternative for the icon, as meaning is conveyed from the associated text within the same button element.</li>
             </ol>
 
             <p>Note, reviewing the screen reader UX by inspecting the code, is one step in the review process. This should never replace reviewing the user experience with <a href="#15-test-with-assistive-technology">a range of screen readers and other assistive technologies</a>.</p>
@@ -190,6 +195,42 @@
                 <a href="#steps" class="back-to">Back to checklist</a>
             </div>
 
+            <h2 id="8-content-resizing-font-size" class="h3" tabindex="-1">8) Content resizing - Font size</h2>
+
+            <p>Users must be able to resize content with browser settings, in this case via <b>font size settings</b>. When text is resized, content and layout should adapt, to provide a good user experience with the increased font size.</p>
+
+            <p>View the component or feature, <b>increase the browser font size to the largest default setting</b> and check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">All text increases in size proportionally</li>
+                <li role="listitem">All other content (images, icons etc.) increases in size proportionally (and provides a good user experience with the increased size of text content)</li>
+                <li role="listitem">All content reflows as expected (and provides a good user experience with the increased text size)</li>
+                <li role="listitem">All content can be read</li>
+            </ul>
+
+            <p>If working on foreign language content, and using Firefox browser, <b>if font sizes are not respected</b>, check advanced font settings, based on language, are specified.</p>
+
+            <p>For more information see the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-resizing">Content resizing guideline</a>.</p>
+
+            <h2 id="9-content-resizing-zoom" class="h3" tabindex="-1">9) Content resizing - Zoom (Scaling)</h2>
+
+            <p>Users must be able to resize content with browser settings, in this case via <b>zoom</b>. When web pages are zoomed, content and layout should adapt, to provide a good user experience at the increased scale.</p>
+
+            <p>View the component or feature, <b>use browser settings to zoom to 400% and beyond</b> and check the following:</p>
+
+            <ul class="body-copy-list no-space" role="list">
+                <li role="listitem">All text increases in scale proportionally</li>
+                <li role="listitem">All other content (images, icons etc.) increases in scale proportionally (and provides a good user experience at the increased scale)</li>
+                <li role="listitem">All content reflows as expected (and provides a good user experience at the increased scale)</li>
+                <li role="listitem">All content can be read</li>
+            </ul>
+
+            <p>For more information see the <a href="https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-resizing">Content resizing guideline</a>.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to checklist</a>
+            </div>
+
             <h2 id="10-heading-structure" class="h3" tabindex="-1">10) Heading structure</h2>            
 
             <p>Good heading structure enables more people to consume our content. This is particularly important to users of assistive technology, such as a screen reader, for which headings and good heading structure is essential to navigating and understanding web pages and content.</p>
@@ -238,6 +279,48 @@
 
                 <p>Note, this guide takes one approach, there are other ways you could do this.</p>
             </details>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to checklist</a>
+            </div>
+
+            <h2 id="11-standards-check" class="h3" tabindex="-1">11) Automated standards check</h2>
+
+            <p>Check for common accessiblity issues with an automation tool.</p>
+
+            <p>To perform this check, run a tool such as <a href="https://www.deque.com/axe/browser-extensions/">axe browser extension</a> in Chrome or Firefox. Check best practices and web accessiblity standards (<a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> Level AA) - See 'Rules and Issues' in the tool settings.</p>
+
+            <p>Always ensure this check is completed alongside other checks, finding no issues is not a direct colleration to providing a good user experienece with assistive technology. Always sense check any reported issues manually.</p>
+
+            <div class="back-to-container">
+                <a href="#steps" class="back-to">Back to checklist</a>
+            </div>
+
+            <h2 id="12-keyboard-only" class="h3" tabindex="-1">12) Keyboard only</h2>
+
+            <p>View the component or feature in the browser, and check the following:</p>
+
+            <ul class="body-copy-list" role="list">
+                <li role="listitem"><strong>Actionable elements</strong> - Using a keyboard only and <b>without the use of another input method such as trackpad or mouse</b>, check all actionable elements, <b>such as links, buttons and form elements</b>, are focusable, by navigating to them, by pressing the <b>Tab key</b>.</li>
+
+                <li role="listitem"><strong>Non interative elements</strong> - Check non interative elements such as headings or paragraph text, are not focusable.</li>
+
+                <li role="listitem"><strong>Control</strong> - Check all actionable elements can be controlled using a keyboard only. For example, check links can be actioned with the enter key, and buttons can be actioned with both the enter key and spacebar.</li>
+
+                <li role="listitem"><strong>Focus visible</strong> - When an element has focus, it should be visible. If you can't see where focus has moved to, this is a issue.</li>
+
+                <li role="listitem"><strong>Logical</strong> - The focus order, also sometimes referred to as the tab order due to the use of the tab key to move focus, should be logical. When you press the Tab key, you should be able to anticipate the order in which you will move through actionable elements in a component or feature.</li> 
+
+                <li role="listitem"><strong>Order</strong> - Generally the tab order should move from <b>left to right, as you work your way down</b>, there will be some exceptions to this when layout or user interface best practices dictate, though these should be few and far inbetweeen.</li>
+
+                <li role="listitem"><strong>Focus indicator</strong> - The focused element, and the styling that indicates focus, should be fully visible (AAA). Generally browser default styling that indicates focus (such as a blue outline) does not pass guidelines. The BBC uses a <b>two-color (double ring) focus indicator</b> solution, or a variation on this theme that is context specific.</li>
+
+                <li role="listitem"><strong>Touch</strong> - If specified, focus indicators can be shown only when a keyboard is used. In this case, check using a touch device, that focus indicators are not visible.</li>
+
+                <li role="listitem"><strong>Attaching focus to non actionable elements</strong> - On occasion this will be required, if so, check using a screen reader, that newly focused content is announced and you can navigate onwards.</li>
+
+                <li role="listitem"><strong>Interactions provide a good user experience</strong> - It’s important to carefully consider if focus needs to be moved on the users behalf after an <b>in-page interaction</b>. Check interactions provide a good user experience. For example, if a ‘Show more updates’ button is activated and new content is inserted above the button, by default focus would remain on the button after activation, this would be a frustrating experience for keyboard only users, who would then have to identify the new content and navigate to it. In this example, upon activation of the button, focus should be moved on the users behalf, to the new content, and a visible focus indicator applied.</li>
+            </ul>
 
             <div class="back-to-container">
                 <a href="#steps" class="back-to">Back to checklist</a>
